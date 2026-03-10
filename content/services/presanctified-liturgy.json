@@ -17,7 +17,7 @@
         {
           "id": "opening-blessing-2",
           "role": "priest",
-          "en": "Blessed is the Kingdom of the Father and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
+          "en": "+ Blessed is the Kingdom of the Father and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
           "cu": ""
         },
         {
@@ -41,7 +41,7 @@
         {
           "id": "psalm-104-reading",
           "role": "reader",
-          "en":"Psalm 103(104)Bless the LORD, O my soul! O LORD my God, Thou art very great! Thou art clothed with honor and majesty, who covers Thyself with light as with a garment, who hast stretched out the heavens like a tent, who hast laid the beams of Thy chambers on the waters, who makes the clouds Thy chariot, who rides on the wings of the wind, who makes the winds Thy messengers, fire and flame Thy ministers. Thou didst set the earth on its foundations, so that it should never be shaken. Thou didst cover it with the deep as with a garment; the waters stood above the mountains. At Thy rebuke they fled; at the sound of Thy thunder they took to flight. The mountains rose, the valleys sank down to the place which Thou didst appoint for them. Thou didst set a bound which they should not pass, so that they might not again cover the earth. Thou makes springs gush forth in the valleys; they flow between the hills, they give drink to every beast of the field; the wild asses quench their thirst. By them the birds of the air have their habitation; they sing among the branches. From Thy lofty abode Thou waters the mountains; the earth is satisfied with the fruit of Thy work. Thou dost cause the grass to grow for the cattle, and plants for man to cultivate, that he may bring forth food from the earth, and wine to gladden the heart of man, oil to make his face shine, and bread to strengthen man's heart. The trees of the LORD are watered abundantly, the cedars of Lebanon which he planted. In them the birds build their nests; the stork has her home in the fir trees. The high mountains are for the wild goats; the rocks are a refuge for the badgers. Thou hast made the moon to mark the seasons; the sun knows its time for setting. Thou makes darkness and it is night, when all the beasts of the forest creep forth. The young lions roar for their prey, seeking their food from God. When the sun rises, they get them away and lie down in their dens. Man goes forth to his work and to his labor until the evening. O LORD, how manifold are Thy works! In wisdom hast Thou made them all; the earth is full of Thy creatures. Yonder is the sea, great and wide, which teems with things innumerable, living things both small and great. There go the ships and Leviathan which Thou didst form to sport in it.These all look to Thee, to give them their food in due season. When Thou gives to them, they gather it up; when Thou opens Thy hand, they are filled with good things. When Thou hides Thy face, they are dismayed; when Thou takes away their breath, they die and return to their dust. When Thou sends forth Thy Spirit, they are created; and Thou renews the face of the ground. May the glory of the LORD endure forever, may the LORD rejoice in his works, who looks on the earth and it trembles, who touches the mountains and they smoke! I will sing to the LORD as long as I live; I will sing praise to my God while I have being. May my meditation be pleasing to him, for I rejoice in the LORD. Let sinners be consumed from the earth, and let the wicked be no more! Bless the LORD, O my soul! Praise the LORD!",
+          "en":"Psalm 103(104) Bless the LORD, O my soul! O LORD my God, Thou art very great! Thou art clothed with honor and majesty, who covers Thyself with light as with a garment, who hast stretched out the heavens like a tent, who hast laid the beams of Thy chambers on the waters, who makes the clouds Thy chariot, who rides on the wings of the wind, who makes the winds Thy messengers, fire and flame Thy ministers. Thou didst set the earth on its foundations, so that it should never be shaken. Thou didst cover it with the deep as with a garment; the waters stood above the mountains. At Thy rebuke they fled; at the sound of Thy thunder they took to flight. The mountains rose, the valleys sank down to the place which Thou didst appoint for them. Thou didst set a bound which they should not pass, so that they might not again cover the earth. Thou makes springs gush forth in the valleys; they flow between the hills, they give drink to every beast of the field; the wild asses quench their thirst. By them the birds of the air have their habitation; they sing among the branches. From Thy lofty abode Thou waters the mountains; the earth is satisfied with the fruit of Thy work. Thou dost cause the grass to grow for the cattle, and plants for man to cultivate, that he may bring forth food from the earth, and wine to gladden the heart of man, oil to make his face shine, and bread to strengthen man's heart. The trees of the LORD are watered abundantly, the cedars of Lebanon which he planted. In them the birds build their nests; the stork has her home in the fir trees. The high mountains are for the wild goats; the rocks are a refuge for the badgers. Thou hast made the moon to mark the seasons; the sun knows its time for setting. Thou makes darkness and it is night, when all the beasts of the forest creep forth. The young lions roar for their prey, seeking their food from God. When the sun rises, they get them away and lie down in their dens. Man goes forth to his work and to his labor until the evening. O LORD, how manifold are Thy works! In wisdom hast Thou made them all; the earth is full of Thy creatures. Yonder is the sea, great and wide, which teems with things innumerable, living things both small and great. There go the ships and Leviathan which Thou didst form to sport in it.These all look to Thee, to give them their food in due season. When Thou gives to them, they gather it up; when Thou opens Thy hand, they are filled with good things. When Thou hides Thy face, they are dismayed; when Thou takes away their breath, they die and return to their dust. When Thou sends forth Thy Spirit, they are created; and Thou renews the face of the ground. May the glory of the LORD endure forever, may the LORD rejoice in his works, who looks on the earth and it trembles, who touches the mountains and they smoke! I will sing to the LORD as long as I live; I will sing praise to my God while I have being. May my meditation be pleasing to him, for I rejoice in the LORD. Let sinners be consumed from the earth, and let the wicked be no more! Bless the LORD, O my soul! Praise the LORD!",
           "cu": ""
         },
         {
@@ -211,7 +211,33 @@
     {
       "id": "first-antiphon",
       "title": "First Antiphon",
-      "items": []
+      "items": [
+         {
+         "id": "first-antiphon-rubric-1",
+         "role": "rubric",
+         "en": "The Priest says the following prayer quietly...",
+         "cu": ""
+         },
+         {
+         "id": "first-antiphon-1",
+         "role": "priest",
+         "en": "O Lord, compassionate and merciful, long- suffering and of great mercy, give heedto our prayer, and attend to the voice of our supplication. Work upon us a sign for good. Guide us in Thy way, that we may walk in Thy truth. Gladden our hearts that we may fear Thy holy name. For Thou art great and works wonders. Thou alone art none like unto Thee, O Lord, powerful in mercy and good in might, to help and to comfort and to save all those who hope in Thy holy name.",
+          "cu": ""
+            },
+            {
+               "id": "first-antiphon-2",
+               "role": "priest",
+               "en": "+ For unto Thee are due all glory, honor and worship: to the Father and to the Son and to the Holy Spirit, now and ever and unto ages of ages.",
+               "cu": ""
+               },
+               {
+                  "id": "first-antiphon-3",
+                  "role": "choir",
+                  "en": "Amen.",
+                  "cu": "Amin."
+                  }
+            
+      ]
     },
     {
       "id": "little-litany-1",
