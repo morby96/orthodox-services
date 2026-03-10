@@ -212,32 +212,54 @@
       "id": "first-antiphon",
       "title": "First Antiphon",
       "items": [
-         {
-         "id": "first-antiphon-rubric-1",
-         "role": "rubric",
-         "en": "The Priest says the following prayer quietly...",
-         "cu": ""
-         },
-         {
-         "id": "first-antiphon-1",
-         "role": "priest",
-         "en": "O Lord, compassionate and merciful, long- suffering and of great mercy, give heedto our prayer, and attend to the voice of our supplication. Work upon us a sign for good. Guide us in Thy way, that we may walk in Thy truth. Gladden our hearts that we may fear Thy holy name. For Thou art great and works wonders. Thou alone art none like unto Thee, O Lord, powerful in mercy and good in might, to help and to comfort and to save all those who hope in Thy holy name.",
-          "cu": ""
-            },
-            {
-               "id": "first-antiphon-2",
-               "role": "priest",
-               "en": "+ For unto Thee are due all glory, honor and worship: to the Father and to the Son and to the Holy Spirit, now and ever and unto ages of ages.",
-               "cu": ""
-               },
-               {
-                  "id": "first-antiphon-3",
-                  "role": "choir",
-                  "en": "Amen.",
-                  "cu": "Amin."
-                  }
-            
-      ]
+    {
+  "id": "first-antiphon",
+  "title": "First Antiphon",
+  "items": [
+    {
+      "id": "first-antiphon-rubric-1",
+      "role": "rubric",
+      "en": "The Priest says the following prayer quietly...",
+      "cu": ""
+    },
+    {
+      "id": "first-antiphon-1",
+      "role": "priest",
+      "en": "O Lord, compassionate and merciful, long- suffering and of great mercy, give heedto our prayer, and attend to the voice of our supplication. Work upon us a sign for good. Guide us in Thy way, that we may walk in Thy truth. Gladden our hearts that we may fear Thy holy name. For Thou art great and works wonders. Thou alone art none like unto Thee, O Lord, powerful in mercy and good in might, to help and to comfort and to save all those who hope in Thy holy name.",
+      "cu": ""
+    },
+    {
+      "id": "first-antiphon-2",
+      "role": "priest",
+      "en": "+ For unto Thee are due all glory, honor and worship: to the Father and to the Son and to the Holy Spirit, now and ever and unto ages of ages.",
+      "cu": ""
+    },
+    {
+      "id": "first-antiphon-3",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": "Amin."
+    },
+   {
+      "id": "first-antiphon-4",
+      "role": "reader",
+      "en": "(Psalms 120-124) In my distress I cry to the Lord, that He may answer me. Deliver me, O Lord, from lying lips, from a deceitful tongue. What shall be given to you, and what more shall be done to you, you deceitful tongue! A warrior's sharp arrows with glowing coals of the broom tree. Woe to me that I sojourn in Meshech, that I live among the tents of Kedar! Too long have I had my dwelling among those who hate peace. I am for peace; but when I speak, they are for war. I lift up my eyes to the hills From where does my help come from? My help comes from the LORD, Who made heaven and earth. He will not let your foot be moved He who keeps you will not slumber; Behold He who keeps Israel, will neither slumber nor sleep. The Lord is your Keeper the LORD is your shade at your right hand; The sun will not smite you by day, nor the moon by night. The LORD will keep you from all evil He will keep your life. The Lord will keep your going out and your coming in From this time forth and forever more. I was glad when they said to me, 'Let us go to the house of the LORD.' Our feet have been standing within your gates, O Jerusalem. Jerusalem is built like a city bound firmly together. To which tribes go up The tribes of the LORD, as was decreed for Israel, To give thanks to the name of the LORD There the thrones for judgment were set, the thrones of the house of David. Pray for the peace of Jerusalem: 'May they prosper who love you! May there be peace within your walls and security within your towers 'For my brethren and companions’ sake I will say 'Peace be within you.'For the sake of the house of the LORD our God, I will seek your good. To Thee, I lift up mine eyes, O Thou who art enthroned in the heavens. Behold, as the eyes of slaves look to the hand of their master, as the eyes of a maid look to the hand of her mistress, So our eyes look to the LORD our God, till he have mercy on us. Have mercy on us, O LORD, have mercy on us, for we have had more than enough of contempt. Too long our soul has been sated with the scorn of those who are at ease, The contempt of the proud. If had not been the LORD who was on our side let Israel say if the LORD had not been on our side when men rose up against us, Then they would have swallowed us alive When their anger was kindled against us. Then the flood would have swept us away The torrent would have gone over us, the raging waters Blessed be the Lord, who has not given us as prey to their teeth. We have escaped as a bird out of the snare of the fowlers The snare has been broken, and we have escaped. Our help is in the name of the LORD, Who made heaven and earth.",
+      "cu": ""
+   },
+   {
+      "id": "first-antiphon-5",
+      "role": "reader",
+      "en": "+ Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages, Amen.",
+      "cu": ""
+   },
+   {
+      "id": "first-antiphon-6",
+      "role": "reader",
+      "en": "+ Alleluia, alleluia, alleluia, glory to Thee, O God! (x3)",
+      "cu": ""
+   }
+  ]
+}]
     },
     {
       "id": "little-litany-1",
