@@ -2,26 +2,25 @@
   "id": "presanctified-liturgy",
   "title": "Liturgy of the Presanctified Gifts",
   "category": "liturgy",
-  "source": " ",
+  "source": "",
   "sections": [
     {
       "id": "opening-blessing",
       "title": "Opening Blessing",
       "items": [
-    {
-      "id": "opening-blessing-1",
-      "role": "priest",
-      "en": "Blessed is the Kingdom of the Father and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
-      "cu": ""
-    },
-    {
-      "id": "opening-blessing-2",
-      "role": "choir",
-      "en": "Amen.",
-      "cu": ""
-    }
-  ]
-}
+        {
+          "id": "opening-blessing-1",
+          "role": "priest",
+          "en": "Blessed is the Kingdom of the Father and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
+          "cu": ""
+        },
+        {
+          "id": "opening-blessing-2",
+          "role": "choir",
+          "en": "Amen.",
+          "cu": ""
+        }
+      ]
     },
     {
       "id": "psalm-104",
@@ -109,13 +108,13 @@
       "items": []
     },
     {
-      "id": "litany-before-Lords-prayer",
+      "id": "litany-before-lords-prayer",
       "title": "The Litany Before the Lord's Prayer",
       "items": []
     },
     {
-      "id": "Communion",
-      "title": "Communion"
+      "id": "communion",
+      "title": "Communion",
       "items": []
     },
     {
@@ -138,6 +137,5 @@
       "title": "Appendix",
       "items": []
     }
-      
   ]
 }
