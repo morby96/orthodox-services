@@ -301,12 +301,62 @@
     {
       "id": "second-antiphon",
       "title": "Second Antiphon",
-      "items": []
+      "items": [
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   }      
+  ]
     },
     {
       "id": "little-litany-2",
       "title": "Little Litany",
-      "items": []
+      "items": [
+   {
+      "id": "little-litany-07",
+      "role": "deacon",
+      "en": "Again and again in peace, let us pray to the Lord.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-08",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-09",
+      "role": "deacon",
+      "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-10",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-11",
+      "role": "deacon",
+      "en": "Commemorating our most holy, most pure, most blessed and glorious Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-12",
+      "role": "choir",
+      "en": "To Thee, O Lord.",
+      "cu": ""
+   }
+  ]
     },
     {
       "id": "third-antiphon",
@@ -316,7 +366,56 @@
     {
       "id": "little-litany-3",
       "title": "Little Litany",
-      "items": []
+      "items": [
+   {
+      "id": "little-litany-13",
+      "role": "deacon",
+      "en": "Again and again in peace, let us pray to the Lord.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-14",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-15",
+      "role": "deacon",
+      "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-16",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-17",
+      "role": "deacon",
+      "en": "Commemorating our most holy, most pure, most blessed and glorious Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-18",
+      "role": "choir",
+      "en": "To Thee, O Lord.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-19",
+      "role": "priest",
+      "en": "+ For Thou art a good God and loves mankind, and unto Thee we ascribe glory; to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-20",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": "Amin."
+   }
+  ]
     },
     {
       "id": "scripture-readings",
