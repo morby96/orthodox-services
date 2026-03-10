@@ -7,7 +7,21 @@
     {
       "id": "opening-blessing",
       "title": "Opening Blessing",
-      "items": []
+      "items": [
+    {
+      "id": "opening-blessing-1",
+      "role": "priest",
+      "en": "Blessed is the Kingdom of the Father and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
+      "cu": ""
+    },
+    {
+      "id": "opening-blessing-2",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": ""
+    }
+  ]
+}
     },
     {
       "id": "psalm-104",
