@@ -259,7 +259,44 @@
     {
       "id": "little-litany-1",
       "title": "Little Litany",
-      "items": []
+      "items": [
+   {
+      "id": "little-litany-01",
+      "role": "deacon",
+      "en": "Again and again in peace, let us pray to the Lord.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-02",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-03",
+      "role": "deacon",
+      "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-04",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu":
+   },
+   {
+      "id": "little-litany-05",
+      "role": "deacon",
+      "en": "Commemorating our most holy, most pure, most blessed and glorious Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-06",
+      "role": "choir",
+      "en": "To Thee, O Lord.",
+      "cu": ""
+   }
+  ]
     },
     {
       "id": "second-antiphon",
