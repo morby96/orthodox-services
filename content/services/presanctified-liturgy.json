@@ -2,5 +2,128 @@
   "id": "presanctified-liturgy",
   "title": "Liturgy of the Presanctified Gifts",
   "category": "liturgy",
-  "sections": []
+  "source": " ",
+  "sections": [
+    {
+      "id": "opening-blessing",
+      "title": "Opening Blessing",
+      "items": []
+    },
+    {
+      "id": "psalm-104",
+      "title": "Psalm 104",
+      "items": []
+    },
+    {
+      "id": "great-litany",
+      "title": "Great Litany",
+      "items": []
+    },
+    {
+      "id": "first-antiphon",
+      "title": "First Antiphon",
+      "items": []
+    },
+    {
+      "id": "little-litany-1",
+      "title": "Little Litany",
+      "items": []
+    },
+    {
+      "id": "second-antiphon",
+      "title": "Second Antiphon",
+      "items": []
+    },
+    {
+      "id": "little-litany-2",
+      "title": "Little Litany",
+      "items": []
+    },
+    {
+      "id": "third-antiphon",
+      "title": "Third Antiphon",
+      "items": []
+    },
+    {
+      "id": "little-litany-3",
+      "title": "Little Litany",
+      "items": []
+    },
+    {
+      "id": "scripture-readings",
+      "title": "Scripture Readings",
+      "items": []
+    },
+    {
+      "id": "let-my-prayer-arise",
+      "title": "Let My Prayer Arise",
+      "items": []
+    },
+    {
+      "id": "prayer-of-st-ephrem-1",
+      "title": "The Prayer of St. Ephrem",
+      "items": []
+    },
+    {
+      "id": "augmented-litany",
+      "title": "The Augmented Litany",
+      "items": []
+    },
+    {
+      "id": "litany-of-the-catechumens",
+      "title": "Litany of the Catechumens",
+      "items": []
+    },
+    {
+      "id": "first-prayer-of-the-faithful",
+      "title": "The First Prayer of the Faithful",
+      "items": []
+    },
+    {
+      "id": "second-prayer-of-the-faithful",
+      "title": "The Second Prayer of the Faithful",
+      "items": []
+    },
+    {
+      "id": "great-entrance",
+      "title": "The Great Entrance",
+      "items": []
+    },
+    {
+      "id": "prayer-of-st-ephrem-2",
+      "title": "The Prayer of St. Ephrem",
+      "items": []
+    },
+    {
+      "id": "litany-before-Lords-prayer",
+      "title": "The Litany Before the Lord's Prayer",
+      "items": []
+    },
+    {
+      "id": "Communion",
+      "title": "Communion"
+      "items": []
+    },
+    {
+      "id": "litany-of-thanksgiving",
+      "title": "The Litany of Thanksgiving",
+      "items": []
+    },
+    {
+      "id": "ambo-prayer",
+      "title": "The Prayer Before the Ambo",
+      "items": []
+    },
+    {
+      "id": "the-dismissal",
+      "title": "The Dismissal",
+      "items": []
+    },
+    {
+      "id": "appendix-1",
+      "title": "Appendix",
+      "items": []
+    }
+      
+  ]
 }
