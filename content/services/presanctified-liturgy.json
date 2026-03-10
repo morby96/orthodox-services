@@ -303,16 +303,45 @@
       "title": "Second Antiphon",
       "items": [
    {
+      "id": "second-antiphon-rubric-1",
+      "role": "rubric",
+      "en": "The Priest says the following prayer quietly...",
+      "cu": ""
    },
    {
+      "id": "second-antiphon-1",
+      "role": "priest",
+      "en": "O Lord, in Thy displeasure rebuke us not, neither chasten us in Thy wrath, but deal with us according to Thy tenderness, O Physician and Healer of our souls. Guide us unto the haven of Thy will. Enlighten the eyes of our hearts unto the knowledge of Thy truth, and grant unto us that the remainder of the present day and the whole time of our life may be peaceful and sinless, through the intercessions of the Holy Theotokos and of all the saints. For Thine is the majesty, and Thine is the Kingdom and the power and the glory: of the Father, and of the Son, and of the Holy Spirit, now and ever and unto ages of ages.",
+      "cu": ""
    },
    {
+      "id": "second-antiphon-2",
+      "role": "priest",
+      "en": "+ For Thine is the majesty, and Thine is the kingdom and the power and the glory: of the Father, and of the Son, and of the Holy Spirit, now and ever and unto ages of ages.",
+      "cu": ""
    },
    {
+      "id": "second-antiphon-3",
+      "role": "choir",
+      "en": " Amen.",
+      "cu": "Amin."
    },
    {
+      "id": "second-antiphon-4",
+      "role": "reader",
+      "en": " (Psalms 125-129) Those who trust in the Lord are like Mount Zion, which cannot be moved but abides forever. As the mountains are round about Jerusalem, so the Lord is round about His people from this time and forever more. For the scepter of wickedness shall not rest upon the land allotted to the righteous. Lest the righteous put forth their hands to do wrong Do good, O LORD, to those who are good, And to those who are upright in heart. But those who turn to crooked ways The LORD will banish with the evildoers. Peace be upon Israel. When the LORD brought back those who returned to Zion, we were like those who dreamed. Then our mouths were filled with laughter, And our tongues with shouts of joy. Then they said among the nations, 'The LORD has done great things for them.' The LORD has done great things for us, and we are glad. Restore our fortunes, O LORD, like watercourses in the Negeb. May those who sow tears reap with shouts of joy. He that goes forth weeping, bearing seeds for sowing Shall come home with shouts of joy, Bringing his sheaves with him. Unless the LORD builds the house, Those who build it labor in vain. Unless the LORD watches over the city, the watchmen stand awake in vain. It is In vain you rise early and go late to rest Eating the bread of anxious toil, so gives to His beloved sleep. Lo sons are a heritage from the LORD, the fruit of the womb a reward. Like arrows in the hands of a warrior are sons of one's youth. Happy is the man who has his quiver full of them. He shall not be put to shame when he speaks to his enemies in the gate. Blessed is everyone who fears the LORD, who walks in his ways. You will eat the fruit of the labor of your hands You shall be happy and it shall be well with you. Your wife will be like a fruitful vine within your house your children will be like olive shoots around your table. Lo, thus shall the man be blest who fears the LORD. May the LORD bless you from Zion May you see the prosperity of Jerusalem all the days of your life. May you see your children's children. Peace be upon Israel. Sorely have they afflicted me from my youth let Israel now say: Sorely have they afflicted me from my youth Yet they have not prevailed against me. The plowers plowed upon my back They made long their furrows. The LORD is righteous; he has cut me free from the cords of the wicked. May all who hate Zion Be put to shame and turned backward May they be like grass on house tops which withers before it grows up With it the reaper does not fill his hands Or the binder of sheaves his bosom, While those who pass by do not say, 'The blessing of the LORD be upon you; We bless you in the name of the LORD.'",
+      "cu": ""
    },
    {
+      "id": "second-antiphon-5",
+      "role": "reader",
+      "en": "+ Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+      "cu": ""
+   },
+   {
+      "id": "second-antiphon-6",
+      "role": "reader",
+      "en": "+ Alleluia, alleluia, alleluia, glory to Thee. O God! (x3)
    }      
   ]
     },
