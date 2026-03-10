@@ -213,10 +213,6 @@
       "title": "First Antiphon",
       "items": [
     {
-  "id": "first-antiphon",
-  "title": "First Antiphon",
-  "items": [
-    {
       "id": "first-antiphon-rubric-1",
       "role": "rubric",
       "en": "The Priest says the following prayer quietly...",
@@ -259,7 +255,6 @@
       "cu": ""
    }
   ]
-}]
     },
     {
       "id": "little-litany-1",
