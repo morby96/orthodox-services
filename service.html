@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Service</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="back-link">← Back to services</a>
+    <h1 id="service-title">Service</h1>
+
+    <div class="controls">
+      <button data-mode="parallel" class="mode-button active">Parallel</button>
+      <button data-mode="en" class="mode-button">English</button>
+      <button data-mode="cu" class="mode-button">Slavonic</button>
+    </div>
+  </header>
+
+  <main class="container service-layout">
+    <aside class="sidebar">
+      <div class="sidebar-box">
+        <h2 class="sidebar-title">Search this service</h2>
+        <input id="text-search" class="search-input" type="text" placeholder="Search text..." />
+      </div>
+
+      <div class="sidebar-box">
+        <h2 class="sidebar-title">Sections</h2>
+        <nav id="section-nav" class="section-nav"></nav>
+      </div>
+    </aside>
+
+    <section class="main-content">
+      <div id="service-meta" class="service-meta"></div>
+      <div id="search-status" class="search-status"></div>
+      <div id="service-content"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
