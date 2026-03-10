@@ -5,6 +5,13 @@
   --muted: #666;
   --border: #ddd6c8;
   --accent: #6b4f2a;
+
+  --priest: #8b2c2c;
+  --deacon: #2c3e6f;
+  --choir: #2f6b3b;
+  --reader: #6a4c93;
+  --people: #7a5c1b;
+  --rubric: #777777;
 }
 
 * {
@@ -39,6 +46,10 @@ body {
   padding: 1rem;
 }
 
+.toolbar {
+  margin-bottom: 1rem;
+}
+
 .search-input {
   width: 100%;
   padding: 0.7rem 0.85rem;
@@ -46,6 +57,35 @@ body {
   border-radius: 10px;
   background: white;
   font: inherit;
+}
+
+.card-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.card:hover {
+  border-color: var(--accent);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  margin: 0 0 0.3rem;
+}
+
+.card-meta {
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .back-link {
@@ -140,21 +180,56 @@ body {
   margin-bottom: 1rem;
 }
 
+.section-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section-link:hover {
+  color: var(--accent);
+}
+
 .item {
   margin-bottom: 0.9rem;
-  padding: 0.75rem;
+  padding: 0.85rem;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 10px;
 }
 
 .role {
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--accent);
-  margin-bottom: 0.35rem;
+  font-size: 0.82rem;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.45rem;
   font-weight: 700;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.role-priest {
+  color: var(--priest);
+}
+
+.role-deacon {
+  color: var(--deacon);
+}
+
+.role-choir {
+  color: var(--choir);
+}
+
+.role-reader {
+  color: var(--reader);
+}
+
+.role-people {
+  color: var(--people);
+}
+
+.role-rubric {
+  color: var(--rubric);
+  font-style: italic;
 }
 
 .text-row {
@@ -167,8 +242,32 @@ body {
   white-space: pre-wrap;
 }
 
+.text-en,
+.text-cu {
+  padding: 0.1rem 0;
+}
+
 .hidden {
   display: none !important;
+}
+
+.rubric .text-cell,
+.rubric .role {
+  color: var(--rubric);
+  font-style: italic;
+}
+
+mark {
+  background: #f5e7a1;
+  padding: 0 0.1em;
+}
+
+.empty-message {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  color: var(--muted);
 }
 
 @media (max-width: 850px) {
