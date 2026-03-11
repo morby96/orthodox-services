@@ -1007,7 +1007,7 @@
 {
   "id": "litany-of-the-catechumens-24",
   "role": "rubric",
-  "en": "The extra petitions are added from the Wednesday of the fourth week on, continued in the same pattern as for the Catechumens.",
+  "en": "The extra petitions in 'Prayers for Illumination' are added from the Wednesday of the fourth week on, continued in the same pattern as for the Catechumens.",
   "cu": ""
 }
   ]
@@ -1211,7 +1211,7 @@
 {
   "id": "first-prayer-of-the-faithful-4",
   "role": "priest",
-  "en": "For unto Thee are due all glory, honor, and worship: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.",
+  "en": "+ For unto Thee are due all glory, honor, and worship: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.",
   "cu": ""
 },
 {
@@ -1242,13 +1242,51 @@
     },
     {
       "id": "second-prayer-of-the-faithful",
-      "title": "The Second Prayer of the Faithful",
-      "items": []
-    },
-    {
-      "id": "great-entrance",
-      "title": "The Great Entrance",
-      "items": []
+      "title": "Great Entrance",
+      "items": [
+   {
+  "id": "second-prayer-of-the-faithful-1",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-2",
+  "role": "priest",
+  "en": "O Master, holy and exceeding good, we implore Thee, who art rich in mercy, be gracious to us sinners, and make us worthy of the reception of Thine only-begotten Son and our God, the King of glory. For, behold, His immaculate Body and life-creating blood, entering at this present hour, are about to be set forth on this mystical table, by multitudes of heavenly hosts invisibly escorted. Grant us to partake of them without condemnation, that through them our mental sight be illumined and we may become children of the light and of the day.",
+  "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-3",
+  "role": "deacon",
+  "en": "Wisdom!",
+  "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-4",
+  "role": "priest",
+  "en": "Through the gift of Thy Christ, with whom Thou art blessed, together with Thine all-holy, and good, and life-creating Spirit, now and ever, and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-5",
+  "role": "choir",
+  "en": "Amen. Amen.",
+  "cu": ""
+},
+{
+   "id": "great-entrance-hymn",
+   "role": "choir",
+   "en": "Now the Powers of Heaven do serve invisibly with us do serve. Lo, the King of Glory enters lo, the King of Glory enters. Lo, the mystical sacrifice is upborne, upborne, fulfilled. Let us draw near in faith and love, and become communicants of life eternal. Alleluia, alleluia, alleluia, alleluia, alleluia.",
+   "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-6",
+  "role": "rubric",
+  "en": "Everyone is silent during the entrance. Any who can kneel or prostrate should do so during the entrance.",
+  "cu": ""
+}      
+  ]
     },
     {
       "id": "prayer-of-st-ephrem-2",
@@ -1295,12 +1333,380 @@
     {
       "id": "litany-before-lords-prayer",
       "title": "The Litany Before the Lord's Prayer",
-      "items": []
+      "items": [
+{
+  "id": "litany-before-lords-prayer-1",
+  "role": "deacon",
+  "en": "Let us complete our evening prayer unto the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-2",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-3",
+  "role": "deacon",
+  "en": "For the precious Gifts offered and presanctified, let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-4",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-5",
+  "role": "deacon",
+  "en": "That our God, who loves mankind, receiving them upon His holy, heavenly and ideal altar for an odor of spiritual fragrance, will send down upon us in return His divine grace and the gift of the Holy Spirit, let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-6",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-7",
+  "role": "deacon",
+  "en": "For our deliverance from all affliction, wrath, danger and necessity, let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-8",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-9",
+  "role": "deacon",
+  "en": "Help us, save us, have mercy on us, and keep us O God, by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-10",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-11",
+  "role": "deacon",
+  "en": "That the whole evening may be perfect, holy, peaceful, and sinless, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-12",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-13",
+  "role": "deacon",
+  "en": "An angel of peace, a faithful guide, a guardian of our souls and bodies, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-14",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-15",
+  "role": "deacon",
+  "en": "Pardon and remission of our sins and transgressions, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-16",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-17",
+  "role": "deacon",
+  "en": "All things that are good and profitable for our souls, and peace for the world, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-18",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-19",
+  "role": "deacon",
+  "en": "That we may complete the remaining time of our life in peace and repentance, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-20",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-21",
+  "role": "deacon",
+  "en": "A Christian ending to our life: painless, blameless, and peaceful; and a good defense before the dread judgment seat of Christ, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-22",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-23",
+  "role": "deacon",
+  "en": "Having asked for the unity of the Faith, and the communion of the Holy Spirit, let us commend ourselves and each other, and all our life unto Christ our God.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-24",
+  "role": "choir",
+  "en": "To Thee, O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-25",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-26",
+  "role": "priest",
+  "en": "O God of unutterable and unseen Mysteries, with whom are the hidden treasures of wisdom and knowledge, who has revealed the service of this liturgy to us, who has set us sinners, through Thy great love of man, to offer to Thee gifts and sacrifices for our sins and for the ignorance of the people, do Thou Thyself, O invisible King, who does things great and inscrutable, glorious and marvelous, which cannot be numbered, look upon us, Thine unworthy servants, who stand at this holy altar as at Thy Cherubic throne, upon which rests Thine only-begotten Son and our God, in the dreaded Mysteries that are set forth.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-27",
+  "role": "priest",
+  "en": "And having freed us all and all Thy faithful people from uncleanliness, sanctify all our souls and bodies with the sanctification which cannot be taken away, that partaking with a clean conscience, with face unashamed, with heart illumined, of these divine, sanctified things, and by them being given life, we may be united to Thy Christ Himself, our true God.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-28",
+  "role": "priest",
+  "en": "Who has said: Whoso eats My flesh and drinks My blood abides in Me and I in him, that by Thy Word, O Lord, dwelling within us and sojourning among us, we may become a temple of Thine all-holy and adorable Spirit, redeemed from every diabolical wile wrought either by deed, or word, or thought.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-29",
+  "role": "priest",
+  "en": "And may obtain the good things promised to us with all Thy Saints, who always have been well-pleasing unto Thee.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-30",
+  "role": "priest",
+  "en": "And make us worthy, O Master, that with boldness and without condemnation we may dare to call on Thee, the heavenly God, as Father and to say:",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-31",
+  "role": "rubric",
+  "en": "Depending on the parish or day, the choir may sing the Our Father or the people may recite it together.Our Father, Who art in heaven, hallowed be Thy Name. Thy Kingdom come, Thy Will be done, on earth as it is in Heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-32",
+  "role": "priest",
+  "en": "+ For Thine is the kingdom, and the power, and the glory, of the Father and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-33",
+  "role": "choir",
+  "en": "Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-34",
+  "role": "priest",
+  "en": "Peace be unto you all!",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-35",
+  "role": "choir",
+  "en": "And with thy spirit!",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-36",
+  "role": "deacon",
+  "en": "Let us bow our heads unto the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-37",
+  "role": "choir",
+  "en": "To Thee, O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-38",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-39",
+  "role": "priest",
+  "en": "O God, who alone art good and tenderhearted, who dwells on high and looks upon the humble, look with the eye of Thy tenderheartedness upon all Thy people and keep them.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-40",
+  "role": "priest",
+  "en": "Make us all worthy without condemnation to partake of these Thy life-creating Mysteries, for unto Thee have we bowed our heads, awaiting from Thee Thy rich mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-41",
+  "role": "priest",
+  "en": "Through the grace and compassion and love toward mankind of Thine only-begotten Son, with whom Thou art blessed, together with Thine all-holy, good, and life-creating Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-42",
+  "role": "choir",
+  "en": "Amen. Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-43",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-44",
+  "role": "priest",
+  "en": "Attend, O Lord Jesus Christ our God, out of Thy holy dwelling place, from the throne of the glory of Thy Kingdom, and come to sanctify us, O Thou who sits on high with the Father, and art here invisibly present with us.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-45",
+  "role": "priest",
+  "en": "And by Thy mighty hand impart unto us Thy most pure Body and precious Blood, and through us to all the people.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-46",
+  "role": "priest",
+  "en": "O God, cleanse me a sinner and have mercy on me. (3x)",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-47",
+  "role": "deacon",
+  "en": "Let us attend.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-48",
+  "role": "priest",
+  "en": "The presanctified Holy Things are for the holy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-49",
+  "role": "choir",
+  "en": "One is holy, One is the Lord Jesus Christ, to the glory of God the Father. Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-50",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-51",
+  "role": "priest",
+  "en": "Broken and divided is the Lamb of God, which is broken yet not disunited; ever eaten yet never consumed, but sanctifies those who partake thereof.",
+  "cu": ""
+}         
+  ]
     },
     {
       "id": "communion",
       "title": "Communion",
-      "items": []
+      "items": [
+   {
+      "id": "communion-1",
+      "role": "rubric",
+      "en": "As the Priest prepares Communion, the choir sings the following hymn. If the preparation takes longer than to sing the hymn, they may repeat it or include extra hymns...",
+      "cu": ""
+   },
+   {
+      "id": "communion-2",
+      "role": "choir",
+      "en": "Taste and see that the Lord is good, taste and see that the Lord is good! Alleluia, alleluia, alleluia!",
+      "cu": ""
+   },
+   {
+      "id": "communion-3",
+      "role": "priest",
+      "en": "In the fear of God, and with faith and love, draw near!",
+      "cu": ""
+   },
+   {
+      "id": "communion-4",
+      "role": "choir",
+      "en": "I will bless the Lord at all times! His presence shall always be on my lips.",
+      "cu": ""
+   },
+   {
+      "id": "communion-5",
+      "role": "rubric",
+      "en": "Here the people recite the Communion prayer. Some parishes do it while the Priest also says it before he receives Communion. 'I believe, O Lord, and I confess that Thou art truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I believe also that this is truly Thine own most pure Body, and that this is truly Thine own precious blood. Therefore, I pray Thee: have mercy upon me and forgive my transgression both voluntary and involuntary, of word and of deed, committed knowingly and unknowingly, of knowledge and of ignorance. And make me worthy to partake without condemnation of Thy most pure Mysteries, for the remission of my sins, and unto life everlasting. Amen. Of Thy Mystical Supper, O son of God, accept me today as a communicant; for I will not speak of Thy mystery to Thine enemies, neither like Judas will I give Thee a kiss; but like the thief will I confess Thee: Remember me, O Lord, in Thy Kingdom. May the communion of Thy holy Mysteries be neither to my judgment nor to my condemnation, O Lord, but to the healing of soul and body. Amen.",
+      "cu": ""
+   },
+   {
+      "id": "communion-6",
+      "role": "rubric",
+      "en": "The following takes place after the faithful have received Communion...",
+      "cu":
+   },
+   {
+      "id": "communion-7",
+      "role": "priest",
+      "en": "O God, save Thy people, and bless Thine inheritance.",
+      "cu": ""
+   },
+   {
+      "id": "communion-8",
+      "role": "choir",
+      "en": "Taste the heavenly bread and the cup of life! And see how good the Lord is! Alleluia, Alleluia, Alleluia.",
+      "cu": ""
+   },
+   {
+      "id": "communion-9",
+      "role": "priest",
+      "en": "Blessed is our God always, now and ever and unto ages of ages!",
+      "cu": ""
+   },
+   {
+      "id": "communion-10",
+      "role": "choir",
+      "en": "Amen. Let our mouths be filled with Thy praise, O Lord. That we may sing of Thy glory: for Thou hast made us worthy to partake of Thy holy, divine, immortal and life-creating Mysteries. Keep us in Thy holiness that all the day we may mediate upon Thy righteousness. Alleluia, alleluia, alleluia.",
+      "cu": ""
+   },      
+  ]
     },
     {
       "id": "litany-of-thanksgiving",
