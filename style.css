@@ -183,22 +183,52 @@ body {
 /* ------------------ */
 /* COLLAPSIBLE SECTIONS */
 /* ------------------ */
+.section {
+  margin: 2rem 0;
+}
+
+.section-title {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+/* collapsible section toggle */
 
 .section-toggle {
+
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   border: 0;
   background: transparent;
+
   font: inherit;
   font-size: 1.35rem;
+
   cursor: pointer;
   text-align: left;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+
+  padding: 0.2rem 0;
+
+  color: inherit;
 }
 
 .section-toggle:hover {
   color: var(--accent);
+}
+
+.section-toggle-label,
+.section-toggle-icon {
+  pointer-events: none;
 }
 
 .section-toggle-icon {
