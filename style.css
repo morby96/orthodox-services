@@ -180,6 +180,52 @@ body {
   margin-bottom: 1rem;
 }
 
+/* ------------------ */
+/* COLLAPSIBLE SECTIONS */
+/* ------------------ */
+
+.section-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 1.35rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.section-toggle:hover {
+  color: var(--accent);
+}
+
+.section-toggle-icon {
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.section.collapsed .section-toggle-icon {
+  transform: rotate(-90deg);
+}
+
+.section-body {
+  display: block;
+}
+
+.section.collapsed .section-body {
+  display: none;
+}
+
+.section-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ------------------ */
+
 .section-link {
   color: inherit;
   text-decoration: none;
