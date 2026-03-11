@@ -164,6 +164,59 @@ function createItemElement(item) {
   return itemEl;
 }
 
+function toggleSection(sectionEl, forceExpand = null) {
+  const isCollapsed =
+    forceExpand === null
+      ? sectionEl.classList.contains("collapsed")
+      : !forceExpand;
+
+  sectionEl.classList.toggle("collapsed", !isCollapsed);
+
+  const button = sectionEl.querySelector(".section-toggle");
+  if (button) {
+    const expanded = sectionEl.classList.contains("collapsed") ? "false" : "true";
+    button.setAttribute("aria-expanded", expanded);
+  }
+}
+
+function addSectionControls() {
+  const contentEl = document.getElementById("service-content");
+  if (!contentEl) return;
+
+  const existing = document.getElementById("section-controls");
+  if (existing) return;
+
+  const controls = document.createElement("div");
+  controls.id = "section-controls";
+  controls.className = "section-controls";
+
+  const expandBtn = document.createElement("button");
+  expandBtn.type = "button";
+  expandBtn.className = "mode-button";
+  expandBtn.textContent = "Expand all";
+
+  const collapseBtn = document.createElement("button");
+  collapseBtn.type = "button";
+  collapseBtn.className = "mode-button";
+  collapseBtn.textContent = "Collapse all";
+
+  expandBtn.addEventListener("click", () => {
+    document.querySelectorAll(".section").forEach((section) => {
+      toggleSection(section, true);
+    });
+  });
+
+  collapseBtn.addEventListener("click", () => {
+    document.querySelectorAll(".section").forEach((section) => {
+      toggleSection(section, false);
+    });
+  });
+
+  controls.appendChild(expandBtn);
+  controls.appendChild(collapseBtn);
+  contentEl.before(controls);
+}
+
 function renderService(service) {
   const titleEl = document.getElementById("service-title");
   const metaEl = document.getElementById("service-meta");
@@ -175,6 +228,7 @@ function renderService(service) {
   metaEl.textContent = `${capitalize(service.category || "")}${service.source ? " · " + service.source : ""}`;
 
   buildSectionNav(service.sections || []);
+  addSectionControls();
 
   (service.sections || []).forEach((section) => {
     const sectionEl = document.createElement("section");
@@ -183,13 +237,31 @@ function renderService(service) {
 
     const heading = document.createElement("h2");
     heading.className = "section-title";
-    heading.innerHTML = `<a class="section-link" href="#${section.id}">${escapeHtml(section.title || "")}</a>`;
-    sectionEl.appendChild(heading);
 
-    (section.items || []).forEach((item) => {
-      sectionEl.appendChild(createItemElement(item));
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "section-toggle";
+    toggle.setAttribute("aria-expanded", "true");
+    toggle.innerHTML = `
+      <span class="section-toggle-label">${escapeHtml(section.title || "")}</span>
+      <span class="section-toggle-icon" aria-hidden="true">▾</span>
+    `;
+
+    toggle.addEventListener("click", () => {
+      toggleSection(sectionEl);
     });
 
+    heading.appendChild(toggle);
+    sectionEl.appendChild(heading);
+
+    const sectionBody = document.createElement("div");
+    sectionBody.className = "section-body";
+
+    (section.items || []).forEach((item) => {
+      sectionBody.appendChild(createItemElement(item));
+    });
+
+    sectionEl.appendChild(sectionBody);
     contentEl.appendChild(sectionEl);
   });
 }
@@ -228,6 +300,12 @@ function applyTextSearch(query) {
   sections.forEach((section) => {
     const hasVisibleItems = section.querySelector(".item:not(.hidden)");
     section.classList.toggle("hidden", !hasVisibleItems);
+
+    if (normalized && hasVisibleItems) {
+      section.classList.remove("collapsed");
+      const button = section.querySelector(".section-toggle");
+      if (button) button.setAttribute("aria-expanded", "true");
+    }
   });
 
   if (!status) return;
@@ -255,7 +333,7 @@ async function loadServicePage() {
     const service = await fetchJson(`content/services/${id}.json`);
     renderService(service);
 
-    document.querySelectorAll(".mode-button").forEach((button) => {
+    document.querySelectorAll(".mode-button[data-mode]").forEach((button) => {
       button.addEventListener("click", () => setMode(button.dataset.mode));
     });
 
