@@ -431,7 +431,8 @@
    {
       "id": "third-antiphon-6",
       "role": "reader",
-      "en": "+ Alleluia, alleluia, alleluia, glory to Thee, O God! (x3)"
+      "en": "+ Alleluia, alleluia, alleluia, glory to Thee, O God! (x3)",
+      "cu":""
    }      
   ]
     },
@@ -531,7 +532,13 @@
    },
    {
       "id": "licut-rubric-3",
-      "role": "The Priest says the following prayer quietly...",
+      "role": "rubric",
+      "en": "The Priest says the following prayer quietly...",
+      "cu": ""
+   },
+   {
+      "id": "licut-10",
+      "role": "priest",
       "en": "In the evening, the morning , and at noonday, we praise, bless, give thanks and pray to Thee, O Master of all. Let our prayer arise in Thy sight as incense, and do not give our hearts to words or Thoughts of evil. Deliver us from all who seek our souls for to Thee, O Lord, Lord, do we look and on Thee have we hoped, that Thou will not forsake us, O our God!",
       "cu": ""
    },
@@ -670,7 +677,7 @@
    {
       "id": "lmpa-rubric-1",
       "role": "rubric",
-      "en": "Sections of the following hymn may be repated and/or omitted...",
+      "en": "Sections of the following hymn may be repeated and/or omitted...",
       "cu": ""
    },
    {
@@ -684,22 +691,554 @@
     {
       "id": "prayer-of-st-ephrem-1",
       "title": "The Prayer of St. Ephrem",
-      "items": []
+      "items": [
+   {
+      "id": "pose-01",
+      "role": "priest",
+      "en": "O Lord and Master of my life! Take from me the spirit of sloth, despair, lust of power and idle talk.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-01",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-02",
+      "role": "priest",
+      "en": "But give rahter the spirit of chastity, humility, patience and love to Thy servant.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-02",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-03",
+      "role": "priest",
+      "en": "Yea, O Lord and King! Grant me to see my own transgressions and not to judge my brother, for blessed art Thou, unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-03",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-04",
+      "role": "rubric",
+      "en": "If it is a special feast or Holy Week, the Gospel and Epistle are read in the usual way...",
+      "cu": ""
+   }      
+  ]
     },
     {
       "id": "augmented-litany",
       "title": "The Augmented Litany",
-      "items": []
+      "items": [
+   {
+      "id": "augmented-litany-1",
+      "role": "deacon",
+      "en": "Let us say with all our sould and with all our mind, let us say.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-2",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-3",
+      "role": "deacon",
+      "en": "O Lord almighty, the God of our father, we pray Thee, hearken and have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-4",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-5",
+      "role": "deacon",
+      "en": "Have mercy on us, O God, according to Thy great goodness, we pray Thee hear us and have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-6",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-7",
+      "role": "deacon",
+      "en": "Again we pray for our Metropolitan _______, for our (Arch)Bishop ______, for priests, deacons, and all other clergy; and for all our brethren in Christ.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-8",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-9",
+      "role": "deacon",
+      "en": "Again we pray for this country, its President, for all civil authorities, and for the armed forces everywhere.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-10",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-11",
+      "role": "deacon",
+      "en": "Again we pray for the blessed and ever memorable founders of this holy house; for all our fathers, mothers, brothers, and sisters, the Orthodox departed this life before us, for _______ who here and in all the world lie asleep in the Lord.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-12",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-13",
+      "role": "deacon",
+      "en": "Again we pray for mercy, life, peace, health, salvation, and visitation for the servants of God ______, and for the pardon and remission of their sins.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-14",
+      "role": "deacon",
+      "en": "Again we pray for the members of this community, that our hearts and minds may be opened to the knowledge of Thy Truth and to the service of Thy Holy Church; we pray Thee, hear us and have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-15",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-16",
+      "role": "deacon",
+      "en": "Again we pray for those who bring tithes and offerings and do good works in this holy and all-venerable house; for those who labor and those who sing; and for all the people here present, who await Thy great and rich mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-17",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+       "id": "augmented-litany-18",
+      "role": "priest",
+      "en": "O Lord our God, accept this fervent supplication of Thy servants, and have mercy on us according to the multitude of Thy mercy. Send down Thy bounties upon us and upon all Thy people, who await the rich mercy that comes from Thee.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-19",
+      "role": "priest",
+      "en": "For Thou art a good God, and loves mankind, and unto Thee we ascribe glory: to the Father and to the Son and to the Holy Spirit, now and ever and unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-20",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": ""
+}      
+  ]
     },
     {
       "id": "litany-of-the-catechumens",
       "title": "Litany of the Catechumens",
-      "items": []
+      "items": [
+   {
+  "id": "litany-of-the-catechumens-1",
+  "role": "deacon",
+  "en": "Pray to the Lord, you catechumens.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-2",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-3",
+  "role": "deacon",
+  "en": "Let us, the faithful, pray for the catechumens, that the Lord will have mercy on them.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-4",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-5",
+  "role": "deacon",
+  "en": "That He will teach them the word of truth.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-6",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-7",
+  "role": "deacon",
+  "en": "That He will reveal to them the gospel of righteousness.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-8",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-9",
+  "role": "deacon",
+  "en": "That He will unite them to His Holy, Catholic, and Apostolic Church.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-10",
+  "role": "priest",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-11",
+  "role": "deacon",
+  "en": "Help them, save them, have mercy on them, and keep them, O God, by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-12",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-13",
+  "role": "deacon",
+  "en": "Bow your heads unto the Lord, you catechumens.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-14",
+  "role": "choir",
+  "en": "To Thee, O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-15",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-16",
+  "role": "priest",
+  "en": "O God our God, the Creator and Maker of all things, who wills that all men should be saved and should come to the knowledge of the truth, look upon Thy servants the catechumens and deliver them from their former delusion and from the wiles of the adversary. And call them unto life eternal, enlightening their souls and bodies and numbering them with Thy rational flock, which is called Thy holy name.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-17",
+  "role": "priest",
+  "en": "+ That with us they may glorify Thine all-honorable and majestic name: of the Father, and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-18",
+  "role": "choir",
+  "en": "Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-19",
+  "role": "rubric",
+  "en": "Dialogue may be omitted.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-20",
+  "role": "deacon",
+  "en": "All catechumens, depart.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-21",
+  "role": "deacon",
+  "en": "Depart, catechumens.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-22",
+  "role": "deacon",
+  "en": "All that are catechumens, depart.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-23",
+  "role": "deacon",
+  "en": "Let no catechumens remain.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-24",
+  "role": "rubric",
+  "en": "The extra petitions are added from the Wednesday of the fourth week on, continued in the same pattern as for the Catechumens.",
+  "cu": ""
+}
+  ]
+    },
+    {
+       "id": "litany-for-illumination",
+       "title": "Prayers for Illumination",
+      "items": [
+   {
+  "id": "litany-for-illumination-1",
+  "role": "deacon",
+  "en": "As many as are preparing for illumination, draw near. Pray, you who are preparing for illumination.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-2",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-3",
+  "role": "deacon",
+  "en": "Let us the faithful pray for those who are preparing for illumination.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-4",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-5",
+  "role": "deacon",
+  "en": "That the Lord our God may establish and strengthen them.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-6",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-7",
+  "role": "deacon",
+  "en": "That He may enlighten them with the light of knowledge and piety.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-8",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-9",
+  "role": "deacon",
+  "en": "That He may vouchsafe unto them in due time the laver of regeneration, the forgiveness of sins, and the robe of incorruptibility.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-10",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-11",
+  "role": "deacon",
+  "en": "That He may beget them with water and the Spirit.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-12",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-13",
+  "role": "deacon",
+  "en": "That He may bestow upon them the perfection of the faith.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-14",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-15",
+  "role": "deacon",
+  "en": "That He may number them with His holy and elect flock.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-16",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-17",
+  "role": "deacon",
+  "en": "Save them, have mercy on them, help them, and keep them, O God, by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-18",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-19",
+  "role": "deacon",
+  "en": "As many as are preparing for illumination, bow your heads unto the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-20",
+  "role": "choir",
+  "en": "To Thee, O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-rubric-1",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly...",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-21",
+  "role": "priest",
+  "en": "Reveal, O Master, Thy countenance to those who are preparing for holy illumination and who long to put away the pollution of sin. Enlighten their minds. Secure them in the faith. Establish them in hope. Perfect them in love. Show them to be honorable members of Thy Christ, who gave Himself as a deliverance for our souls.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-22",
+  "role": "priest",
+  "en": "+ For Thou art our Illumination, and to Thee do we send up glory, to the Father and to the Son and to the Holy Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-23",
+  "role": "choir",
+  "en": "Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-24",
+  "role": "deacon",
+  "en": "Let us the faithful, again and again in peace let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-25",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-26",
+  "role": "deacon",
+  "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-27",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+}      
+  ]
     },
     {
       "id": "first-prayer-of-the-faithful",
       "title": "The First Prayer of the Faithful",
-      "items": []
+      "items": [
+   {
+  "id": "first-prayer-of-the-faithful-1",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-2",
+  "role": "priest",
+  "en": "O God, great and praiseworthy, who by the life-creating death of Thy Christ has translated us from corruption to incorruption, do Thou free all our senses from deadly passion, setting over them as a good guide the understanding that is within us. And let our eyes abstain from every evil sight, our hearing be inaccessible to idle words, and our tongues be purged of unseemly speech. Make clean our lips which praise Thee, O Lord; make our hands refrain from base deeds and to work only that which is well-pleasing to Thee, fortifying our members and minds by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-3",
+  "role": "deacon",
+  "en": "Wisdom!",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-4",
+  "role": "priest",
+  "en": "For unto Thee are due all glory, honor, and worship: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-5",
+  "role": "choir",
+  "en": "Amen.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-6",
+  "role": "deacon",
+  "en": "Again and again in peace let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-7",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-8",
+  "role": "deacon",
+  "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+  "cu": ""
+}      
+  ]
     },
     {
       "id": "second-prayer-of-the-faithful",
@@ -714,7 +1253,44 @@
     {
       "id": "prayer-of-st-ephrem-2",
       "title": "The Prayer of St. Ephrem",
-      "items": []
+      "items": [
+   {
+      "id": "pose-1",
+      "role": "priest",
+      "en": "O Lord and Master of my life! Take from me the spirit of sloth, despair, lust of power and idle talk.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-1",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-2",
+      "role": "priest",
+      "en": "But give rahter the spirit of chastity, humility, patience and love to Thy servant.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-2",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-3",
+      "role": "priest",
+      "en": "Yea, O Lord and King! Grant me to see my own transgressions and not to judge my brother, for blessed art Thou, unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-3",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   }         
+  ]
     },
     {
       "id": "litany-before-lords-prayer",
