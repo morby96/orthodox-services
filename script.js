@@ -26,12 +26,17 @@ function escapeHtml(text) {
   });
 }
 
+/* SECTION COLLAPSE LOGIC */
+
 function toggleSection(sectionEl, forceExpand = null) {
 
-  const shouldCollapse =
-    forceExpand === null
-      ? !sectionEl.classList.contains("collapsed")
-      : !forceExpand;
+  let shouldCollapse;
+
+  if (forceExpand === null) {
+    shouldCollapse = !sectionEl.classList.contains("collapsed");
+  } else {
+    shouldCollapse = !forceExpand;
+  }
 
   sectionEl.classList.toggle("collapsed", shouldCollapse);
 
@@ -40,10 +45,12 @@ function toggleSection(sectionEl, forceExpand = null) {
   if (button) {
     button.setAttribute(
       "aria-expanded",
-      sectionEl.classList.contains("collapsed") ? "false" : "true"
+      shouldCollapse ? "false" : "true"
     );
   }
 }
+
+/* ITEM RENDERING */
 
 function createItemElement(item) {
 
@@ -51,7 +58,7 @@ function createItemElement(item) {
   itemEl.className = `item ${item.role === "rubric" ? "rubric" : ""}`;
 
   const roleEl = document.createElement("div");
-  roleEl.className = `role role-${item.role}`;
+  roleEl.className = `role role-${item.role || ""}`;
   roleEl.textContent = capitalize(item.role || "");
 
   const row = document.createElement("div");
@@ -74,6 +81,43 @@ function createItemElement(item) {
   return itemEl;
 }
 
+/* SECTION CONTROLS */
+
+function addSectionControls() {
+
+  const content = document.getElementById("service-content");
+
+  const controls = document.createElement("div");
+  controls.className = "section-controls";
+
+  const expandBtn = document.createElement("button");
+  expandBtn.textContent = "Expand All";
+  expandBtn.className = "mode-button";
+
+  const collapseBtn = document.createElement("button");
+  collapseBtn.textContent = "Collapse All";
+  collapseBtn.className = "mode-button";
+
+  expandBtn.onclick = () => {
+    document.querySelectorAll(".section").forEach(section => {
+      toggleSection(section, true);
+    });
+  };
+
+  collapseBtn.onclick = () => {
+    document.querySelectorAll(".section").forEach(section => {
+      toggleSection(section, false);
+    });
+  };
+
+  controls.appendChild(expandBtn);
+  controls.appendChild(collapseBtn);
+
+  content.before(controls);
+}
+
+/* SERVICE RENDERING */
+
 function renderService(service) {
 
   const content = document.getElementById("service-content");
@@ -81,10 +125,15 @@ function renderService(service) {
 
   title.textContent = service.title;
 
+  addSectionControls();
+
   service.sections.forEach(section => {
 
     const sectionEl = document.createElement("section");
-    sectionEl.className = "section";
+
+    /* START COLLAPSED */
+
+    sectionEl.className = "section collapsed";
     sectionEl.id = section.id;
 
     const heading = document.createElement("h2");
@@ -93,17 +142,19 @@ function renderService(service) {
     const toggle = document.createElement("button");
 
     toggle.className = "section-toggle";
-    toggle.setAttribute("aria-expanded", "true");
+    toggle.setAttribute("aria-expanded", "false");
 
     toggle.innerHTML = `
       <span class="section-toggle-label">${escapeHtml(section.title)}</span>
       <span class="section-toggle-icon">▾</span>
     `;
 
-    function handleToggle(e) {
-      e.preventDefault();
+    function handleToggle(event) {
+      event.preventDefault();
       toggleSection(sectionEl);
     }
+
+    /* iPhone touch fix */
 
     toggle.addEventListener("click", handleToggle);
     toggle.addEventListener("touchend", handleToggle, { passive: false });
@@ -124,14 +175,25 @@ function renderService(service) {
   });
 }
 
+/* PAGE LOAD */
+
 async function loadServicePage() {
 
   const id = getQueryParam("id");
   if (!id) return;
 
-  const service = await fetchJson(`content/services/${id}.json`);
+  try {
 
-  renderService(service);
+    const service = await fetchJson(`content/services/${id}.json`);
+
+    renderService(service);
+
+  } catch (err) {
+
+    document.getElementById("service-content").textContent =
+      "Could not load service.";
+
+  }
 }
 
 loadServicePage();
