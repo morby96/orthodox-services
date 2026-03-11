@@ -26,10 +26,55 @@ function escapeHtml(text) {
   });
 }
 
-/* SECTION COLLAPSE LOGIC */
+/* ---------- HOMEPAGE ---------- */
+
+function renderServiceList(services) {
+  const listEl = document.getElementById("service-list");
+  if (!listEl) return;
+
+  listEl.innerHTML = "";
+
+  if (!services || services.length === 0) {
+    listEl.innerHTML = `<div class="empty-message">No services found.</div>`;
+    return;
+  }
+
+  services.forEach((service) => {
+    const link = document.createElement("a");
+    link.className = "card";
+    link.href = `service.html?id=${encodeURIComponent(service.id)}`;
+
+    const languages = Array.isArray(service.languages)
+      ? service.languages.join(" / ")
+      : "";
+
+    link.innerHTML = `
+      <div class="card-title">${escapeHtml(service.title || "")}</div>
+      <div class="card-meta">
+        ${escapeHtml(capitalize(service.category || ""))}${languages ? " · " + escapeHtml(languages) : ""}
+      </div>
+    `;
+
+    listEl.appendChild(link);
+  });
+}
+
+async function loadIndexPage() {
+  const listEl = document.getElementById("service-list");
+  if (!listEl) return;
+
+  try {
+    const index = await fetchJson("content/index.json");
+    const services = index.services || [];
+    renderServiceList(services);
+  } catch (err) {
+    listEl.innerHTML = `<div class="empty-message">Could not load services.</div>`;
+  }
+}
+
+/* ---------- SECTION COLLAPSE LOGIC ---------- */
 
 function toggleSection(sectionEl, forceExpand = null) {
-
   let shouldCollapse;
 
   if (forceExpand === null) {
@@ -41,19 +86,14 @@ function toggleSection(sectionEl, forceExpand = null) {
   sectionEl.classList.toggle("collapsed", shouldCollapse);
 
   const button = sectionEl.querySelector(".section-toggle");
-
   if (button) {
-    button.setAttribute(
-      "aria-expanded",
-      shouldCollapse ? "false" : "true"
-    );
+    button.setAttribute("aria-expanded", shouldCollapse ? "false" : "true");
   }
 }
 
-/* ITEM RENDERING */
+/* ---------- ITEM RENDERING ---------- */
 
 function createItemElement(item) {
-
   const itemEl = document.createElement("article");
   itemEl.className = `item ${item.role === "rubric" ? "rubric" : ""}`;
 
@@ -81,11 +121,14 @@ function createItemElement(item) {
   return itemEl;
 }
 
-/* SECTION CONTROLS */
+/* ---------- SECTION CONTROLS ---------- */
 
 function addSectionControls() {
-
   const content = document.getElementById("service-content");
+  if (!content) return;
+
+  const existing = document.querySelector(".section-controls");
+  if (existing) return;
 
   const controls = document.createElement("div");
   controls.className = "section-controls";
@@ -99,13 +142,13 @@ function addSectionControls() {
   collapseBtn.className = "mode-button";
 
   expandBtn.onclick = () => {
-    document.querySelectorAll(".section").forEach(section => {
+    document.querySelectorAll(".section").forEach((section) => {
       toggleSection(section, true);
     });
   };
 
   collapseBtn.onclick = () => {
-    document.querySelectorAll(".section").forEach(section => {
+    document.querySelectorAll(".section").forEach((section) => {
       toggleSection(section, false);
     });
   };
@@ -116,23 +159,21 @@ function addSectionControls() {
   content.before(controls);
 }
 
-/* SERVICE RENDERING */
+/* ---------- SERVICE PAGE ---------- */
 
 function renderService(service) {
-
   const content = document.getElementById("service-content");
   const title = document.getElementById("service-title");
 
-  title.textContent = service.title;
+  if (!content || !title) return;
+
+  title.textContent = service.title || "Service";
+  content.innerHTML = "";
 
   addSectionControls();
 
-  service.sections.forEach(section => {
-
+  (service.sections || []).forEach((section) => {
     const sectionEl = document.createElement("section");
-
-    /* START COLLAPSED */
-
     sectionEl.className = "section collapsed";
     sectionEl.id = section.id;
 
@@ -140,12 +181,11 @@ function renderService(service) {
     heading.className = "section-title";
 
     const toggle = document.createElement("button");
-
     toggle.className = "section-toggle";
     toggle.setAttribute("aria-expanded", "false");
 
     toggle.innerHTML = `
-      <span class="section-toggle-label">${escapeHtml(section.title)}</span>
+      <span class="section-toggle-label">${escapeHtml(section.title || "")}</span>
       <span class="section-toggle-icon">▾</span>
     `;
 
@@ -153,8 +193,6 @@ function renderService(service) {
       event.preventDefault();
       toggleSection(sectionEl);
     }
-
-    /* iPhone touch fix */
 
     toggle.addEventListener("click", handleToggle);
     toggle.addEventListener("touchend", handleToggle, { passive: false });
@@ -164,7 +202,7 @@ function renderService(service) {
     const body = document.createElement("div");
     body.className = "section-body";
 
-    (section.items || []).forEach(item => {
+    (section.items || []).forEach((item) => {
       body.appendChild(createItemElement(item));
     });
 
@@ -175,25 +213,22 @@ function renderService(service) {
   });
 }
 
-/* PAGE LOAD */
-
 async function loadServicePage() {
+  const contentEl = document.getElementById("service-content");
+  if (!contentEl) return;
 
   const id = getQueryParam("id");
   if (!id) return;
 
   try {
-
     const service = await fetchJson(`content/services/${id}.json`);
-
     renderService(service);
-
   } catch (err) {
-
-    document.getElementById("service-content").textContent =
-      "Could not load service.";
-
+    contentEl.textContent = "Could not load service.";
   }
 }
 
+/* ---------- INIT ---------- */
+
+loadIndexPage();
 loadServicePage();
