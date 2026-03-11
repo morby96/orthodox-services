@@ -558,12 +558,128 @@
     {
       "id": "scripture-readings",
       "title": "Scripture Readings",
-      "items": []
+      "items": [
+   {
+      "id": "sr-rubric-1",
+      "role": "rubric",
+      "en": "The readings for the day can be found in the appendix by day.",
+      "cu": ""
+   },
+   {
+      "id": "sr-1",
+      "role": "deacon",
+      "en": "Let us attend.",
+      "cu": ""
+   },
+   {
+      "id": "sr-2",
+      "role": "priest",
+      "en": "+ Peace be unto all!",
+      "cu": ""
+   },
+   {
+      "id": "sr-3",
+      "role": "deacon",
+      "en": "Wisdom.",
+      "cu": ""
+   },
+   {
+      "id": "sr-4",
+      "role": "reader",
+      "en": "Prokeimenon of the Day",
+      "cu": ""
+   },
+   {
+      "id": "sr-5",
+      "role": "deacon",
+      "en": "Wisdom.",
+      "cu": ""
+   },
+   {
+      "id": "sr-6",
+      "role": "reader",
+      "en": "The Reading is from Genesis (or Exodus).",
+      "cu": ""
+   },
+   {
+      "id": "sr-7",
+      "role": "deacon",
+      "en": "Let us attend.",
+      "cu": ""
+   },
+   {
+      "id": "sr-rubric-2",
+      "role": "rubric",
+      "en": "Does the Reading",
+      "cu": ""
+   },
+   {
+      "id": "sr-8",
+      "role": "deacon",
+      "en": "Wisdom.",
+      "cu": ""
+   },
+   {
+      "id": "sr-9",
+      "role": "reader",
+      "en": "Second Prokeimenon of the day.",
+      "cu": ""
+   },
+   {
+      "id": "sr-10",
+      "role": "priest",
+      "en": "Wisdom, let us attend! The light of Christ illumines all people!",
+      "cu": ""
+   },
+   {
+      "id": "sr-11",
+      "role": "reader",
+      "en": "The reading is from Proverbs (or Job).",
+      "cu": ""
+   },
+   {
+      "id": "sr-12",
+      "role": "deacon",
+      "en": "Let us attend.",
+      "cu": ""
+   },
+   {
+      "id": "sr-rubric-3",
+      "role": "rubric",
+      "en": "Does the Reading",
+      "cu": ""
+   },
+   {
+      "id": "sr-13",
+      "role": "priest",
+      "en": "+ Peace be to you.",
+      "cu": ""
+   },
+   {
+      "id": "sr-14",
+      "role": "deacon",
+      "en": "Wisdom.",
+      "cu": ""
+   } 
+  ]
     },
     {
       "id": "let-my-prayer-arise",
       "title": "Let My Prayer Arise",
-      "items": []
+      "items": [
+   {
+      "id": "lmpa-rubric-1",
+      "role": "rubric",
+      "en": "Sections of the following hymn may be repated and/or omitted...",
+      "cu": ""
+   },
+   {
+      "id": "lmpa-1",
+      "role": "choir",
+      "en": "Let my prayer arise in Thy sight as incense, and let the lifting up of my hands be an evening sacrifice. Lord, I have cried unto Thee, hear me. Hear the voice of my prayer, when I cry to Thee. Set a watch, O Lord, before my mouth, and keep the door of my lips. Incline not my heart to any evil thing, nor to practice wicked deeds.",
+      "cu": ""
+   }      
+  ]
     },
     {
       "id": "prayer-of-st-ephrem-1",
