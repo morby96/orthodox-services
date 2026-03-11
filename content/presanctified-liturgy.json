@@ -1241,8 +1241,8 @@
   ]
     },
     {
-      "id": "great-entrance",
-      "title": "Great Entrance",
+      "id": "second-prayer-of-the-faithful",
+      "title": "Second Prayer of the Faithful",
       "items": [
    {
   "id": "second-prayer-of-the-faithful-1",
@@ -1711,22 +1711,189 @@
     {
       "id": "litany-of-thanksgiving",
       "title": "The Litany of Thanksgiving",
-      "items": []
+      "items": [
+{
+  "id": "litany-of-thanksgiving-1",
+  "role": "deacon",
+  "en": "Let us attend! Having partaken of the divine, holy, most pure, immortal, heavenly, life-creating, and awesome Mysteries of Christ, let us worthily give thanks unto the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-2",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-3",
+  "role": "deacon",
+  "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-4",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-5",
+  "role": "deacon",
+  "en": "Asking that the whole evening be perfect, holy, peaceful, and sinless, let us commend ourselves and each other, and all our life unto Christ our God.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-6",
+  "role": "choir",
+  "en": "To Thee, O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-7",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-8",
+  "role": "priest",
+  "en": "We give thanks unto Thee, O Savior, God of all, for all the good things Thou hast granted unto us, and for the communion of the holy Body and Blood of Thy Christ.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-9",
+  "role": "priest",
+  "en": "And we pray Thee, O Master who loves mankind, keep us under the shelter of Thy wings. And grant that even unto our last breath we may worthily partake of Thy holy things, unto illumination of soul and body, unto inheritance of the kingdom of heaven.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-10",
+  "role": "priest",
+  "en": "+ For Thou art our sanctification, and unto Thee we ascribe glory: to the Father, and to the Son and to the Holy Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-11",
+  "role": "choir",
+  "en": "Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-12",
+  "role": "priest",
+  "en": "Let us depart in peace.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-13",
+  "role": "choir",
+  "en": "In the name of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-14",
+  "role": "deacon",
+  "en": "Let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-of-thanksgiving-15",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+}      
+  ]
     },
     {
       "id": "ambo-prayer",
       "title": "The Prayer Before the Ambo",
-      "items": []
+      "items": [
+   {
+      "id": "ambo-prayer-1",
+      "role": "priest",
+      "en": "O Almighty Master, who in wisdom has fashioned all creation, who through Thine ineffable providence and great goodness has led us to these all-revered days for purification of souls and bodies, for restraint of passions, and for hope of the resurrection, who during the forty days dist put into the hands of Thy servant Moses the tables in letter divinely inscribed, grant unto us also, O Good One, to fight the good fight, to complete the course of the fast, to preserve the faith undivided, to crush the heads of invisible serpents, to be shown to be conquerors of sins, and without condemnation also to attain unto and to worship the holy Resurrection. For blessed and glorified is Thine all-honorable and majestic name, of the + Father, and of the Son, and of the Holy spirit, now and ever, and unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "ambo-prayer-2",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": "Amin."
+   },
+   {
+      "id": "ambo-prayer-3",
+      "role": "choir",
+      "en": "Blessed be the Name of the Lord, henceforth and forever more. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "ambo-prayer-4",
+      "role": "priest",
+      "en": "The blessing of the Lord be upon you through His grace and love for mankind always, now and ever, and unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "ambo-prayer-5",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": "Amin."
+   }      
+  ]
     },
     {
       "id": "the-dismissal",
       "title": "The Dismissal",
-      "items": []
+      "items": [
+   {
+      "id": "dismissal-1",
+      "role": "priest",
+      "en": "+ Glory to Thee O Christ our God and our hope, glory to Thee!",
+      "cu": ""
+   },
+   {
+      "id": "dismissal-2",
+      "role": "choir",
+      "en": "+ Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages, Amen. Lord have mercy, Lord have mercy, Lord have mercy, Father bless.",
+      "cu": ""
+   },
+   {
+      "id": "dismissal-3",
+      "role": "priest",
+      "en": "May Christ our true God, through the prayers of His most pure Mother, and of our father among the Saints, _______; of Saint_____ whom we commemorate today, and of all the saints; have mercy on us and save us, for He is good and loves mankind.",
+      "cu": ""
+   },
+   {
+      "id": "dismissal-4",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": "Amin."
+   }      
+  ]
     },
     {
       "id": "appendix-1",
       "title": "Appendix",
-      "items": []
+      "items": [
+   {
+      "id": "appendix-2",
+      "role": "rubric",
+      "en": "WEDNESDAY OF THE 1ST WEEK",
+      "cu": ""
+   },
+   {
+      "id": "appendix-3",
+      "role": "rubric",
+      "en": " First Prokeimenon in the 5th Tone: Thou, O Lord, shalt protect us and preserve us from this generation forever.",
+      "cu": ""
+   },
+   {
+      "id": "appendix-4",
+      "role": "rubric",
+      "en": "First Reading: Genesis 1:24-2:3
+Then God said, 'Let the earth bring forth the living creature according to its kind: cattle and creeping thing and beast of the earth, each according to its kind'; and it was so. And God made the beast of the earth according to its kind, cattle according to its kind, and everything that creeps on the earth according to its kind. And God saw that it was good. Then God said, 'Let Us make man in Our image, according to Our likeness; let them have dominion over the fish of the sea, over the birds of the air, and over the cattle, over all the earth and over every creeping thing that creeps on the earth.' So God created man in His own image; in the image of God He created him; male and female He created them. Then God blessed them, and God said to them, 'Be fruitful and multiply; fill the earth and subdue it; have dominion over the fish of the sea, over the birds of the air, and over every living thing that moves on the earth.' And God said, 'See, I have given you every herb that yields seed which is on the face of all the earth, and every tree whose fruit yields seed; to you it shall be for food. Also, to every beast of the earth, to every bird of the air, and to everything that creeps on the earth, in which there is life, I have given every green herb for food'; and it was so. Then God saw everything that He had made, and indeed it was very good. So the evening and the morning were the sixth day. Thus the heavens and the earth, and all the host of them, were finished. And on the seventh day God ended His work which He had done, and He rested on the seventh day from all His work which He had done. Then God blessed the seventh day and sanctified it, because in it He rested from all His work which God had created and made.",
+      "cu": ""
+   }      
+  ]
     }
   ]
 }
