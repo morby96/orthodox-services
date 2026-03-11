@@ -1,0 +1,1732 @@
+{
+  "id": "presanctified-liturgy",
+  "title": "Liturgy of the Presanctified Gifts",
+  "category": "liturgy",
+  "source": "",
+  "sections": [
+    {
+      "id": "opening-blessing",
+      "title": "Opening Blessing",
+      "items": [
+        {
+          "id": "opening-blessing-1",
+          "role": "deacon",
+          "en": "Bless, Master.",
+          "cu": ""
+        },
+        {
+          "id": "opening-blessing-2",
+          "role": "priest",
+          "en": "+ Blessed is the Kingdom of the Father and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
+          "cu": ""
+        },
+        {
+          "id": "opening-blessing-3",
+          "role": "choir",
+          "en": "Amen.",
+          "cu": "Amin."
+        }
+      ]
+    },
+    {
+      "id": "psalm-104",
+      "title": "Psalm 103(104)",
+      "items": [
+        {
+          "id": "psalm-chant-1",
+          "role": "reader",
+          "en": "Come, let us worship God, our King! Come, let us worship and fall down before Christ, our King and our God! Come, let us worship and fall down before Christ Himself, our King and our God!",
+          "cu": ""
+        },
+        {
+          "id": "psalm-104-reading",
+          "role": "reader",
+          "en":"Psalm 103(104) Bless the LORD, O my soul! O LORD my God, Thou art very great! Thou art clothed with honor and majesty, who covers Thyself with light as with a garment, who hast stretched out the heavens like a tent, who hast laid the beams of Thy chambers on the waters, who makes the clouds Thy chariot, who rides on the wings of the wind, who makes the winds Thy messengers, fire and flame Thy ministers. Thou didst set the earth on its foundations, so that it should never be shaken. Thou didst cover it with the deep as with a garment; the waters stood above the mountains. At Thy rebuke they fled; at the sound of Thy thunder they took to flight. The mountains rose, the valleys sank down to the place which Thou didst appoint for them. Thou didst set a bound which they should not pass, so that they might not again cover the earth. Thou makes springs gush forth in the valleys; they flow between the hills, they give drink to every beast of the field; the wild asses quench their thirst. By them the birds of the air have their habitation; they sing among the branches. From Thy lofty abode Thou waters the mountains; the earth is satisfied with the fruit of Thy work. Thou dost cause the grass to grow for the cattle, and plants for man to cultivate, that he may bring forth food from the earth, and wine to gladden the heart of man, oil to make his face shine, and bread to strengthen man's heart. The trees of the LORD are watered abundantly, the cedars of Lebanon which he planted. In them the birds build their nests; the stork has her home in the fir trees. The high mountains are for the wild goats; the rocks are a refuge for the badgers. Thou hast made the moon to mark the seasons; the sun knows its time for setting. Thou makes darkness and it is night, when all the beasts of the forest creep forth. The young lions roar for their prey, seeking their food from God. When the sun rises, they get them away and lie down in their dens. Man goes forth to his work and to his labor until the evening. O LORD, how manifold are Thy works! In wisdom hast Thou made them all; the earth is full of Thy creatures. Yonder is the sea, great and wide, which teems with things innumerable, living things both small and great. There go the ships and Leviathan which Thou didst form to sport in it.These all look to Thee, to give them their food in due season. When Thou gives to them, they gather it up; when Thou opens Thy hand, they are filled with good things. When Thou hides Thy face, they are dismayed; when Thou takes away their breath, they die and return to their dust. When Thou sends forth Thy Spirit, they are created; and Thou renews the face of the ground. May the glory of the LORD endure forever, may the LORD rejoice in his works, who looks on the earth and it trembles, who touches the mountains and they smoke! I will sing to the LORD as long as I live; I will sing praise to my God while I have being. May my meditation be pleasing to him, for I rejoice in the LORD. Let sinners be consumed from the earth, and let the wicked be no more! Bless the LORD, O my soul! Praise the LORD!",
+          "cu": ""
+        },
+        {
+          "id": "psalm-chant-2",
+          "role": "reader",
+          "en": "+ Glory to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.",
+          "cu": ""
+        },
+        {
+          "id": "psalm-chant-3",
+          "role": "reader",
+          "en": "+ Alleluia, Alleluia, Alleluia, Glory to Thee O God (x3)",
+          "cu": ""
+        }        
+      ]
+    },
+    {
+      "id": "great-litany",
+      "title": "Great Litany",
+      "items": [
+   {
+      "id": "great-litany-1",
+      "role": "deacon",
+      "en": "In peace let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-2",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-3",
+      "role": "deacon",
+      "en": "For the peace from above and for the salvation of our souls, let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-4",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-5",
+      "role": "deacon",
+      "en": "For the peace of the whole world, for the welfare of the holy churches of God, and for the union of all, let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-6",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-7",
+      "role": "deacon",
+      "en": "For this holy house and for those who enter with faith, reverence, and the fear of God, let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-8",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-9",
+      "role": "deacon",
+      "en": "For the holy Orthodox patriarchs, for our Metropolitan _________, for our Bishop ________, for the honorable priesthood, the diaconate in Christ, for all the clergy and the people, let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-10",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-11",
+      "role": "deacon",
+      "en": "For the President of our country, for all civil authorities, and for our armed forces everywhere, let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-12",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-13",
+      "role": "deacon",
+      "en": "For this city, for every city and country, and for the faithful dwelling in them, let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-14",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-15",
+      "role": "deacon",
+      "en": "For seasonable weather, for abundance of the fruits of the earth, and for peaceful times, let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-16",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-17",
+      "role": "deacon",
+      "en": "For travelers by land, sea, space, and air; for the sick and the suffering; for captives and their salvation, let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-18",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-19",
+      "role": "deacon",
+      "en": "For our deliverance from all affliction, wrath, danger, and necessity, let us pray to the Lord.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-20",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-21",
+      "role": "deacon",
+      "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-22",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-23",
+      "role": "deacon",
+      "en": "Commemorating our most holy, most pure, most blessed and glorious Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and each other and all our life unto Christ our God.",
+      "cu": ""
+    },
+    {
+      "id": "great-litany-24",
+      "role": "choir",
+      "en": "To Thee, O Lord.",
+      "cu": ""
+    }
+  ]
+},
+    {
+      "id": "first-antiphon",
+      "title": "First Antiphon",
+      "items": [
+    {
+      "id": "first-antiphon-rubric-1",
+      "role": "rubric",
+      "en": "The Priest says the following prayer quietly...",
+      "cu": ""
+    },
+    {
+      "id": "first-antiphon-1",
+      "role": "priest",
+      "en": "O Lord, compassionate and merciful, long- suffering and of great mercy, give heedto our prayer, and attend to the voice of our supplication. Work upon us a sign for good. Guide us in Thy way, that we may walk in Thy truth. Gladden our hearts that we may fear Thy holy name. For Thou art great and works wonders. Thou alone art none like unto Thee, O Lord, powerful in mercy and good in might, to help and to comfort and to save all those who hope in Thy holy name.",
+      "cu": ""
+    },
+    {
+      "id": "first-antiphon-2",
+      "role": "priest",
+      "en": "+ For unto Thee are due all glory, honor and worship: to the Father and to the Son and to the Holy Spirit, now and ever and unto ages of ages.",
+      "cu": ""
+    },
+    {
+      "id": "first-antiphon-3",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": "Amin."
+    },
+   {
+      "id": "first-antiphon-4",
+      "role": "reader",
+      "en": "(Psalms 120-124) In my distress I cry to the Lord, that He may answer me. Deliver me, O Lord, from lying lips, from a deceitful tongue. What shall be given to you, and what more shall be done to you, you deceitful tongue! A warrior's sharp arrows with glowing coals of the broom tree. Woe to me that I sojourn in Meshech, that I live among the tents of Kedar! Too long have I had my dwelling among those who hate peace. I am for peace; but when I speak, they are for war. I lift up my eyes to the hills From where does my help come from? My help comes from the LORD, Who made heaven and earth. He will not let your foot be moved He who keeps you will not slumber; Behold He who keeps Israel, will neither slumber nor sleep. The Lord is your Keeper the LORD is your shade at your right hand; The sun will not smite you by day, nor the moon by night. The LORD will keep you from all evil He will keep your life. The Lord will keep your going out and your coming in From this time forth and forever more. I was glad when they said to me, 'Let us go to the house of the LORD.' Our feet have been standing within your gates, O Jerusalem. Jerusalem is built like a city bound firmly together. To which tribes go up The tribes of the LORD, as was decreed for Israel, To give thanks to the name of the LORD There the thrones for judgment were set, the thrones of the house of David. Pray for the peace of Jerusalem: 'May they prosper who love you! May there be peace within your walls and security within your towers 'For my brethren and companions’ sake I will say 'Peace be within you.'For the sake of the house of the LORD our God, I will seek your good. To Thee, I lift up mine eyes, O Thou who art enthroned in the heavens. Behold, as the eyes of slaves look to the hand of their master, as the eyes of a maid look to the hand of her mistress, So our eyes look to the LORD our God, till he have mercy on us. Have mercy on us, O LORD, have mercy on us, for we have had more than enough of contempt. Too long our soul has been sated with the scorn of those who are at ease, The contempt of the proud. If had not been the LORD who was on our side let Israel say if the LORD had not been on our side when men rose up against us, Then they would have swallowed us alive When their anger was kindled against us. Then the flood would have swept us away The torrent would have gone over us, the raging waters Blessed be the Lord, who has not given us as prey to their teeth. We have escaped as a bird out of the snare of the fowlers The snare has been broken, and we have escaped. Our help is in the name of the LORD, Who made heaven and earth.",
+      "cu": ""
+   },
+   {
+      "id": "first-antiphon-5",
+      "role": "reader",
+      "en": "+ Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages, Amen.",
+      "cu": ""
+   },
+   {
+      "id": "first-antiphon-6",
+      "role": "reader",
+      "en": "+ Alleluia, alleluia, alleluia, glory to Thee, O God! (x3)",
+      "cu": ""
+   }
+  ]
+    },
+    {
+      "id": "little-litany-1",
+      "title": "Little Litany",
+      "items": [
+   {
+      "id": "little-litany-01",
+      "role": "deacon",
+      "en": "Again and again in peace, let us pray to the Lord.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-02",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-03",
+      "role": "deacon",
+      "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-04",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-05",
+      "role": "deacon",
+      "en": "Commemorating our most holy, most pure, most blessed and glorious Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-06",
+      "role": "choir",
+      "en": "To Thee, O Lord.",
+      "cu": ""
+   }
+  ]
+    },
+    {
+      "id": "second-antiphon",
+      "title": "Second Antiphon",
+      "items": [
+   {
+      "id": "second-antiphon-rubric-1",
+      "role": "rubric",
+      "en": "The Priest says the following prayer quietly...",
+      "cu": ""
+   },
+   {
+      "id": "second-antiphon-1",
+      "role": "priest",
+      "en": "O Lord, in Thy displeasure rebuke us not, neither chasten us in Thy wrath, but deal with us according to Thy tenderness, O Physician and Healer of our souls. Guide us unto the haven of Thy will. Enlighten the eyes of our hearts unto the knowledge of Thy truth, and grant unto us that the remainder of the present day and the whole time of our life may be peaceful and sinless, through the intercessions of the Holy Theotokos and of all the saints. For Thine is the majesty, and Thine is the Kingdom and the power and the glory: of the Father, and of the Son, and of the Holy Spirit, now and ever and unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "second-antiphon-2",
+      "role": "priest",
+      "en": "+ For Thine is the majesty, and Thine is the kingdom and the power and the glory: of the Father, and of the Son, and of the Holy Spirit, now and ever and unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "second-antiphon-3",
+      "role": "choir",
+      "en": " Amen.",
+      "cu": "Amin."
+   },
+   {
+      "id": "second-antiphon-4",
+      "role": "reader",
+      "en": " (Psalms 125-129) Those who trust in the Lord are like Mount Zion, which cannot be moved but abides forever. As the mountains are round about Jerusalem, so the Lord is round about His people from this time and forever more. For the scepter of wickedness shall not rest upon the land allotted to the righteous. Lest the righteous put forth their hands to do wrong Do good, O LORD, to those who are good, And to those who are upright in heart. But those who turn to crooked ways The LORD will banish with the evildoers. Peace be upon Israel. When the LORD brought back those who returned to Zion, we were like those who dreamed. Then our mouths were filled with laughter, And our tongues with shouts of joy. Then they said among the nations, 'The LORD has done great things for them.' The LORD has done great things for us, and we are glad. Restore our fortunes, O LORD, like watercourses in the Negeb. May those who sow tears reap with shouts of joy. He that goes forth weeping, bearing seeds for sowing Shall come home with shouts of joy, Bringing his sheaves with him. Unless the LORD builds the house, Those who build it labor in vain. Unless the LORD watches over the city, the watchmen stand awake in vain. It is In vain you rise early and go late to rest Eating the bread of anxious toil, so gives to His beloved sleep. Lo sons are a heritage from the LORD, the fruit of the womb a reward. Like arrows in the hands of a warrior are sons of one's youth. Happy is the man who has his quiver full of them. He shall not be put to shame when he speaks to his enemies in the gate. Blessed is everyone who fears the LORD, who walks in his ways. You will eat the fruit of the labor of your hands You shall be happy and it shall be well with you. Your wife will be like a fruitful vine within your house your children will be like olive shoots around your table. Lo, thus shall the man be blest who fears the LORD. May the LORD bless you from Zion May you see the prosperity of Jerusalem all the days of your life. May you see your children's children. Peace be upon Israel. Sorely have they afflicted me from my youth let Israel now say: Sorely have they afflicted me from my youth Yet they have not prevailed against me. The plowers plowed upon my back They made long their furrows. The LORD is righteous; he has cut me free from the cords of the wicked. May all who hate Zion Be put to shame and turned backward May they be like grass on house tops which withers before it grows up With it the reaper does not fill his hands Or the binder of sheaves his bosom, While those who pass by do not say, 'The blessing of the LORD be upon you; We bless you in the name of the LORD.'",
+      "cu": ""
+   },
+   {
+      "id": "second-antiphon-5",
+      "role": "reader",
+      "en": "+ Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+      "cu": ""
+   },
+   {
+      "id": "second-antiphon-6",
+      "role": "reader",
+      "en": "+ Alleluia, alleluia, alleluia, glory to Thee. O God! (x3)",
+      "cu": ""
+   }      
+  ]
+    },
+    {
+      "id": "little-litany-2",
+      "title": "Little Litany",
+      "items": [
+   {
+      "id": "little-litany-07",
+      "role": "deacon",
+      "en": "Again and again in peace, let us pray to the Lord.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-08",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-09",
+      "role": "deacon",
+      "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-10",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-11",
+      "role": "deacon",
+      "en": "Commemorating our most holy, most pure, most blessed and glorious Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-12",
+      "role": "choir",
+      "en": "To Thee, O Lord.",
+      "cu": ""
+   }
+  ]
+    },
+    {
+      "id": "third-antiphon",
+      "title": "Third Antiphon",
+      "items": [
+   {
+      "id": "third-antiphon-rubric-1",
+      "role": "rubric",
+      "en": "The Priest says the following prayer quietly...",
+      "cu": ""
+   },
+   {
+      "id": "third-antiphon-1",
+      "role": "priest",
+      "en": "O Lord our God, remember us Thy sinful and unprofitable servants when we call upon Thy holy and venerable name, and put us not to shame in our expectation of Thy mercy, but grant us, O Lord, all our petitions which are unto salvation, and make us worthy to love and fear Thee with all our hearts, and to do Thy will in all things.",
+      "cu": ""
+   },
+   {
+      "id": "third-antiphon-2",
+      "role": "priest",
+      "en": "+ For Thou art a good God and loves mankind, and unto Thee we ascribe glory: to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "third-antiphon-3",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": "Amin."
+   },
+   {
+      "id": "third-antiphon-4",
+      "role": "reader",
+      "en": "Out of the depths I cry to Thee, O Lord. Lord, hear my voice. Let Thine ears be attentive to the voice of my supplications. If Thou, O Lord, shouldst mark iniquities, Lord who could stand? But there is forgiveness with Thee, that Thou Mayest be feared. I wait for the LORD, My soul waits, and in his word I hope. My soul waits for the Lord more than watchmen wait for the morning, more than watchmen wait for the morning. O Israel, hope in the LORD, for with the LORD there is mercy And with Him is plenteous redemption. And He will redeem Israel from all his iniquities. O Lord, my heart is not lifted up Mine eyes are not raised too high I do not occupy myself with things Too great or too marvelous for me. But I have calmed and quieted my soul; like a child quieted at its mother’s breast O Israel, hope in the LORD From this time forth and forever more. Remember, O Lord, in David’s favor all the hardships he endured. How he swore to the Lord And vowed to the Mighty One of Jacob: 'I will not enter my house or get into my bed I will not give sleep to mine eyes or slumber to mine eyelids until I find a place for the LORD, a dwelling for the Mighty One of Jacob.' Lo, we heard it in Ephrathah, We found it in the fields of Jaar: 'Let us go to his dwelling place; let us worship at his footstool Arise, O LORD, and go to Thy resting place, Thou and the ark of Thy might. Let Thy priests be clothed with righteousness; And let thy saints shout for joy.' For Thy servant David’s sake, Do not turn away the face of Thine anointed one! The LORD swore to David a sure oath From which he will not turn back. One of the sons of your body I will set on your throne If your sons keep my covenant And my testimonies which I shall teach them, Their sons also for ever Shall sit upon your throne For the Lord has chosen Zion, He has desired it for His habitation This is my resting place for ever Here I will dwell for I have desired it. I will abundantly bless her provisions I will satisfy her poor with bread Her priests I will clothes with salvation And her saints will shout with joy There I will make a horn to sprout for David I have prepared a lamp for mine anointed His enemies I will clothe with shame, But upon himself his crown will shed its luster Behold how good and pleasant it is when brothers dwell in unity! It is like precious oil upon the head running down upon the beard The beard of Aaron Running down on the collar of his robes. It is like the dew of Hermon, Which falls on the mountains of Zion For the Lord has commanded the blessing; Life for evermore! Come bless the Lord, you servants of the Lord. Who stand by night in the house of the Lord Lift up your hands to the holy place And bless the Lord! May the Lord bless you from Zion. He who made heaven and earth.",
+      "cu": ""
+   },
+   {
+      "id": "third-antiphon-5",
+      "role": "reader",
+      "en": "+ Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen",
+      "cu": ""
+   },
+   {
+      "id": "third-antiphon-6",
+      "role": "reader",
+      "en": "+ Alleluia, alleluia, alleluia, glory to Thee, O God! (x3)",
+      "cu":""
+   }      
+  ]
+    },
+    {
+      "id": "little-litany-3",
+      "title": "Little Litany",
+      "items": [
+   {
+      "id": "little-litany-13",
+      "role": "deacon",
+      "en": "Again and again in peace, let us pray to the Lord.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-14",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-15",
+      "role": "deacon",
+      "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-16",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-17",
+      "role": "deacon",
+      "en": "Commemorating our most holy, most pure, most blessed and glorious Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-18",
+      "role": "choir",
+      "en": "To Thee, O Lord.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-19",
+      "role": "priest",
+      "en": "+ For Thou art a good God and loves mankind, and unto Thee we ascribe glory; to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "little-litany-20",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": "Amin."
+   }
+  ]
+    },
+    {
+      "id": "lord-call-upon-thee",
+      "title": "Lord I Call Upon Thee & Entrance",
+      "items": [
+   {
+      "id": "licut-rubric-1",
+      "role": "rubric",
+      "en": "Who chants this may vary...",
+      "cu": ""
+   },
+   {
+      "id": "licut-1",
+      "role": "reader",
+      "en": "Lord I call upon Thee, hear me! Hear me, O Lord! Lord, I call upon Thee, hear me! Receive the voice of my prayer, when I call upon Thee! Hear me, O Lord! Let my prayer arise in Thy sight as incense, and let the lifting up of my hands be an evening sacrifice. Hear me, O Lord.",
+      "cu": ""
+   },
+   {
+      "id": "licut-2",
+      "role": "reader",
+      "en": " (Psalm 140) Set a guard over my mouth, O Lord Keep watch over the door of my lips. Incline not my heart to any evil, to busy my heart with wicked deeds in company with men who work iniquity and let me not partake of their delights! Let a good man strike or rebuke me in kindness, but let the oil of the wicked never anoint my head. For my prayer is continually against their evil deeds. When they are given over to those who condemn them, they shall learn that the word of the Lord is true. As a rock which one cleaves and be shatters on the land, so shall their bones be strewn at the mouth of Sheol, but my eyes are ever toward Thee, O Lord God; in Thee I seek refuge; leave me not defenseless! Keep me from the trap which they have lead for me, and from the snares of evildoers! Let the wicked fall into their own nets, while I escape.",
+      "cu": ""
+   },
+   {
+      "id": "licut-3",
+      "role": "reader",
+      "en": "(Psalm 141) I cry with my voice to the Lord, with my voice I make supplication to the Lord, I pour out my complaint before Him, I tell my trouble before Him. When my spirit is faint, Thou knows my way! In the path where I walk they have hidden a trap for me. I look to the right and watch, but there is none who takes notice of me; no refuge remains for me, no man cares for me. I cry to Thee, O Lord; I say Thou art my refuge and my portion in the land of the living. Give heed to my cry; for I am brought very low! Deliver me from my persecutors; for they are too strong for me!",
+      "cu": ""
+   },
+   {
+      "id": "licut-rubric-2",
+      "role": "rubric",
+      "en": "The following verses are chanted between the stichera of 'Lord I Call' which are sung. The Reader inserts the following verses as needed...",
+      "cu": ""
+   },
+   {
+      "id": "licut-4",
+      "role": "reader",
+      "en": "v. (10) Bring my soul out of prison, that I may give thanks to Your name! v. (9) The righteous will surround me; for You will deal bountifully with me. v. 8) Out of the depths I cry to You, O Lord. Lord, hear my voice! v. (7) Let Your ears be attentive to the voice of my supplications! v. (6) If You, O Lord, should mark iniquities, Lord, who could stand? But there is forgiveness with You. v. (5) For Your name's sake I have waited for You, O Lord, my soul has waited for Your word; my soul has hoped on the Lord. v. (4) From the morning watch until night, from the morning watch, let Israel hope on the Lord! v. (3) For with the Lord there is mercy and with Him is plenteous redemption, and He will deliver Israel from all his iniquities.  v. (2) Praise the Lord, all nations! Praise Him, all peoples! v. (1) For His mercy is abundant towards us; and the truth of the Lord endures forever. + Glory to the Father, and to the Son, and to the Holy Spirit; now and ever, and unto ages of ages. Amen.",
+      "cu": ""
+   },
+   {
+      "id": "licut-rubric-3",
+      "role": "rubric",
+      "en": "The Priest says the following prayer quietly...",
+      "cu": ""
+   },
+   {
+      "id": "licut-10",
+      "role": "priest",
+      "en": "In the evening, the morning , and at noonday, we praise, bless, give thanks and pray to Thee, O Master of all. Let our prayer arise in Thy sight as incense, and do not give our hearts to words or Thoughts of evil. Deliver us from all who seek our souls for to Thee, O Lord, Lord, do we look and on Thee have we hoped, that Thou will not forsake us, O our God!",
+      "cu": ""
+   },
+   {
+      "id": "licut-5",
+      "role": "priest",
+      "en": "+ For unto Thee are due all glory, honor, and worship: to the Father, and to the Son, and Holy Spirit, now and ever and unto ages of ages. Amen.",
+      "cu": ""
+   },
+   {
+      "id": "licut-6",
+      "role": "deacon",
+      "en": "Wisdom! Let us attend!",
+      "cu": ""
+   },
+   {
+      "id": "licut-7",
+      "role": "choir",
+      "en":" O gladsome light of the holy glory of the immortal Father, heavenly, holy, blessed Jesus Christ! Now that we have come to the setting of the sun and behold the light of evening, we praise God: Father, Son, and Holy Spirit. For meet it is at all times to worship Thee with voices of praise, O Son of God and giver of life: therefore all the world doth glorify Thee.",
+      "cu": ""
+   }           
+  ]
+    },
+    {
+      "id": "scripture-readings",
+      "title": "Scripture Readings",
+      "items": [
+   {
+      "id": "sr-rubric-1",
+      "role": "rubric",
+      "en": "The readings for the day can be found in the appendix by day.",
+      "cu": ""
+   },
+   {
+      "id": "sr-1",
+      "role": "deacon",
+      "en": "Let us attend.",
+      "cu": ""
+   },
+   {
+      "id": "sr-2",
+      "role": "priest",
+      "en": "+ Peace be unto all!",
+      "cu": ""
+   },
+   {
+      "id": "sr-3",
+      "role": "deacon",
+      "en": "Wisdom.",
+      "cu": ""
+   },
+   {
+      "id": "sr-4",
+      "role": "reader",
+      "en": "Prokeimenon of the Day",
+      "cu": ""
+   },
+   {
+      "id": "sr-5",
+      "role": "deacon",
+      "en": "Wisdom.",
+      "cu": ""
+   },
+   {
+      "id": "sr-6",
+      "role": "reader",
+      "en": "The Reading is from Genesis (or Exodus).",
+      "cu": ""
+   },
+   {
+      "id": "sr-7",
+      "role": "deacon",
+      "en": "Let us attend.",
+      "cu": ""
+   },
+   {
+      "id": "sr-rubric-2",
+      "role": "rubric",
+      "en": "Does the Reading",
+      "cu": ""
+   },
+   {
+      "id": "sr-8",
+      "role": "deacon",
+      "en": "Wisdom.",
+      "cu": ""
+   },
+   {
+      "id": "sr-9",
+      "role": "reader",
+      "en": "Second Prokeimenon of the day.",
+      "cu": ""
+   },
+   {
+      "id": "sr-10",
+      "role": "priest",
+      "en": "Wisdom, let us attend! The light of Christ illumines all people!",
+      "cu": ""
+   },
+   {
+      "id": "sr-11",
+      "role": "reader",
+      "en": "The reading is from Proverbs (or Job).",
+      "cu": ""
+   },
+   {
+      "id": "sr-12",
+      "role": "deacon",
+      "en": "Let us attend.",
+      "cu": ""
+   },
+   {
+      "id": "sr-rubric-3",
+      "role": "rubric",
+      "en": "Does the Reading",
+      "cu": ""
+   },
+   {
+      "id": "sr-13",
+      "role": "priest",
+      "en": "+ Peace be to you.",
+      "cu": ""
+   },
+   {
+      "id": "sr-14",
+      "role": "deacon",
+      "en": "Wisdom.",
+      "cu": ""
+   } 
+  ]
+    },
+    {
+      "id": "let-my-prayer-arise",
+      "title": "Let My Prayer Arise",
+      "items": [
+   {
+      "id": "lmpa-rubric-1",
+      "role": "rubric",
+      "en": "Sections of the following hymn may be repeated and/or omitted...",
+      "cu": ""
+   },
+   {
+      "id": "lmpa-1",
+      "role": "choir",
+      "en": "Let my prayer arise in Thy sight as incense, and let the lifting up of my hands be an evening sacrifice. Lord, I have cried unto Thee, hear me. Hear the voice of my prayer, when I cry to Thee. Set a watch, O Lord, before my mouth, and keep the door of my lips. Incline not my heart to any evil thing, nor to practice wicked deeds.",
+      "cu": ""
+   }      
+  ]
+    },
+    {
+      "id": "prayer-of-st-ephrem-1",
+      "title": "The Prayer of St. Ephrem",
+      "items": [
+   {
+      "id": "pose-01",
+      "role": "priest",
+      "en": "O Lord and Master of my life! Take from me the spirit of sloth, despair, lust of power and idle talk.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-01",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-02",
+      "role": "priest",
+      "en": "But give rahter the spirit of chastity, humility, patience and love to Thy servant.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-02",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-03",
+      "role": "priest",
+      "en": "Yea, O Lord and King! Grant me to see my own transgressions and not to judge my brother, for blessed art Thou, unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-03",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-04",
+      "role": "rubric",
+      "en": "If it is a special feast or Holy Week, the Gospel and Epistle are read in the usual way...",
+      "cu": ""
+   }      
+  ]
+    },
+    {
+      "id": "augmented-litany",
+      "title": "The Augmented Litany",
+      "items": [
+   {
+      "id": "augmented-litany-1",
+      "role": "deacon",
+      "en": "Let us say with all our souls and with all our mind, let us say.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-2",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-3",
+      "role": "deacon",
+      "en": "O Lord almighty, the God of our father, we pray Thee, hearken and have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-4",
+      "role": "choir",
+      "en": "Lord, have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-5",
+      "role": "deacon",
+      "en": "Have mercy on us, O God, according to Thy great goodness, we pray Thee hear us and have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-6",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-7",
+      "role": "deacon",
+      "en": "Again we pray for our Metropolitan _______, for our (Arch)Bishop ______, for priests, deacons, and all other clergy; and for all our brethren in Christ.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-8",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-9",
+      "role": "deacon",
+      "en": "Again we pray for this country, its President, for all civil authorities, and for the armed forces everywhere.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-10",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-11",
+      "role": "deacon",
+      "en": "Again we pray for the blessed and ever memorable founders of this holy house; for all our fathers, mothers, brothers, and sisters, the Orthodox departed this life before us, for _______ who here and in all the world lie asleep in the Lord.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-12",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-13",
+      "role": "deacon",
+      "en": "Again we pray for mercy, life, peace, health, salvation, and visitation for the servants of God ______, and for the pardon and remission of their sins.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-14",
+      "role": "deacon",
+      "en": "Again we pray for the members of this community, that our hearts and minds may be opened to the knowledge of Thy Truth and to the service of Thy Holy Church; we pray Thee, hear us and have mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-15",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-16",
+      "role": "deacon",
+      "en": "Again we pray for those who bring tithes and offerings and do good works in this holy and all-venerable house; for those who labor and those who sing; and for all the people here present, who await Thy great and rich mercy.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-17",
+      "role": "choir",
+      "en": "Lord, have mercy. (3x)",
+      "cu": ""
+   },
+   {
+       "id": "augmented-litany-18",
+      "role": "priest",
+      "en": "O Lord our God, accept this fervent supplication of Thy servants, and have mercy on us according to the multitude of Thy mercy. Send down Thy bounties upon us and upon all Thy people, who await the rich mercy that comes from Thee.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-19",
+      "role": "priest",
+      "en": "For Thou art a good God, and loves mankind, and unto Thee we ascribe glory: to the Father and to the Son and to the Holy Spirit, now and ever and unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "augmented-litany-20",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": ""
+}      
+  ]
+    },
+    {
+      "id": "litany-of-the-catechumens",
+      "title": "Litany of the Catechumens",
+      "items": [
+   {
+  "id": "litany-of-the-catechumens-1",
+  "role": "deacon",
+  "en": "Pray to the Lord, you catechumens.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-2",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-3",
+  "role": "deacon",
+  "en": "Let us, the faithful, pray for the catechumens, that the Lord will have mercy on them.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-4",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-5",
+  "role": "deacon",
+  "en": "That He will teach them the word of truth.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-6",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-7",
+  "role": "deacon",
+  "en": "That He will reveal to them the gospel of righteousness.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-8",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-9",
+  "role": "deacon",
+  "en": "That He will unite them to His Holy, Catholic, and Apostolic Church.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-10",
+  "role": "priest",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-11",
+  "role": "deacon",
+  "en": "Help them, save them, have mercy on them, and keep them, O God, by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-12",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-13",
+  "role": "deacon",
+  "en": "Bow your heads unto the Lord, you catechumens.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-14",
+  "role": "choir",
+  "en": "To Thee, O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-15",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-16",
+  "role": "priest",
+  "en": "O God our God, the Creator and Maker of all things, who wills that all men should be saved and should come to the knowledge of the truth, look upon Thy servants the catechumens and deliver them from their former delusion and from the wiles of the adversary. And call them unto life eternal, enlightening their souls and bodies and numbering them with Thy rational flock, which is called Thy holy name.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-17",
+  "role": "priest",
+  "en": "+ That with us they may glorify Thine all-honorable and majestic name: of the Father, and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-18",
+  "role": "choir",
+  "en": "Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-19",
+  "role": "rubric",
+  "en": "Dialogue may be omitted.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-20",
+  "role": "deacon",
+  "en": "All catechumens, depart.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-21",
+  "role": "deacon",
+  "en": "Depart, catechumens.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-22",
+  "role": "deacon",
+  "en": "All that are catechumens, depart.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-23",
+  "role": "deacon",
+  "en": "Let no catechumens remain.",
+  "cu": ""
+},
+{
+  "id": "litany-of-the-catechumens-24",
+  "role": "rubric",
+  "en": "The extra petitions in 'Prayers for Illumination' are added from the Wednesday of the fourth week on, continued in the same pattern as for the Catechumens.",
+  "cu": ""
+}
+  ]
+    },
+    {
+       "id": "litany-for-illumination",
+       "title": "Prayers for Illumination",
+      "items": [
+   {
+  "id": "litany-for-illumination-1",
+  "role": "deacon",
+  "en": "As many as are preparing for illumination, draw near. Pray, you who are preparing for illumination.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-2",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-3",
+  "role": "deacon",
+  "en": "Let us the faithful pray for those who are preparing for illumination.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-4",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-5",
+  "role": "deacon",
+  "en": "That the Lord our God may establish and strengthen them.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-6",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-7",
+  "role": "deacon",
+  "en": "That He may enlighten them with the light of knowledge and piety.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-8",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-9",
+  "role": "deacon",
+  "en": "That He may vouchsafe unto them in due time the laver of regeneration, the forgiveness of sins, and the robe of incorruptibility.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-10",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-11",
+  "role": "deacon",
+  "en": "That He may beget them with water and the Spirit.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-12",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-13",
+  "role": "deacon",
+  "en": "That He may bestow upon them the perfection of the faith.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-14",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-15",
+  "role": "deacon",
+  "en": "That He may number them with His holy and elect flock.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-16",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-17",
+  "role": "deacon",
+  "en": "Save them, have mercy on them, help them, and keep them, O God, by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-18",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-19",
+  "role": "deacon",
+  "en": "As many as are preparing for illumination, bow your heads unto the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-20",
+  "role": "choir",
+  "en": "To Thee, O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-rubric-1",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly...",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-21",
+  "role": "priest",
+  "en": "Reveal, O Master, Thy countenance to those who are preparing for holy illumination and who long to put away the pollution of sin. Enlighten their minds. Secure them in the faith. Establish them in hope. Perfect them in love. Show them to be honorable members of Thy Christ, who gave Himself as a deliverance for our souls.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-22",
+  "role": "priest",
+  "en": "+ For Thou art our Illumination, and to Thee do we send up glory, to the Father and to the Son and to the Holy Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-23",
+  "role": "choir",
+  "en": "Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-24",
+  "role": "deacon",
+  "en": "Let us the faithful, again and again in peace let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-25",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-26",
+  "role": "deacon",
+  "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "litany-for-illumination-27",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+}      
+  ]
+    },
+    {
+      "id": "first-prayer-of-the-faithful",
+      "title": "The First Prayer of the Faithful",
+      "items": [
+   {
+  "id": "first-prayer-of-the-faithful-1",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-2",
+  "role": "priest",
+  "en": "O God, great and praiseworthy, who by the life-creating death of Thy Christ has translated us from corruption to incorruption, do Thou free all our senses from deadly passion, setting over them as a good guide the understanding that is within us. And let our eyes abstain from every evil sight, our hearing be inaccessible to idle words, and our tongues be purged of unseemly speech. Make clean our lips which praise Thee, O Lord; make our hands refrain from base deeds and to work only that which is well-pleasing to Thee, fortifying our members and minds by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-3",
+  "role": "deacon",
+  "en": "Wisdom!",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-4",
+  "role": "priest",
+  "en": "+ For unto Thee are due all glory, honor, and worship: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-5",
+  "role": "choir",
+  "en": "Amen.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-6",
+  "role": "deacon",
+  "en": "Again and again in peace let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-7",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "first-prayer-of-the-faithful-8",
+  "role": "deacon",
+  "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy grace.",
+  "cu": ""
+}      
+  ]
+    },
+    {
+      "id": "second-prayer-of-the-faithful",
+      "title": "Great Entrance",
+      "items": [
+   {
+  "id": "second-prayer-of-the-faithful-1",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-2",
+  "role": "priest",
+  "en": "O Master, holy and exceeding good, we implore Thee, who art rich in mercy, be gracious to us sinners, and make us worthy of the reception of Thine only-begotten Son and our God, the King of glory. For, behold, His immaculate Body and life-creating blood, entering at this present hour, are about to be set forth on this mystical table, by multitudes of heavenly hosts invisibly escorted. Grant us to partake of them without condemnation, that through them our mental sight be illumined and we may become children of the light and of the day.",
+  "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-3",
+  "role": "deacon",
+  "en": "Wisdom!",
+  "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-4",
+  "role": "priest",
+  "en": "Through the gift of Thy Christ, with whom Thou art blessed, together with Thine all-holy, and good, and life-creating Spirit, now and ever, and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-5",
+  "role": "choir",
+  "en": "Amen. Amen.",
+  "cu": ""
+},
+{
+   "id": "great-entrance-hymn",
+   "role": "choir",
+   "en": "Now the Powers of Heaven do serve invisibly with us do serve. Lo, the King of Glory enters lo, the King of Glory enters. Lo, the mystical sacrifice is upborne, upborne, fulfilled. Let us draw near in faith and love, and become communicants of life eternal. Alleluia, alleluia, alleluia, alleluia, alleluia.",
+   "cu": ""
+},
+{
+  "id": "second-prayer-of-the-faithful-6",
+  "role": "rubric",
+  "en": "Everyone is silent during the entrance. Any who can kneel or prostrate should do so during the entrance.",
+  "cu": ""
+}      
+  ]
+    },
+    {
+      "id": "prayer-of-st-ephrem-2",
+      "title": "The Prayer of St. Ephrem",
+      "items": [
+   {
+      "id": "pose-1",
+      "role": "priest",
+      "en": "O Lord and Master of my life! Take from me the spirit of sloth, despair, lust of power and idle talk.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-1",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-2",
+      "role": "priest",
+      "en": "But give rahter the spirit of chastity, humility, patience and love to Thy servant.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-2",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   },
+   {
+      "id": "pose-3",
+      "role": "priest",
+      "en": "Yea, O Lord and King! Grant me to see my own transgressions and not to judge my brother, for blessed art Thou, unto ages of ages.",
+      "cu": ""
+   },
+   {
+      "id": "pose-rubric-3",
+      "role": "rubric",
+      "en": "The clergy and the people prostrate...",
+      "cu": ""
+   }         
+  ]
+    },
+    {
+      "id": "litany-before-lords-prayer",
+      "title": "The Litany Before the Lord's Prayer",
+      "items": [
+{
+  "id": "litany-before-lords-prayer-1",
+  "role": "deacon",
+  "en": "Let us complete our evening prayer unto the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-2",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-3",
+  "role": "deacon",
+  "en": "For the precious Gifts offered and presanctified, let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-4",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-5",
+  "role": "deacon",
+  "en": "That our God, who loves mankind, receiving them upon His holy, heavenly and ideal altar for an odor of spiritual fragrance, will send down upon us in return His divine grace and the gift of the Holy Spirit, let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-6",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-7",
+  "role": "deacon",
+  "en": "For our deliverance from all affliction, wrath, danger and necessity, let us pray to the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-8",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-9",
+  "role": "deacon",
+  "en": "Help us, save us, have mercy on us, and keep us O God, by Thy grace.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-10",
+  "role": "choir",
+  "en": "Lord, have mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-11",
+  "role": "deacon",
+  "en": "That the whole evening may be perfect, holy, peaceful, and sinless, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-12",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-13",
+  "role": "deacon",
+  "en": "An angel of peace, a faithful guide, a guardian of our souls and bodies, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-14",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-15",
+  "role": "deacon",
+  "en": "Pardon and remission of our sins and transgressions, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-16",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-17",
+  "role": "deacon",
+  "en": "All things that are good and profitable for our souls, and peace for the world, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-18",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-19",
+  "role": "deacon",
+  "en": "That we may complete the remaining time of our life in peace and repentance, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-20",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-21",
+  "role": "deacon",
+  "en": "A Christian ending to our life: painless, blameless, and peaceful; and a good defense before the dread judgment seat of Christ, let us ask of the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-22",
+  "role": "choir",
+  "en": "Grant it O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-23",
+  "role": "deacon",
+  "en": "Having asked for the unity of the Faith, and the communion of the Holy Spirit, let us commend ourselves and each other, and all our life unto Christ our God.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-24",
+  "role": "choir",
+  "en": "To Thee, O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-25",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-26",
+  "role": "priest",
+  "en": "O God of unutterable and unseen Mysteries, with whom are the hidden treasures of wisdom and knowledge, who has revealed the service of this liturgy to us, who has set us sinners, through Thy great love of man, to offer to Thee gifts and sacrifices for our sins and for the ignorance of the people, do Thou Thyself, O invisible King, who does things great and inscrutable, glorious and marvelous, which cannot be numbered, look upon us, Thine unworthy servants, who stand at this holy altar as at Thy Cherubic throne, upon which rests Thine only-begotten Son and our God, in the dreaded Mysteries that are set forth.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-27",
+  "role": "priest",
+  "en": "And having freed us all and all Thy faithful people from uncleanliness, sanctify all our souls and bodies with the sanctification which cannot be taken away, that partaking with a clean conscience, with face unashamed, with heart illumined, of these divine, sanctified things, and by them being given life, we may be united to Thy Christ Himself, our true God.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-28",
+  "role": "priest",
+  "en": "Who has said: Whoso eats My flesh and drinks My blood abides in Me and I in him, that by Thy Word, O Lord, dwelling within us and sojourning among us, we may become a temple of Thine all-holy and adorable Spirit, redeemed from every diabolical wile wrought either by deed, or word, or thought.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-29",
+  "role": "priest",
+  "en": "And may obtain the good things promised to us with all Thy Saints, who always have been well-pleasing unto Thee.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-30",
+  "role": "priest",
+  "en": "And make us worthy, O Master, that with boldness and without condemnation we may dare to call on Thee, the heavenly God, as Father and to say:",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-31",
+  "role": "rubric",
+  "en": "Depending on the parish or day, the choir may sing the Our Father or the people may recite it together.Our Father, Who art in heaven, hallowed be Thy Name. Thy Kingdom come, Thy Will be done, on earth as it is in Heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-32",
+  "role": "priest",
+  "en": "+ For Thine is the kingdom, and the power, and the glory, of the Father and of the Son and of the Holy Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-33",
+  "role": "choir",
+  "en": "Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-34",
+  "role": "priest",
+  "en": "Peace be unto you all!",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-35",
+  "role": "choir",
+  "en": "And with thy spirit!",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-36",
+  "role": "deacon",
+  "en": "Let us bow our heads unto the Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-37",
+  "role": "choir",
+  "en": "To Thee, O Lord.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-38",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-39",
+  "role": "priest",
+  "en": "O God, who alone art good and tenderhearted, who dwells on high and looks upon the humble, look with the eye of Thy tenderheartedness upon all Thy people and keep them.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-40",
+  "role": "priest",
+  "en": "Make us all worthy without condemnation to partake of these Thy life-creating Mysteries, for unto Thee have we bowed our heads, awaiting from Thee Thy rich mercy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-41",
+  "role": "priest",
+  "en": "Through the grace and compassion and love toward mankind of Thine only-begotten Son, with whom Thou art blessed, together with Thine all-holy, good, and life-creating Spirit, now and ever and unto ages of ages.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-42",
+  "role": "choir",
+  "en": "Amen. Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-43",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-44",
+  "role": "priest",
+  "en": "Attend, O Lord Jesus Christ our God, out of Thy holy dwelling place, from the throne of the glory of Thy Kingdom, and come to sanctify us, O Thou who sits on high with the Father, and art here invisibly present with us.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-45",
+  "role": "priest",
+  "en": "And by Thy mighty hand impart unto us Thy most pure Body and precious Blood, and through us to all the people.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-46",
+  "role": "priest",
+  "en": "O God, cleanse me a sinner and have mercy on me. (3x)",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-47",
+  "role": "deacon",
+  "en": "Let us attend.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-48",
+  "role": "priest",
+  "en": "The presanctified Holy Things are for the holy.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-49",
+  "role": "choir",
+  "en": "One is holy, One is the Lord Jesus Christ, to the glory of God the Father. Amen.",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-50",
+  "role": "rubric",
+  "en": "The Priest says the following prayer quietly…",
+  "cu": ""
+},
+{
+  "id": "litany-before-lords-prayer-51",
+  "role": "priest",
+  "en": "Broken and divided is the Lamb of God, which is broken yet not disunited; ever eaten yet never consumed, but sanctifies those who partake thereof.",
+  "cu": ""
+}         
+  ]
+    },
+    {
+      "id": "communion",
+      "title": "Communion",
+      "items": [
+   {
+      "id": "communion-1",
+      "role": "rubric",
+      "en": "As the Priest prepares Communion, the choir sings the following hymn. If the preparation takes longer than to sing the hymn, they may repeat it or include extra hymns...",
+      "cu": ""
+   },
+   {
+      "id": "communion-2",
+      "role": "choir",
+      "en": "Taste and see that the Lord is good, taste and see that the Lord is good! Alleluia, alleluia, alleluia!",
+      "cu": ""
+   },
+   {
+      "id": "communion-3",
+      "role": "priest",
+      "en": "In the fear of God, and with faith and love, draw near!",
+      "cu": ""
+   },
+   {
+      "id": "communion-4",
+      "role": "choir",
+      "en": "I will bless the Lord at all times! His presence shall always be on my lips.",
+      "cu": ""
+   },
+   {
+      "id": "communion-5",
+      "role": "rubric",
+      "en": "Here the people recite the Communion prayer. Some parishes do it while the Priest also says it before he receives Communion. 'I believe, O Lord, and I confess that Thou art truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I believe also that this is truly Thine own most pure Body, and that this is truly Thine own precious blood. Therefore, I pray Thee: have mercy upon me and forgive my transgression both voluntary and involuntary, of word and of deed, committed knowingly and unknowingly, of knowledge and of ignorance. And make me worthy to partake without condemnation of Thy most pure Mysteries, for the remission of my sins, and unto life everlasting. Amen. Of Thy Mystical Supper, O son of God, accept me today as a communicant; for I will not speak of Thy mystery to Thine enemies, neither like Judas will I give Thee a kiss; but like the thief will I confess Thee: Remember me, O Lord, in Thy Kingdom. May the communion of Thy holy Mysteries be neither to my judgment nor to my condemnation, O Lord, but to the healing of soul and body. Amen.",
+      "cu": ""
+   },
+   {
+      "id": "communion-6",
+      "role": "rubric",
+      "en": "The following takes place after the faithful have received Communion...",
+      "cu": ""
+   },
+   {
+      "id": "communion-7",
+      "role": "priest",
+      "en": "O God, save Thy people, and bless Thine inheritance.",
+      "cu": ""
+   },
+   {
+      "id": "communion-8",
+      "role": "choir",
+      "en": "Taste the heavenly bread and the cup of life! And see how good the Lord is! Alleluia, Alleluia, Alleluia.",
+      "cu": ""
+   },
+   {
+      "id": "communion-9",
+      "role": "priest",
+      "en": "Blessed is our God always, now and ever and unto ages of ages!",
+      "cu": ""
+   },
+   {
+      "id": "communion-10",
+      "role": "choir",
+      "en": "Amen. Let our mouths be filled with Thy praise, O Lord. That we may sing of Thy glory: for Thou hast made us worthy to partake of Thy holy, divine, immortal and life-creating Mysteries. Keep us in Thy holiness that all the day we may mediate upon Thy righteousness. Alleluia, alleluia, alleluia.",
+      "cu": ""
+   }      
+  ]
+    },
+    {
+      "id": "litany-of-thanksgiving",
+      "title": "The Litany of Thanksgiving",
+      "items": []
+    },
+    {
+      "id": "ambo-prayer",
+      "title": "The Prayer Before the Ambo",
+      "items": []
+    },
+    {
+      "id": "the-dismissal",
+      "title": "The Dismissal",
+      "items": []
+    },
+    {
+      "id": "appendix-1",
+      "title": "Appendix",
+      "items": []
+    }
+  ]
+}
