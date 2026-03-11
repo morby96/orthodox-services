@@ -490,6 +490,64 @@
   ]
     },
     {
+      "id": "lord-call-upon-thee",
+      "title": "Lord I Call Upon Thee & Entrance",
+      "items": [
+   {
+      "id": "licut-rubric-1",
+      "role": "rubric",
+      "en": "Who chants this may vary...",
+      "cu": ""
+   },
+   {
+      "id": "licut-1",
+      "role": "reader",
+      "en": "Lord I call upon Thee, hear me! Hear me, O Lord! Lord, I call upon Thee, hear me! Receive the voice of my prayer, when I call upon Thee! Hear me, O Lord! Let my prayer arise in Thy sight as incense, and let the lifting up of my hands be an evening sacrifice. Hear me, O Lord.",
+      "cu": ""
+   },
+   {
+      "id": "licut-2",
+      "role": "reader",
+      "en": " (Psalm 140) Set a guard over my mouth, O Lord Keep watch over the door of my lips. Incline not my heart to any evil, to busy my heart with wicked deeds in company with men who work iniquity and let me not partake of their delights! Let a good man strike or rebuke me in kindness, but let the oil of the wicked never anoint my head. For my prayer is continually against their evil deeds. When they are given over to those who condemn them, they shall learn that the word of the Lord is true. As a rock which one cleaves and be shatters on the land, so shall their bones be strewn at the mouth of Sheol, but my eyes are ever toward Thee, O Lord God; in Thee I seek refuge; leave me not defenseless! Keep me from the trap which they have lead for me, and from the snares of evildoers! Let the wicked fall into their own nets, while I escape.",
+      "cu": ""
+   },
+   {
+      "id": "licut-3",
+      "role": "reader",
+      "en": "(Psalm 141) I cry with my voice to the Lord, with my voice I make supplication to the Lord, I pour out my complaint before Him, I tell my trouble before Him. When my spirit is faint, Thou knows my way! In the path where I walk they have hidden a trap for me. I look to the right and watch, but there is none who takes notice of me; no refuge remains for me, no man cares for me. I cry to Thee, O Lord; I say Thou art my refuge and my portion in the land of the living. Give heed to my cry; for I am brought very low! Deliver me from my persecutors; for they are too strong for me!",
+      "cu": ""
+   },
+   {
+      "id": "licut-rubric-2",
+      "role": "rubric",
+      "en": "The following verses are chanted between the stichera of 'Lord I Call' which are sung. The Reader inserts the following verses as needed...",
+      "cu": ""
+   },
+   {
+      "id": "licut-4",
+      "role": "reader",
+      "en": "v. (10) Bring my soul out of prison, that I may give thanks to Your name!
+v. (9) The righteous will surround me; for You will deal bountifully with me.
+v. (8) Out of the depths I cry to You, O Lord. Lord, hear my voice!
+v. (7) Let Your ears be attentive to the voice of my supplications!
+v. (6) If You, O Lord, should mark iniquities, Lord, who could stand? But there is
+forgiveness with You.
+v. (5) For Your name's sake I have waited for You, O Lord, my soul has waited for
+Your word; my soul has hoped on the Lord.
+v. (4) From the morning watch until night, from the morning watch, let Israel hope
+on the Lord!
+v. (3) For with the Lord there is mercy and with Him is plenteous redemption, and
+He will deliver Israel from all his iniquities. 
+v. (2) Praise the Lord, all nations! Praise Him, all peoples!
+v. (1) For His mercy is abundant towards us; and the truth of the Lord endures
+forever.
++ Glory to the Father, and to the Son, and to the Holy Spirit;
+now and ever, and unto ages of ages. Amen.",
+      "cu": ""
+   }           
+  ]
+    },
+    {
       "id": "scripture-readings",
       "title": "Scripture Readings",
       "items": []
