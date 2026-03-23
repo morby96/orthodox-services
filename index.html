@@ -7,90 +7,100 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header class="site-header">
     <div class="container">
       <h1>Orthodox Services</h1>
-      <p class="service-meta">Liturgical texts in English & Slavonic</p>
+      <p class="service-meta">Browse available services</p>
     </div>
   </header>
 
   <main class="container">
-
-    <div class="home-layout">
-
-      <!-- Sidebar (future filters / categories) -->
-      <aside class="home-sidebar">
-        <div class="sidebar-box">
-          <h2 class="sidebar-title">Services</h2>
-          <p class="muted-text">
-            Select a service to begin reading.
-          </p>
-        </div>
-      </aside>
-
-      <!-- Main list -->
-      <section class="home-main">
-        <div id="service-list" class="service-list">
-          <div class="empty-message">Loading services…</div>
-        </div>
-      </section>
-
+    <div class="toolbar">
+      <input
+        id="search-input"
+        class="search-input"
+        type="text"
+        placeholder="Search services..."
+      />
     </div>
 
+    <div id="service-list" class="card-list">
+      <div class="empty-message">Loading services...</div>
+    </div>
   </main>
 
   <script>
     async function fetchJson(path) {
-      const res = await fetch(path);
-      if (!res.ok) throw new Error("Failed to load");
-      return res.json();
+      const response = await fetch(path);
+      if (!response.ok) throw new Error(`Could not load ${path}`);
+      return response.json();
     }
 
-    function capitalize(text) {
-      return text ? text.charAt(0).toUpperCase() + text.slice(1) : "";
+    function escapeHtml(text) {
+      return String(text).replace(/[&<>"']/g, (char) => {
+        const map = {
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#39;"
+        };
+        return map[char];
+      });
     }
 
-    function createServiceCard(service) {
-      const card = document.createElement("a");
-      card.className = "service-card";
-      card.href = `service.html?id=${service.id}`;
+    function renderServices(services) {
+      const list = document.getElementById("service-list");
+      const searchInput = document.getElementById("search-input");
 
-      card.innerHTML = `
-        <div class="service-card-body">
-          <h2 class="service-card-title">${service.title}</h2>
-          <div class="service-card-meta">
-            ${capitalize(service.category || "")}
-          </div>
-        </div>
-      `;
+      function draw(filterText = "") {
+        const q = filterText.trim().toLowerCase();
 
-      return card;
+        const filtered = services.filter(service => {
+          return (
+            service.title.toLowerCase().includes(q) ||
+            service.category.toLowerCase().includes(q) ||
+            service.id.toLowerCase().includes(q)
+          );
+        });
+
+        if (!filtered.length) {
+          list.innerHTML = `<div class="empty-message">No services found.</div>`;
+          return;
+        }
+
+        list.innerHTML = filtered.map(service => `
+          <a class="card" href="service.html?id=${encodeURIComponent(service.id)}">
+            <h2 class="card-title">${escapeHtml(service.title)}</h2>
+            <div class="card-meta">
+              ${escapeHtml(service.category)} · ${(service.languages || []).map(escapeHtml).join(", ")}
+            </div>
+          </a>
+        `).join("");
+      }
+
+      searchInput.addEventListener("input", (e) => draw(e.target.value));
+      draw();
     }
 
-    async function loadServices() {
-      const container = document.getElementById("service-list");
+    async function loadIndexPage() {
+      const list = document.getElementById("service-list");
 
       try {
         const services = await fetchJson("content/services/index.json");
 
-        container.innerHTML = "";
+        if (!Array.isArray(services)) {
+          throw new Error("index.json must be a top-level array");
+        }
 
-        services.forEach(service => {
-          container.appendChild(createServiceCard(service));
-        });
-
+        renderServices(services);
       } catch (err) {
-        container.innerHTML = `
-          <div class="empty-message">
-            Could not load services.
-          </div>
-        `;
+        console.error(err);
+        list.innerHTML = `<div class="empty-message">Could not load services.</div>`;
       }
     }
 
-    loadServices();
+    loadIndexPage();
   </script>
-
 </body>
 </html>
