@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,26 +7,90 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header class="site-header">
-    <h1>Orthodox Services</h1>
-    <p>English and Church Slavonic texts</p>
+    <div class="container">
+      <h1>Orthodox Services</h1>
+      <p class="service-meta">Liturgical texts in English & Slavonic</p>
+    </div>
   </header>
 
   <main class="container">
-    <div class="toolbar">
-      <input
-        id="service-search"
-        class="search-input"
-        type="text"
-        placeholder="Search services..."
-        aria-label="Search services"
-      />
+
+    <div class="home-layout">
+
+      <!-- Sidebar (future filters / categories) -->
+      <aside class="home-sidebar">
+        <div class="sidebar-box">
+          <h2 class="sidebar-title">Services</h2>
+          <p class="muted-text">
+            Select a service to begin reading.
+          </p>
+        </div>
+      </aside>
+
+      <!-- Main list -->
+      <section class="home-main">
+        <div id="service-list" class="service-list">
+          <div class="empty-message">Loading services…</div>
+        </div>
+      </section>
+
     </div>
 
-    <h2>Services</h2>
-    <div id="service-list" class="card-list"></div>
   </main>
 
-  <script src="script.js"></script>
+  <script>
+    async function fetchJson(path) {
+      const res = await fetch(path);
+      if (!res.ok) throw new Error("Failed to load");
+      return res.json();
+    }
+
+    function capitalize(text) {
+      return text ? text.charAt(0).toUpperCase() + text.slice(1) : "";
+    }
+
+    function createServiceCard(service) {
+      const card = document.createElement("a");
+      card.className = "service-card";
+      card.href = `service.html?id=${service.id}`;
+
+      card.innerHTML = `
+        <div class="service-card-body">
+          <h2 class="service-card-title">${service.title}</h2>
+          <div class="service-card-meta">
+            ${capitalize(service.category || "")}
+          </div>
+        </div>
+      `;
+
+      return card;
+    }
+
+    async function loadServices() {
+      const container = document.getElementById("service-list");
+
+      try {
+        const services = await fetchJson("content/services/index.json");
+
+        container.innerHTML = "";
+
+        services.forEach(service => {
+          container.appendChild(createServiceCard(service));
+        });
+
+      } catch (err) {
+        container.innerHTML = `
+          <div class="empty-message">
+            Could not load services.
+          </div>
+        `;
+      }
+    }
+
+    loadServices();
+  </script>
+
 </body>
 </html>
