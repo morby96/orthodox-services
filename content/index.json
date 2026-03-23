@@ -1,10 +1,8 @@
-{
-  "services": [
-    {
-      "id": "presanctified-liturgy",
-      "title": "Liturgy of the Presanctified Gifts",
-      "category": "liturgy",
-      "languages": ["en", "cu"]
-    }
-  ]
-}
+[
+  {
+    "id": "presanctified-liturgy",
+    "title": "Liturgy of the Presanctified Gifts",
+    "category": "liturgy",
+    "languages": ["en", "cu"]
+  }
+]
