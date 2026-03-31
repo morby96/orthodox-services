@@ -36,7 +36,6 @@ function debounce(fn, delay = 120) {
 
 const STORAGE_KEYS = {
   language: "orthodox-reader-language",
-  showRubrics: "orthodox-reader-show-rubrics",
   fontSize: "orthodox-reader-font-size"
 };
 
@@ -56,35 +55,10 @@ function applyLanguageMode(mode) {
   else document.body.classList.add("lang-both");
 }
 
-function applyRubricVisibility(showRubrics) {
-  document.body.classList.toggle("hide-rubrics", !showRubrics);
-}
-
 function applyFontSize(size) {
   const numeric = Math.max(12, Math.min(24, Number(size) || 16));
   document.documentElement.style.setProperty("--font-size-base", `${numeric}px`);
 }
-
-/* SECTION COLLAPSE LOGIC */
-
-function toggleSection(sectionEl, forceExpand = null) {
-  let shouldCollapse;
-
-  if (forceExpand === null) {
-    shouldCollapse = !sectionEl.classList.contains("collapsed");
-  } else {
-    shouldCollapse = !forceExpand;
-  }
-
-  sectionEl.classList.toggle("collapsed", shouldCollapse);
-
-  const button = sectionEl.querySelector(".section-toggle");
-  if (button) {
-    button.setAttribute("aria-expanded", shouldCollapse ? "false" : "true");
-  }
-}
-
-/* ITEM RENDERING */
 
 function createItemElement(item) {
   const role = (item.role || "").toLowerCase();
@@ -130,62 +104,6 @@ function createSectionNav(sections) {
   });
 }
 
-function wireSectionToggle(toggle, heading, sectionEl) {
-  let touchHandled = false;
-
-  function handleToggle(event) {
-    if (event) event.preventDefault();
-    toggleSection(sectionEl);
-  }
-
-  toggle.addEventListener("touchend", (event) => {
-    event.preventDefault();
-    touchHandled = true;
-    handleToggle(event);
-  }, { passive: false });
-
-  toggle.addEventListener("click", (event) => {
-    if (touchHandled) {
-      touchHandled = false;
-      return;
-    }
-    handleToggle(event);
-  });
-
-  heading.addEventListener("click", (event) => {
-    if (event.target.closest(".section-toggle")) return;
-    handleToggle(event);
-  });
-}
-
-function wireSectionSwipe(sectionEl) {
-  let startX = 0;
-  let startY = 0;
-
-  sectionEl.addEventListener("touchstart", (e) => {
-    if (!e.touches || !e.touches[0]) return;
-    startX = e.touches[0].clientX;
-    startY = e.touches[0].clientY;
-  }, { passive: true });
-
-  sectionEl.addEventListener("touchend", (e) => {
-    if (!e.changedTouches || !e.changedTouches[0]) return;
-
-    const endX = e.changedTouches[0].clientX;
-    const endY = e.changedTouches[0].clientY;
-    const diffX = endX - startX;
-    const diffY = endY - startY;
-
-    if (Math.abs(diffX) > 60 && Math.abs(diffY) < 40) {
-      if (diffX > 0) {
-        toggleSection(sectionEl, true);   // swipe right expands
-      } else {
-        toggleSection(sectionEl, false);  // swipe left collapses
-      }
-    }
-  }, { passive: true });
-}
-
 function renderService(service) {
   const content = document.getElementById("service-content");
   const title = document.getElementById("service-title");
@@ -199,25 +117,17 @@ function renderService(service) {
 
   (service.sections || []).forEach((section) => {
     const sectionEl = document.createElement("section");
-    sectionEl.className = "section collapsed";
+    sectionEl.className = "section";
     sectionEl.id = section.id;
 
+    const headingWrap = document.createElement("div");
+    headingWrap.className = "section-title";
+
     const heading = document.createElement("h2");
-    heading.className = "section-title";
+    heading.className = "section-heading";
+    heading.textContent = section.title;
 
-    const toggle = document.createElement("button");
-    toggle.className = "section-toggle";
-    toggle.type = "button";
-    toggle.setAttribute("aria-expanded", "false");
-    toggle.innerHTML = `
-      <span class="section-toggle-label">${escapeHtml(section.title)}</span>
-      <span class="section-toggle-icon">▾</span>
-    `;
-
-    wireSectionToggle(toggle, heading, sectionEl);
-    wireSectionSwipe(sectionEl);
-
-    heading.appendChild(toggle);
+    headingWrap.appendChild(heading);
 
     const body = document.createElement("div");
     body.className = "section-body";
@@ -233,7 +143,7 @@ function renderService(service) {
       body.appendChild(empty);
     }
 
-    sectionEl.appendChild(heading);
+    sectionEl.appendChild(headingWrap);
     sectionEl.appendChild(body);
     content.appendChild(sectionEl);
   });
@@ -280,14 +190,9 @@ function updateSearch() {
     const hasOnlyEmpty = !section.querySelector(".item") && emptyMessage;
 
     const showSection = visibleInSection || (!query && hasOnlyEmpty);
-
     section.classList.toggle("hidden", !showSection);
 
     if (showSection) visibleSections += 1;
-
-    if (query && visibleInSection) {
-      toggleSection(section, true);
-    }
   });
 
   if (!query) {
@@ -297,52 +202,25 @@ function updateSearch() {
   }
 }
 
-function scrollToNextSection() {
-  const sections = Array.from(document.querySelectorAll(".section:not(.hidden)"));
-  if (!sections.length) return;
-
-  const currentIndex = sections.findIndex((section) => {
-    const rect = section.getBoundingClientRect();
-    return rect.top >= 0;
-  });
-
-  const targetIndex = currentIndex === -1 ? 0 : Math.min(currentIndex + 1, sections.length - 1);
-  sections[targetIndex].scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
 function bindControls() {
   const languageSelect = document.getElementById("language-mode");
-  const showRubricsCheckbox = document.getElementById("show-rubrics");
   const fontSizeInput = document.getElementById("font-size");
   const fontMinus = document.getElementById("font-minus");
   const fontPlus = document.getElementById("font-plus");
-  const expandAllBtn = document.getElementById("expand-all-btn");
-  const collapseAllBtn = document.getElementById("collapse-all-btn");
-  const floatingExpandBtn = document.getElementById("floating-expand-btn");
-  const floatingCollapseBtn = document.getElementById("floating-collapse-btn");
-  const nextSectionBtn = document.getElementById("next-section");
   const searchInput = document.getElementById("service-search");
 
   const savedLanguage = getSavedPreference(STORAGE_KEYS.language, "both");
-  const savedRubrics = getSavedPreference(STORAGE_KEYS.showRubrics, "true") === "true";
   const savedFontSize = Number(getSavedPreference(STORAGE_KEYS.fontSize, "16"));
 
   languageSelect.value = savedLanguage;
-  showRubricsCheckbox.checked = savedRubrics;
   fontSizeInput.value = savedFontSize;
 
   applyLanguageMode(savedLanguage);
-  applyRubricVisibility(savedRubrics);
   applyFontSize(savedFontSize);
 
   languageSelect.addEventListener("change", () => {
     applyLanguageMode(languageSelect.value);
     savePreference(STORAGE_KEYS.language, languageSelect.value);
-  });
-
-  showRubricsCheckbox.addEventListener("change", () => {
-    applyRubricVisibility(showRubricsCheckbox.checked);
-    savePreference(STORAGE_KEYS.showRubrics, String(showRubricsCheckbox.checked));
   });
 
   fontSizeInput.addEventListener("input", () => {
@@ -364,28 +242,8 @@ function bindControls() {
     savePreference(STORAGE_KEYS.fontSize, String(next));
   });
 
-  function expandAll() {
-    document.querySelectorAll(".section:not(.hidden)").forEach((section) => {
-      toggleSection(section, true);
-    });
-  }
-
-  function collapseAll() {
-    document.querySelectorAll(".section:not(.hidden)").forEach((section) => {
-      toggleSection(section, false);
-    });
-  }
-
-  expandAllBtn.addEventListener("click", expandAll);
-  collapseAllBtn.addEventListener("click", collapseAll);
-  floatingExpandBtn.addEventListener("click", expandAll);
-  floatingCollapseBtn.addEventListener("click", collapseAll);
-
-  nextSectionBtn.addEventListener("click", scrollToNextSection);
-
   searchInput.addEventListener("input", debounce(updateSearch, 100));
 
-  /* Double tap / double click for reader mode */
   let lastTouchTime = 0;
 
   document.addEventListener("touchend", () => {
@@ -400,7 +258,6 @@ function bindControls() {
     document.body.classList.toggle("reader-mode");
   });
 
-  /* Long press / context copy */
   document.addEventListener("contextmenu", (event) => {
     const cell = event.target.closest(".text-cell");
     if (!cell) return;
