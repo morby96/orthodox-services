@@ -3,76 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Orthodox Services</title>
+  <title>Orthodox Service</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="lang-both">
   <header class="site-header">
     <div class="container">
-      <a class="back-link" href="index.html">← Back to Services</a>
+      <a class="back-link" href="./">← Back to services</a>
       <h1 id="service-title">Loading…</h1>
       <div id="service-meta" class="service-meta"></div>
+
+      <div class="controls">
+        <label>
+          Language:
+          <select id="language-mode" class="mode-button">
+            <option value="both">English + Slavonic</option>
+            <option value="en">English only</option>
+            <option value="cu">Slavonic only</option>
+          </select>
+        </label>
+
+        <label>
+          <input type="checkbox" id="show-rubrics" checked />
+          Show rubrics
+        </label>
+
+        <label>
+          Font size:
+          <input type="range" id="font-size" min="15" max="26" value="18" />
+        </label>
+
+        <button id="expand-all-btn" class="mode-button" type="button">Expand All</button>
+        <button id="collapse-all-btn" class="mode-button" type="button">Collapse All</button>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <div class="reader-shell">
-      <aside class="reader-sidebar">
-        <div class="sidebar-box">
-          <h2 class="sidebar-title">Display</h2>
-
-          <div class="control-group">
-            <label class="control-label" for="language-mode">Language</label>
-            <select id="language-mode" class="control-input">
-              <option value="both">English + Slavonic</option>
-              <option value="en">English only</option>
-              <option value="cu">Slavonic only</option>
-            </select>
-          </div>
-
-          <div class="control-group">
-            <label class="control-label" for="font-size">Text size</label>
-            <input id="font-size" type="range" min="15" max="26" step="1" value="18" />
-          </div>
-
-          <div class="control-group">
-            <label class="checkbox-row">
-              <input id="show-rubrics" type="checkbox" checked />
-              <span>Show rubrics</span>
-            </label>
-          </div>
-        </div>
-
-        <div class="sidebar-box">
-          <h2 class="sidebar-title">Sections</h2>
-          <nav id="section-nav" class="section-nav"></nav>
-        </div>
-      </aside>
-
-      <section class="reader-main">
-        <div class="top-controls">
-          <div class="search-wrap">
-            <input
-              id="service-search"
-              class="search-input"
-              type="search"
-              placeholder="Search this service..."
-              autocomplete="off"
-            />
-          </div>
-
-          <div class="action-row">
-            <button id="expand-all-btn" class="mode-button" type="button">Expand All</button>
-            <button id="collapse-all-btn" class="mode-button" type="button">Collapse All</button>
-          </div>
-        </div>
-
+  <main class="container service-layout">
+    <aside class="sidebar">
+      <div class="sidebar-box">
+        <h2 class="sidebar-title">Search</h2>
+        <input
+          id="service-search"
+          class="search-input"
+          type="search"
+          placeholder="Search this service..."
+          aria-label="Search this service"
+        />
         <div id="search-status" class="search-status"></div>
-        <div id="service-content"></div>
-      </section>
-    </div>
+      </div>
+
+      <div class="sidebar-box">
+        <h2 class="sidebar-title">Sections</h2>
+        <nav id="section-nav" class="section-nav"></nav>
+      </div>
+    </aside>
+
+    <section class="main-content">
+      <div id="service-content"></div>
+    </section>
   </main>
 
-  <script src="script.js"></script>
+  <script src="service.js"></script>
 </body>
 </html>
