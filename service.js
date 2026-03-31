@@ -41,20 +41,12 @@ const STORAGE_KEYS = {
 };
 
 function getSavedPreference(key, fallback) {
-  try {
-    const value = localStorage.getItem(key);
-    return value === null ? fallback : value;
-  } catch {
-    return fallback;
-  }
+  const value = localStorage.getItem(key);
+  return value === null ? fallback : value;
 }
 
 function savePreference(key, value) {
-  try {
-    localStorage.setItem(key, value);
-  } catch {
-    // ignore
-  }
+  localStorage.setItem(key, value);
 }
 
 function applyLanguageMode(mode) {
@@ -69,8 +61,11 @@ function applyRubricVisibility(showRubrics) {
 }
 
 function applyFontSize(size) {
-  document.documentElement.style.setProperty("--font-size-base", `${size}px`);
+  const numeric = Math.max(12, Math.min(24, Number(size) || 16));
+  document.documentElement.style.setProperty("--font-size-base", `${numeric}px`);
 }
+
+/* SECTION COLLAPSE LOGIC */
 
 function toggleSection(sectionEl, forceExpand = null) {
   let shouldCollapse;
@@ -89,13 +84,16 @@ function toggleSection(sectionEl, forceExpand = null) {
   }
 }
 
+/* ITEM RENDERING */
+
 function createItemElement(item) {
+  const role = (item.role || "").toLowerCase();
   const itemEl = document.createElement("article");
-  itemEl.className = `item ${item.role === "rubric" ? "rubric" : ""}`;
+  itemEl.className = `item ${role === "rubric" ? "rubric" : ""} ${role === "note" ? "note" : ""}`;
 
   const roleEl = document.createElement("div");
-  roleEl.className = `role role-${item.role || ""}`;
-  roleEl.textContent = capitalize(item.role || "");
+  roleEl.className = `role role-${role}`;
+  roleEl.textContent = capitalize(role);
 
   const row = document.createElement("div");
   row.className = "text-row";
@@ -114,7 +112,7 @@ function createItemElement(item) {
   itemEl.appendChild(roleEl);
   itemEl.appendChild(row);
 
-  const haystack = `${item.role || ""} ${item.en || ""} ${item.cu || ""}`.toLowerCase();
+  const haystack = `${role} ${item.en || ""} ${item.cu || ""}`.toLowerCase();
   itemEl.dataset.search = haystack;
 
   return itemEl;
@@ -132,13 +130,18 @@ function createSectionNav(sections) {
   });
 }
 
-function wireSectionToggle(toggle, sectionEl) {
+function wireSectionToggle(toggle, heading, sectionEl) {
   let touchHandled = false;
+
+  function handleToggle(event) {
+    if (event) event.preventDefault();
+    toggleSection(sectionEl);
+  }
 
   toggle.addEventListener("touchend", (event) => {
     event.preventDefault();
     touchHandled = true;
-    toggleSection(sectionEl);
+    handleToggle(event);
   }, { passive: false });
 
   toggle.addEventListener("click", (event) => {
@@ -146,9 +149,41 @@ function wireSectionToggle(toggle, sectionEl) {
       touchHandled = false;
       return;
     }
-    event.preventDefault();
-    toggleSection(sectionEl);
+    handleToggle(event);
   });
+
+  heading.addEventListener("click", (event) => {
+    if (event.target.closest(".section-toggle")) return;
+    handleToggle(event);
+  });
+}
+
+function wireSectionSwipe(sectionEl) {
+  let startX = 0;
+  let startY = 0;
+
+  sectionEl.addEventListener("touchstart", (e) => {
+    if (!e.touches || !e.touches[0]) return;
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+  }, { passive: true });
+
+  sectionEl.addEventListener("touchend", (e) => {
+    if (!e.changedTouches || !e.changedTouches[0]) return;
+
+    const endX = e.changedTouches[0].clientX;
+    const endY = e.changedTouches[0].clientY;
+    const diffX = endX - startX;
+    const diffY = endY - startY;
+
+    if (Math.abs(diffX) > 60 && Math.abs(diffY) < 40) {
+      if (diffX > 0) {
+        toggleSection(sectionEl, true);   // swipe right expands
+      } else {
+        toggleSection(sectionEl, false);  // swipe left collapses
+      }
+    }
+  }, { passive: true });
 }
 
 function renderService(service) {
@@ -179,7 +214,9 @@ function renderService(service) {
       <span class="section-toggle-icon">▾</span>
     `;
 
-    wireSectionToggle(toggle, sectionEl);
+    wireSectionToggle(toggle, heading, sectionEl);
+    wireSectionSwipe(sectionEl);
+
     heading.appendChild(toggle);
 
     const body = document.createElement("div");
@@ -243,6 +280,7 @@ function updateSearch() {
     const hasOnlyEmpty = !section.querySelector(".item") && emptyMessage;
 
     const showSection = visibleInSection || (!query && hasOnlyEmpty);
+
     section.classList.toggle("hidden", !showSection);
 
     if (showSection) visibleSections += 1;
@@ -259,17 +297,35 @@ function updateSearch() {
   }
 }
 
+function scrollToNextSection() {
+  const sections = Array.from(document.querySelectorAll(".section:not(.hidden)"));
+  if (!sections.length) return;
+
+  const currentIndex = sections.findIndex((section) => {
+    const rect = section.getBoundingClientRect();
+    return rect.top >= 0;
+  });
+
+  const targetIndex = currentIndex === -1 ? 0 : Math.min(currentIndex + 1, sections.length - 1);
+  sections[targetIndex].scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function bindControls() {
   const languageSelect = document.getElementById("language-mode");
   const showRubricsCheckbox = document.getElementById("show-rubrics");
   const fontSizeInput = document.getElementById("font-size");
+  const fontMinus = document.getElementById("font-minus");
+  const fontPlus = document.getElementById("font-plus");
   const expandAllBtn = document.getElementById("expand-all-btn");
   const collapseAllBtn = document.getElementById("collapse-all-btn");
+  const floatingExpandBtn = document.getElementById("floating-expand-btn");
+  const floatingCollapseBtn = document.getElementById("floating-collapse-btn");
+  const nextSectionBtn = document.getElementById("next-section");
   const searchInput = document.getElementById("service-search");
 
   const savedLanguage = getSavedPreference(STORAGE_KEYS.language, "both");
   const savedRubrics = getSavedPreference(STORAGE_KEYS.showRubrics, "true") === "true";
-  const savedFontSize = Number(getSavedPreference(STORAGE_KEYS.fontSize, "18"));
+  const savedFontSize = Number(getSavedPreference(STORAGE_KEYS.fontSize, "16"));
 
   languageSelect.value = savedLanguage;
   showRubricsCheckbox.checked = savedRubrics;
@@ -294,19 +350,63 @@ function bindControls() {
     savePreference(STORAGE_KEYS.fontSize, String(fontSizeInput.value));
   });
 
-  expandAllBtn.addEventListener("click", () => {
+  fontPlus.addEventListener("click", () => {
+    const next = Math.min(24, Number(fontSizeInput.value) + 1);
+    fontSizeInput.value = String(next);
+    applyFontSize(next);
+    savePreference(STORAGE_KEYS.fontSize, String(next));
+  });
+
+  fontMinus.addEventListener("click", () => {
+    const next = Math.max(12, Number(fontSizeInput.value) - 1);
+    fontSizeInput.value = String(next);
+    applyFontSize(next);
+    savePreference(STORAGE_KEYS.fontSize, String(next));
+  });
+
+  function expandAll() {
     document.querySelectorAll(".section:not(.hidden)").forEach((section) => {
       toggleSection(section, true);
     });
-  });
+  }
 
-  collapseAllBtn.addEventListener("click", () => {
+  function collapseAll() {
     document.querySelectorAll(".section:not(.hidden)").forEach((section) => {
       toggleSection(section, false);
     });
-  });
+  }
+
+  expandAllBtn.addEventListener("click", expandAll);
+  collapseAllBtn.addEventListener("click", collapseAll);
+  floatingExpandBtn.addEventListener("click", expandAll);
+  floatingCollapseBtn.addEventListener("click", collapseAll);
+
+  nextSectionBtn.addEventListener("click", scrollToNextSection);
 
   searchInput.addEventListener("input", debounce(updateSearch, 100));
+
+  /* Double tap / double click for reader mode */
+  let lastTouchTime = 0;
+
+  document.addEventListener("touchend", () => {
+    const now = Date.now();
+    if (now - lastTouchTime < 300) {
+      document.body.classList.toggle("reader-mode");
+    }
+    lastTouchTime = now;
+  }, { passive: true });
+
+  document.addEventListener("dblclick", () => {
+    document.body.classList.toggle("reader-mode");
+  });
+
+  /* Long press / context copy */
+  document.addEventListener("contextmenu", (event) => {
+    const cell = event.target.closest(".text-cell");
+    if (!cell) return;
+    event.preventDefault();
+    navigator.clipboard.writeText(cell.textContent || "");
+  });
 }
 
 async function loadServicePage() {
@@ -326,6 +426,7 @@ async function loadServicePage() {
     document.getElementById("service-title").textContent = "Could not load service";
     document.getElementById("service-content").innerHTML =
       '<div class="empty-message">Could not load service.</div>';
+    console.error(err);
   }
 }
 
