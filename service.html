@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Orthodox Service</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Orthodox Services</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body class="lang-both">
   <header class="site-header">
     <div class="container">
-      <a class="back-link" href="./">← Back to services</a>
+      <a class="back-link" href="./index.html">← Back to services</a>
       <h1 id="service-title">Loading…</h1>
       <div id="service-meta" class="service-meta"></div>
 
-      <div class="controls">
-        <label>
-          Language:
+      <div class="controls controls-top">
+        <label class="control-group">
+          <span>Language</span>
           <select id="language-mode" class="mode-button">
             <option value="both">English + Slavonic</option>
             <option value="en">English only</option>
@@ -23,46 +23,56 @@
           </select>
         </label>
 
-        <label>
+        <label class="control-group checkbox-group">
           <input type="checkbox" id="show-rubrics" checked />
-          Show rubrics
+          <span>Show rubrics</span>
         </label>
 
-        <label>
-          Font size:
-          <input type="range" id="font-size" min="15" max="26" value="18" />
+        <label class="control-group">
+          <span>Text size</span>
+          <input id="font-size" type="range" min="12" max="24" step="1" value="16" />
         </label>
 
+        <button id="font-minus" class="mode-button" type="button">A−</button>
+        <button id="font-plus" class="mode-button" type="button">A+</button>
         <button id="expand-all-btn" class="mode-button" type="button">Expand All</button>
         <button id="collapse-all-btn" class="mode-button" type="button">Collapse All</button>
       </div>
-    </div>
-  </header>
 
-  <main class="container service-layout">
-    <aside class="sidebar">
-      <div class="sidebar-box">
-        <h2 class="sidebar-title">Search</h2>
+      <div class="toolbar">
         <input
           id="service-search"
           class="search-input"
           type="search"
           placeholder="Search this service..."
-          aria-label="Search this service"
+          autocomplete="off"
         />
-        <div id="search-status" class="search-status"></div>
       </div>
 
-      <div class="sidebar-box">
-        <h2 class="sidebar-title">Sections</h2>
-        <nav id="section-nav" class="section-nav"></nav>
-      </div>
-    </aside>
+      <div id="search-status" class="search-status"></div>
+    </div>
+  </header>
 
-    <section class="main-content">
-      <div id="service-content"></div>
-    </section>
+  <main class="container">
+    <div class="service-layout">
+      <aside class="sidebar">
+        <div class="sidebar-box">
+          <h2 class="sidebar-title">Sections</h2>
+          <nav id="section-nav" class="section-nav"></nav>
+        </div>
+      </aside>
+
+      <section class="main-content">
+        <div id="service-content"></div>
+      </section>
+    </div>
   </main>
+
+  <div class="floating-controls">
+    <button id="floating-expand-btn" type="button" aria-label="Expand all">＋</button>
+    <button id="floating-collapse-btn" type="button" aria-label="Collapse all">－</button>
+    <button id="next-section" type="button" aria-label="Next section">↓</button>
+  </div>
 
   <script src="service.js"></script>
 </body>
