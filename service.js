@@ -1,6 +1,8 @@
 async function fetchJson(path) {
   const response = await fetch(path);
-  if (!response.ok) throw new Error(`Could not load ${path}`);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status} while loading ${path}`);
+  }
   return response.json();
 }
 
@@ -243,27 +245,6 @@ function bindControls() {
   });
 
   searchInput.addEventListener("input", debounce(updateSearch, 100));
-
-  let lastTouchTime = 0;
-
-  document.addEventListener("touchend", () => {
-    const now = Date.now();
-    if (now - lastTouchTime < 300) {
-      document.body.classList.toggle("reader-mode");
-    }
-    lastTouchTime = now;
-  }, { passive: true });
-
-  document.addEventListener("dblclick", () => {
-    document.body.classList.toggle("reader-mode");
-  });
-
-  document.addEventListener("contextmenu", (event) => {
-    const cell = event.target.closest(".text-cell");
-    if (!cell) return;
-    event.preventDefault();
-    navigator.clipboard.writeText(cell.textContent || "");
-  });
 }
 
 async function loadServicePage() {
@@ -275,15 +256,17 @@ async function loadServicePage() {
     return;
   }
 
+  const path = `content/services/${id}.json`;
+
   try {
-    const service = await fetchJson(`content/services/${id}.json`);
+    const service = await fetchJson(path);
     renderService(service);
     bindControls();
   } catch (err) {
+    console.error("Service load error:", err);
     document.getElementById("service-title").textContent = "Could not load service";
     document.getElementById("service-content").innerHTML =
-      '<div class="empty-message">Could not load service.</div>';
-    console.error(err);
+      `<div class="empty-message">Could not load service.<br><br>${escapeHtml(err.message)}</div>`;
   }
 }
 
