@@ -10,97 +10,24 @@
   <header class="site-header">
     <div class="container">
       <h1>Orthodox Services</h1>
-      <p class="service-meta">Browse available services</p>
+      <p class="service-meta">Service texts in English and Church Slavonic</p>
     </div>
   </header>
 
   <main class="container">
     <div class="toolbar">
       <input
-        id="search-input"
+        id="site-search"
         class="search-input"
-        type="text"
+        type="search"
         placeholder="Search services..."
+        aria-label="Search services"
       />
     </div>
 
-    <div id="service-list" class="card-list">
-      <div class="empty-message">Loading services...</div>
-    </div>
+    <div id="service-list" class="card-list"></div>
   </main>
 
-  <script>
-    async function fetchJson(path) {
-      const response = await fetch(path);
-      if (!response.ok) throw new Error(`Could not load ${path}`);
-      return response.json();
-    }
-
-    function escapeHtml(text) {
-      return String(text).replace(/[&<>"']/g, (char) => {
-        const map = {
-          "&": "&amp;",
-          "<": "&lt;",
-          ">": "&gt;",
-          '"': "&quot;",
-          "'": "&#39;"
-        };
-        return map[char];
-      });
-    }
-
-    function renderServices(services) {
-      const list = document.getElementById("service-list");
-      const searchInput = document.getElementById("search-input");
-
-      function draw(filterText = "") {
-        const q = filterText.trim().toLowerCase();
-
-        const filtered = services.filter(service => {
-          return (
-            service.title.toLowerCase().includes(q) ||
-            service.category.toLowerCase().includes(q) ||
-            service.id.toLowerCase().includes(q)
-          );
-        });
-
-        if (!filtered.length) {
-          list.innerHTML = `<div class="empty-message">No services found.</div>`;
-          return;
-        }
-
-        list.innerHTML = filtered.map(service => `
-          <a class="card" href="service.html?id=${encodeURIComponent(service.id)}">
-            <h2 class="card-title">${escapeHtml(service.title)}</h2>
-            <div class="card-meta">
-              ${escapeHtml(service.category)} · ${(service.languages || []).map(escapeHtml).join(", ")}
-            </div>
-          </a>
-        `).join("");
-      }
-
-      searchInput.addEventListener("input", (e) => draw(e.target.value));
-      draw();
-    }
-
-    async function loadIndexPage() {
-      const list = document.getElementById("service-list");
-
-      try {
-        const services = await fetchJson("content/services/index.json");
-
-        if (!Array.isArray(services)) {
-          throw new Error("index.json must be a top-level array");
-        }
-
-        renderServices(services);
-      } catch (err) {
-        console.error(err);
-        list.innerHTML = `<div class="empty-message">Could not load services.</div>`;
-      }
-    }
-
-    loadIndexPage();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
