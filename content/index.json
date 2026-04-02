@@ -1,8 +1,15 @@
 [
   {
+    "id": "liturgy-of-st-john-chrysostom",
+    "title": "The Divine Liturgy of St. John Chrysostom",
+    "category": "liturgy",
+    "languages": ["en", "cu", "sr"],
+    "image": "assets/images/st-john-chrysostom.JPG"
+  },
+  {
     "id": "presanctified-liturgy",
     "title": "Liturgy of the Presanctified Gifts",
     "category": "liturgy",
-    "languages": ["en", "cu"]
+    "languages": ["en", "cu", "sr"]
   }
 ]
