@@ -1,6 +1,6 @@
 async function fetchJson(path) {
   const response = await fetch(path);
-  if (!response.ok) throw new Error(`Could not load ${path}`);
+  if (!response.ok) throw new Error(`Could not load ${path} (${response.status})`);
   return response.json();
 }
 
@@ -62,6 +62,11 @@ function renderServices(services) {
   const list = document.getElementById("service-list");
   list.innerHTML = "";
 
+  if (!Array.isArray(services) || services.length === 0) {
+    list.innerHTML = `<div class="empty-message">No services found in index.json.</div>`;
+    return;
+  }
+
   services.forEach((service) => {
     list.appendChild(createServiceCard(service));
   });
@@ -89,7 +94,8 @@ async function loadHomePage() {
     renderServices(services);
     setupSearch();
   } catch (error) {
-    list.innerHTML = `<div class="empty-message">Could not load services.</div>`;
+    console.error(error);
+    list.innerHTML = `<div class="empty-message">${escapeHtml(error.message)}</div>`;
   }
 }
 
