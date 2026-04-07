@@ -1,0 +1,34 @@
+{
+  "id": "opening-blessing",
+  "title": "Opening Blessing",
+  "items": [
+    {
+      "id": "opening-blessing-1",
+      "role": "deacon",
+      "en": "Bless, Master.",
+      "cu": "",
+      "sr": ""
+    },
+    {
+      "id": "opening-blessing-2",
+      "role": "priest",
+      "en": "Blessed is the Kingdom of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages.",
+      "cu": "",
+      "sr": ""
+    },
+    {
+      "id": "opening-blessing-3",
+      "role": "choir",
+      "en": "Amen.",
+      "cu": "",
+      "sr": ""
+    },
+    {
+      "id": "opening-blessing-note-1",
+      "role": "note",
+      "en": "If it is between Pascha and the Ascension, before the Great Litany, the clergy chant 'Christ is Risen' two and a half times, and the choir finishes.",
+      "cu": "",
+      "sr": ""
+    }
+  ]
+}
