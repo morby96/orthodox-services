@@ -14,7 +14,7 @@ function capitalize(text) {
 }
 
 function escapeHtml(text) {
-  return String(text).replace(/[&<>"']/g, (char) => {
+  return String(text ?? "").replace(/[&<>"']/g, (char) => {
     const map = {
       "&": "&amp;",
       "<": "&lt;",
@@ -51,25 +51,62 @@ function savePreference(key, value) {
 function applyLanguageMode(mode) {
   document.body.classList.remove("lang-all", "lang-en", "lang-cu", "lang-sr");
 
-  if (mode === "en") {
-    document.body.classList.add("lang-en");
-  } else if (mode === "cu") {
-    document.body.classList.add("lang-cu");
-  } else if (mode === "sr") {
-    document.body.classList.add("lang-sr");
-  } else {
-    document.body.classList.add("lang-all");
-  }
+  if (mode === "en") document.body.classList.add("lang-en");
+  else if (mode === "cu") document.body.classList.add("lang-cu");
+  else if (mode === "sr") document.body.classList.add("lang-sr");
+  else document.body.classList.add("lang-all");
 }
 
 function applyFontSize(size) {
   document.documentElement.style.setProperty("--font-size-base", `${size}px`);
 }
 
+function createSectionNav(sections) {
+  const nav = document.getElementById("section-nav");
+  nav.innerHTML = "";
+
+  (sections || []).forEach((section) => {
+    const sectionLink = document.createElement("a");
+    sectionLink.href = `#${section.id}`;
+    sectionLink.textContent = section.title;
+    nav.appendChild(sectionLink);
+
+    (section.subsections || []).forEach((subsection) => {
+      const subsectionLink = document.createElement("a");
+      subsectionLink.href = `#${subsection.id}`;
+      subsectionLink.textContent = `— ${subsection.title}`;
+      subsectionLink.className = "subsection-nav-link";
+      nav.appendChild(subsectionLink);
+    });
+  });
+}
+
 function createItemElement(item) {
-  const roleClass = item.role === "rubric" || item.role === "note" ? item.role : "";
+  const type = item.type || "line";
+
+  if (type === "header") {
+    const headerEl = document.createElement("div");
+    headerEl.className = `subheader ${item.role || "note"}`;
+
+    const title = item.en || item.cu || item.sr || "";
+    headerEl.textContent = title;
+
+    headerEl.dataset.search = [
+      item.role || "",
+      item.en || "",
+      item.cu || "",
+      item.sr || ""
+    ].join(" ").toLowerCase();
+
+    return headerEl;
+  }
+
+  const extraClass =
+    item.role === "rubric" ? "rubric" :
+    item.role === "note" ? "note" : "";
+
   const itemEl = document.createElement("article");
-  itemEl.className = `item ${roleClass}`;
+  itemEl.className = `item ${extraClass}`;
 
   const roleEl = document.createElement("div");
   roleEl.className = `role role-${item.role || ""}`;
@@ -97,22 +134,43 @@ function createItemElement(item) {
   itemEl.appendChild(roleEl);
   itemEl.appendChild(row);
 
-  const haystack = `${item.role || ""} ${item.en || ""} ${item.cu || ""} ${item.sr || ""}`.toLowerCase();
-  itemEl.dataset.search = haystack;
+  itemEl.dataset.search = [
+    item.role || "",
+    item.en || "",
+    item.cu || "",
+    item.sr || ""
+  ].join(" ").toLowerCase();
 
   return itemEl;
 }
 
-function createSectionNav(sections) {
-  const nav = document.getElementById("section-nav");
-  nav.innerHTML = "";
+function createSubsectionElement(subsection) {
+  const subsectionEl = document.createElement("section");
+  subsectionEl.className = "subsection";
+  subsectionEl.id = subsection.id;
 
-  sections.forEach((section) => {
-    const link = document.createElement("a");
-    link.href = `#${section.id}`;
-    link.textContent = section.title;
-    nav.appendChild(link);
+  const heading = document.createElement("h3");
+  heading.className = "subsection-heading";
+  heading.textContent = subsection.title;
+
+  const body = document.createElement("div");
+  body.className = "subsection-body";
+
+  (subsection.items || []).forEach((item) => {
+    body.appendChild(createItemElement(item));
   });
+
+  if (!subsection.items || subsection.items.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "empty-message";
+    empty.textContent = "No items in this subsection yet.";
+    body.appendChild(empty);
+  }
+
+  subsectionEl.appendChild(heading);
+  subsectionEl.appendChild(body);
+
+  return subsectionEl;
 }
 
 function renderService(service) {
@@ -132,31 +190,31 @@ function renderService(service) {
     sectionEl.className = "section";
     sectionEl.id = section.id;
 
-    const headingWrap = document.createElement("div");
-    headingWrap.className = "section-title";
+    const sectionTitleWrap = document.createElement("div");
+    sectionTitleWrap.className = "section-title";
 
-    const heading = document.createElement("h2");
-    heading.className = "section-heading";
-    heading.textContent = section.title;
+    const sectionHeading = document.createElement("h2");
+    sectionHeading.className = "section-heading";
+    sectionHeading.textContent = section.title;
 
-    headingWrap.appendChild(heading);
+    sectionTitleWrap.appendChild(sectionHeading);
+    sectionEl.appendChild(sectionTitleWrap);
 
-    const body = document.createElement("div");
-    body.className = "section-body";
+    const sectionBody = document.createElement("div");
+    sectionBody.className = "section-body";
 
-    (section.items || []).forEach((item) => {
-      body.appendChild(createItemElement(item));
+    (section.subsections || []).forEach((subsection) => {
+      sectionBody.appendChild(createSubsectionElement(subsection));
     });
 
-    if (!section.items || section.items.length === 0) {
+    if (!section.subsections || section.subsections.length === 0) {
       const empty = document.createElement("div");
       empty.className = "empty-message";
-      empty.textContent = "No items in this section yet.";
-      body.appendChild(empty);
+      empty.textContent = "No subsections in this section yet.";
+      sectionBody.appendChild(empty);
     }
 
-    sectionEl.appendChild(headingWrap);
-    sectionEl.appendChild(body);
+    sectionEl.appendChild(sectionBody);
     content.appendChild(sectionEl);
   });
 }
@@ -176,43 +234,53 @@ function updateSearch() {
   const status = document.getElementById("search-status");
   const query = searchInput.value.trim().toLowerCase();
 
-  const items = Array.from(document.querySelectorAll(".item"));
+  const searchable = Array.from(document.querySelectorAll(".item, .subheader"));
+  const subsections = Array.from(document.querySelectorAll(".subsection"));
   const sections = Array.from(document.querySelectorAll(".section"));
 
   let visibleItems = 0;
+  let visibleSubsections = 0;
   let visibleSections = 0;
 
-  items.forEach((item) => {
-    const matches = !query || (item.dataset.search || "").includes(query);
-    item.classList.toggle("hidden", !matches);
+  searchable.forEach((el) => {
+    const matches = !query || (el.dataset.search || "").includes(query);
+    el.classList.toggle("hidden", !matches);
     if (matches) visibleItems += 1;
 
-    const en = item.querySelector(".text-en");
-    const cu = item.querySelector(".text-cu");
-    const sr = item.querySelector(".text-sr");
+    const en = el.querySelector(".text-en");
+    const cu = el.querySelector(".text-cu");
+    const sr = el.querySelector(".text-sr");
 
     if (en) en.innerHTML = highlightText(en.textContent, query);
     if (cu) cu.innerHTML = highlightText(cu.textContent, query);
     if (sr) sr.innerHTML = highlightText(sr.textContent, query);
   });
 
+  subsections.forEach((subsection) => {
+    const hasVisibleContent = Array.from(subsection.querySelectorAll(".item, .subheader"))
+      .some((el) => !el.classList.contains("hidden"));
+
+    subsection.classList.toggle("hidden", !hasVisibleContent);
+
+    if (hasVisibleContent) visibleSubsections += 1;
+  });
+
   sections.forEach((section) => {
-    const visibleInSection = Array.from(section.querySelectorAll(".item"))
-      .some((item) => !item.classList.contains("hidden"));
+    const hasVisibleSubsection = Array.from(section.querySelectorAll(".subsection"))
+      .some((subsection) => !subsection.classList.contains("hidden"));
 
-    const emptyMessage = section.querySelector(".empty-message");
-    const hasOnlyEmpty = !section.querySelector(".item") && emptyMessage;
+    section.classList.toggle("hidden", !hasVisibleSubsection);
 
-    const showSection = visibleInSection || (!query && hasOnlyEmpty);
-    section.classList.toggle("hidden", !showSection);
-
-    if (showSection) visibleSections += 1;
+    if (hasVisibleSubsection) visibleSections += 1;
   });
 
   if (!query) {
     status.textContent = "";
   } else {
-    status.textContent = `${visibleItems} item${visibleItems === 1 ? "" : "s"} in ${visibleSections} section${visibleSections === 1 ? "" : "s"} found.`;
+    status.textContent =
+      `${visibleItems} match${visibleItems === 1 ? "" : "es"} in ` +
+      `${visibleSubsections} subsection${visibleSubsections === 1 ? "" : "s"} / ` +
+      `${visibleSections} section${visibleSections === 1 ? "" : "s"}.`;
   }
 }
 
@@ -264,6 +332,7 @@ function bindControls() {
 
 async function loadServicePage() {
   const id = getQueryParam("id");
+
   if (!id) {
     document.getElementById("service-title").textContent = "No service selected";
     document.getElementById("service-content").innerHTML =
@@ -276,9 +345,10 @@ async function loadServicePage() {
     renderService(service);
     bindControls();
   } catch (err) {
+    console.error(err);
     document.getElementById("service-title").textContent = "Could not load service";
     document.getElementById("service-content").innerHTML =
-      '<div class="empty-message">Could not load service.</div>';
+      `<div class="empty-message">${escapeHtml(err.message)}</div>`;
   }
 }
 
