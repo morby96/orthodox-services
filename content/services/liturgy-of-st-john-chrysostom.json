@@ -13,6 +13,14 @@
           "title": "Opening Blessing",
           "items": [
             {
+              "id": "opening-blessing-0",
+              "role": "note",
+              "type": "line",
+              "en": "A '+' at the beginning of a line indicates when the people typically cross themselves.",
+              "cu": "",
+              "sr": ""
+            },
+            {
               "id": "opening-blessing-1",
               "role": "deacon",
               "type": "line",
