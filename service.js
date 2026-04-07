@@ -1,8 +1,6 @@
 async function fetchJson(path) {
   const response = await fetch(path);
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status} while loading ${path}`);
-  }
+  if (!response.ok) throw new Error(`Could not load ${path}`);
   return response.json();
 }
 
@@ -51,25 +49,31 @@ function savePreference(key, value) {
 }
 
 function applyLanguageMode(mode) {
-  document.body.classList.remove("lang-both", "lang-en", "lang-cu");
-  if (mode === "en") document.body.classList.add("lang-en");
-  else if (mode === "cu") document.body.classList.add("lang-cu");
-  else document.body.classList.add("lang-both");
+  document.body.classList.remove("lang-all", "lang-en", "lang-cu", "lang-sr");
+
+  if (mode === "en") {
+    document.body.classList.add("lang-en");
+  } else if (mode === "cu") {
+    document.body.classList.add("lang-cu");
+  } else if (mode === "sr") {
+    document.body.classList.add("lang-sr");
+  } else {
+    document.body.classList.add("lang-all");
+  }
 }
 
 function applyFontSize(size) {
-  const numeric = Math.max(12, Math.min(24, Number(size) || 16));
-  document.documentElement.style.setProperty("--font-size-base", `${numeric}px`);
+  document.documentElement.style.setProperty("--font-size-base", `${size}px`);
 }
 
 function createItemElement(item) {
-  const role = (item.role || "").toLowerCase();
+  const roleClass = item.role === "rubric" || item.role === "note" ? item.role : "";
   const itemEl = document.createElement("article");
-  itemEl.className = `item ${role === "rubric" ? "rubric" : ""} ${role === "note" ? "note" : ""}`;
+  itemEl.className = `item ${roleClass}`;
 
   const roleEl = document.createElement("div");
-  roleEl.className = `role role-${role}`;
-  roleEl.textContent = capitalize(role);
+  roleEl.className = `role role-${item.role || ""}`;
+  roleEl.textContent = capitalize(item.role || "");
 
   const row = document.createElement("div");
   row.className = "text-row";
@@ -82,13 +86,18 @@ function createItemElement(item) {
   cu.className = "text-cell text-cu";
   cu.textContent = item.cu || "";
 
+  const sr = document.createElement("div");
+  sr.className = "text-cell text-sr";
+  sr.textContent = item.sr || "";
+
   row.appendChild(en);
   row.appendChild(cu);
+  row.appendChild(sr);
 
   itemEl.appendChild(roleEl);
   itemEl.appendChild(row);
 
-  const haystack = `${role} ${item.en || ""} ${item.cu || ""}`.toLowerCase();
+  const haystack = `${item.role || ""} ${item.en || ""} ${item.cu || ""} ${item.sr || ""}`.toLowerCase();
   itemEl.dataset.search = haystack;
 
   return itemEl;
@@ -115,6 +124,7 @@ function renderService(service) {
   meta.textContent = service.category ? capitalize(service.category) : "";
 
   content.innerHTML = "";
+
   createSectionNav(service.sections || []);
 
   (service.sections || []).forEach((section) => {
@@ -179,9 +189,11 @@ function updateSearch() {
 
     const en = item.querySelector(".text-en");
     const cu = item.querySelector(".text-cu");
+    const sr = item.querySelector(".text-sr");
 
     if (en) en.innerHTML = highlightText(en.textContent, query);
     if (cu) cu.innerHTML = highlightText(cu.textContent, query);
+    if (sr) sr.innerHTML = highlightText(sr.textContent, query);
   });
 
   sections.forEach((section) => {
@@ -207,11 +219,11 @@ function updateSearch() {
 function bindControls() {
   const languageSelect = document.getElementById("language-mode");
   const fontSizeInput = document.getElementById("font-size");
-  const fontMinus = document.getElementById("font-minus");
-  const fontPlus = document.getElementById("font-plus");
+  const fontMinusBtn = document.getElementById("font-minus");
+  const fontPlusBtn = document.getElementById("font-plus");
   const searchInput = document.getElementById("service-search");
 
-  const savedLanguage = getSavedPreference(STORAGE_KEYS.language, "both");
+  const savedLanguage = getSavedPreference(STORAGE_KEYS.language, "all");
   const savedFontSize = Number(getSavedPreference(STORAGE_KEYS.fontSize, "16"));
 
   languageSelect.value = savedLanguage;
@@ -226,20 +238,23 @@ function bindControls() {
   });
 
   fontSizeInput.addEventListener("input", () => {
-    applyFontSize(fontSizeInput.value);
-    savePreference(STORAGE_KEYS.fontSize, String(fontSizeInput.value));
+    const size = Number(fontSizeInput.value);
+    applyFontSize(size);
+    savePreference(STORAGE_KEYS.fontSize, String(size));
   });
 
-  fontPlus.addEventListener("click", () => {
-    const next = Math.min(24, Number(fontSizeInput.value) + 1);
-    fontSizeInput.value = String(next);
+  fontMinusBtn.addEventListener("click", () => {
+    const current = Number(fontSizeInput.value);
+    const next = Math.max(12, current - 1);
+    fontSizeInput.value = next;
     applyFontSize(next);
     savePreference(STORAGE_KEYS.fontSize, String(next));
   });
 
-  fontMinus.addEventListener("click", () => {
-    const next = Math.max(12, Number(fontSizeInput.value) - 1);
-    fontSizeInput.value = String(next);
+  fontPlusBtn.addEventListener("click", () => {
+    const current = Number(fontSizeInput.value);
+    const next = Math.min(24, current + 1);
+    fontSizeInput.value = next;
     applyFontSize(next);
     savePreference(STORAGE_KEYS.fontSize, String(next));
   });
@@ -256,17 +271,14 @@ async function loadServicePage() {
     return;
   }
 
-  const path = `content/services/${id}.json`;
-
   try {
-    const service = await fetchJson(path);
+    const service = await fetchJson(`content/services/${id}.json`);
     renderService(service);
     bindControls();
   } catch (err) {
-    console.error("Service load error:", err);
     document.getElementById("service-title").textContent = "Could not load service";
     document.getElementById("service-content").innerHTML =
-      `<div class="empty-message">Could not load service.<br><br>${escapeHtml(err.message)}</div>`;
+      '<div class="empty-message">Could not load service.</div>';
   }
 }
 
