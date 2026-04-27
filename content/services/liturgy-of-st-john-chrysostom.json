@@ -33,7 +33,7 @@
               "role": "priest",
               "type": "line",
               "en": "+ Blessed is the Kingdom of the Father, and of the Son, and of the Holy Spirit, now and ever, and unto ages of ages.",
-              "cu": "Blagosloveno tsarstvo Otsa i Sina i Svyatago Duha, ninye i prisno, i vo vyeki vyekov.",
+              "cu": "+ Blagosloveno tsarstvo Otsa i Sina i Svyatago Duha, ninye i prisno, i vo vyeki vyekov.",
               "sr": ""
             },
             {
@@ -50,6 +50,18 @@
               "type": "line",
               "en": "If it is between Pascha and the Ascension, before the Great Litany, the clergy chant the hymn “Christ is Risen” two and a half times, and the choir finishes.",
               "cu": "",
+              "sr": ""
+            }
+        {
+          "id": "the-great-litany",
+          "title": "THe Great Litany",
+          "items": [
+            {
+              "id": "the-great-litany-0",
+              "role": "deacon",
+              "type": "line",
+              "en": "In peace let us pray to the Lord.",
+              "cu": "Mirom Gospodu pomolimsya.",
               "sr": ""
             }
           ]
