@@ -65,6 +65,238 @@
               "en": "In peace let us pray to the Lord.",
               "cu": "Mirom Gospodu pomolimsya.",
               "sr": ""
+            },
+            {
+              "id": "the-great-litany-1",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-2",
+              "role": "deacon",
+              "type": "line",
+              "en": "For the peace from above and the salvation of our souls, let us pray to the Lord.",
+              "cu": "O svishnem mirye, i spaseniyi dush nahih, Gospodu pomolimsya.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-3",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-4",
+              "role": "deacon",
+              "type": "line",
+              "en": "For the peace of the whole world, for the good estate of the holy churches of God, and for the union of all, let us pray to the Lord.",
+              "cu": "O mirye vsego mira, blagostoyaniyi svyatih Boziyih tserkvey i soyediniyi vsyeh, Gospodu pomolimsya.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-5",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-6",
+              "role": "deacon",
+              "type": "line",
+              "en": "For this holy house and for those that enter it with faith, reverence, and the fear of God, let us pray to the Lord.",
+              "cu": "O svyatyem hramye sem, i s'vyeroyu, blagogovyeniem i strahom Bozhiyim vhodyaschih von, Gospodu pomolimsya.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-7",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-8",
+              "role": "deacon",
+              "type": "line",
+              "en": "For our Most Holy Patriarch _______, and for our Bishop _______, for the venerable priesthood, for the diaconate in Christ, for all the clergy and the people, let us pray to the Lord.",
+              "cu": "O Svyatveyshem Patriyarsye nashem _______, i o Episkopye nashem _______, chestnyem presviterstvye, vo Hristye diakonstvye, o vsem pritchtye i lyudeh, Gospodu pomolimsya."
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-9",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-10",
+              "role": "deacon",
+              "type": "line",
+              "en": "For the honorable and God-protected president of the United States, for our government and military forces, let us pray to the Lord.",
+              "cu": "O chestnyem i Bogohranimon prezidentya i pravitelystvye strani seya i vsem voinstvye nashem, Gospodu pomolimsya. ",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-11",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-12",
+              "role": "deacon",
+              "type": "line",
+              "en": "To enable them to subdue every enemy and adversary, let us pray to the Lord.",
+              "cu": "O psobiti i pokoriti pod nozye ih vsyakago vraga i supostata, Gospodu pomolimsya.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-13",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-14",
+              "role": "deacon",
+              "type": "line",
+              "en": "For this city, for every city and countryside, and for them that with faith dwell in them, let us pray to the Lord.",
+              "cu": "O gradye sem, vsyakom gradye, stranye, i vyeroyu zhivushchih v'nih, Gospodu pomolimsya.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-15",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-16",
+              "role": "deacon",
+              "type": "line",
+              "en": "For seasonable weather, for abundance of the fruits of the earth, and for peaceful times, let us pray to the Lord.",
+              "cu": "O blagorastvoreniyi vozduhov, o izobiliyi plodov zemnih i vremenyeh mirnih, Gospodu pomolimsya.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-17",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-18",
+              "role": "deacon",
+              "type": "line",
+              "en": "For travelers by water, by land, and by air; for the sick and the suffering; for captives and their salvation, let us pray to the Lord.",
+              "cu": "O plavayusshchih, puteshestvuyushchih, i neduguyushchih, strazhdushchih, plyenennih, i o spaseniyi ih, Gospodu pomolimsya.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-19",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-20",
+              "role": "deacon",
+              "type": "line",
+              "en": "For our deliverance from all tribulation, wrath, and want, let us pray to the Lord.",
+              "cu": "O izbavitisya nam ot vsyakiya skorbi, gnyeva, i nuzhdi, Gospodu pomolimsya.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-21",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-22",
+              "role": "deacon",
+              "type": "line",
+              "en": "Protect us, save us, have mercy on us, and safeguard us, O God, by Thy Grace.",
+              "cu": "Zastupi, spasi, pomiluy i sohrani nas, Bozhe, Tvoyeyu blagodatiyu.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-23",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "Gospodi, pomiluy.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-24",
+              "role": "deacon",
+              "type": "line",
+              "en": "+ Commemorating our most holy, most pure, and most blessed and glorious lady, the mother of God and ever-virgin Mary, with all the saints, let us commend ourselves and one another, and our whole life, unto Christ our God.",
+              "cu": "+ Presvyatuyu, prechistuyu, preblagoslovennuyu, slavnuyu Vladichitsu nashu Bogoroditsu i prisnodyevu Mariyu, so vsyemi svyatimi pomyanuvshe, sami sebe, i drug druga, i ves zhivot nash Hristu Bogu predadim.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-25",
+              "role": "choir",
+              "type": "line",
+              "en": "To Thee, O Lord.",
+              "cu": "Tebye, Gospodi.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-26",
+              "role": "note",
+              "type": "line",
+              "en": "The Priest quietly says the following prayer, the Prayer of the First Antiphon:",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-27",
+              "role": "priest",
+              "type": "line",
+              "en": "O Lord our God, Whose power is ineffable, and Whose glory is incomprehensible, Whose mercy is infinite, and Whose love for mankind is ineffable: Do thou thyself, O Master, according to Thy tender compassion, look upon us, and upon this holy temple, and deal with us, and them that pray with us, according to Thine abundant mercies and compassions.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-28",
+              "role": "priest",
+              "type": "line",
+              "en": "+ For unto Thee are due all glory, honor, and worship, to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages.",
+              "cu": "+ Yako podobaet Tebye vsyakaya slava, chest i poklonenie, Otsu, i Sinu, i Svyatomu Duhu, ninye i prisno i vo vyeki vyekov.",
+              "sr": ""
+            },
+            {
+              "id": "the-great-litany-29",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "Amin.",
+              "sr": ""
             }
           ]
         }
