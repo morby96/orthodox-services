@@ -317,13 +317,33 @@
             {
               "id": "the-great-litany-30",
               "role": "rubric",
-              "type": "rubric",
+              "type": "line",
               "en": "With a bow the deacon re-enters the altar to take his place during the First Antiphon. ",
               "cu": "",
               "sr": ""
             }             
           ]
-        }
+        },
+        {
+          "id": "the-first-antiphon",
+          "title": "The First Antiphon",
+          "items": [
+            {
+              "id": "the-first-antiphon-0",
+              "role": "note",
+              "type": "line",
+              "en": "The First Antiphon varies on Holy Days. Below is the standard hymn.",
+              "cu":,
+              "sr":
+            },
+            {
+              "id": "the-first-antiphon-1",
+              "role": "choir",
+              "type": "line",
+              "en": "+ Glory to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages, amen. Bless the Lord, O my soul, and all that is within me, bless His holy name. Blessed art Thou, O Lord.",
+              "cu": "+ Slava Otcu, i Sinu, I Svyatomu Duhu, i ninje i prisno i vo vyeki vyekov, amin. Blagoslovi duse moya Gospoda, i vsya vnutrenyaya moya Imya Svyatoye Yego. Blagosloven yesi, Gospodi.",
+              "sr": ""
+            }
       ]
     }
   ]
