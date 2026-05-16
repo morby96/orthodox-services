@@ -11,5 +11,11 @@
     "title": "Liturgy of the Presanctified Gifts",
     "category": "Liturgy",
     "languages": ["en", "cu", "sr"]
+  },
+  {
+    "id": "wedding-ceremony",
+    "title": "Eastern Orthodox Weddding Service",
+    "category": "Service",
+    "languages": ["en", "cu", "sr"]
   }
 ]
