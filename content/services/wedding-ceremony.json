@@ -12,12 +12,95 @@
         {
           "id": "betrothal-opening-blessing",
           "title": "Opening Blessing",
-          "items": []
+          "items": [
+            {
+            "id": "opening-blessing-0",
+              "role": "note",
+              "type": "line",
+              "en": "The Wedding Party processes into the church in the usual way. When the bride enters and is handed to the bridegroom, the couple is lead to before the Royal Doors where they stand facing the Altar.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "opening-blessing-1",
+              "role": "priest",
+              "type": "line",
+              "en": "+ Blessed is our God always, now and ever and unto ages of ages.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "opening-blessing-2",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            }
+          ]
         },
         {
           "id": "betrothal-great-litany",
           "title": "The Great Litany",
-          "items": []
+          "items": [
+            
+            {
+              "id": "betrothal-great-litany-0",
+              "role": "priest",
+              "type": "line",
+              "en": "In peace let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-1",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-2",
+              "role": "priest",
+              "type": "line",
+              "en": "For the peace from above and the salvation of our souls, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-3",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-4",
+              "role": "priest",
+              "type": "line",
+              "en": "For the peace of the whole world, for the welfare of the holy churches of God, and for the union of all, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-5",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-6",
+              "role": "priest",
+              "type": "line",
+              "en": "",
+              "cu": "",
+              "sr": ""
+            }
+          ]
         }
       ]
     },
