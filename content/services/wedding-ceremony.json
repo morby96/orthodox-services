@@ -1,1 +1,91 @@
-
+{
+  "id": "wedding-ceremony",
+  "title": "Eastern Orthodox Wedding Service",
+  "category": "service",
+  "source": "",
+  "languages": ["en", "cu", "sr"],
+  "sections": [
+    {
+      "id": "betrothal-service",
+      "title": "The Service of Betrothal",
+      "subsections": [
+        {
+          "id": "betrothal-opening-blessing",
+          "title": "Opening Blessing",
+          "items": []
+        },
+        {
+          "id": "betrothal-great-litany",
+          "title": "The Great Litany",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "service-of-the-crowning",
+      "title": "The Service of the Crowning",
+      "subsections": [
+        {
+          "id": "crowning-opening-blessing",
+          "title": "Opening Blessing",
+          "items": []
+        },
+        {
+          "id": "crowning-great-litany",
+          "title": "The Great Litany",
+          "items": []
+        },
+        {
+          "id": "the-crowning",
+          "title": "The Crowning",
+          "items": []
+        },
+        {
+          "id": "the-prokeimenon",
+          "title": "The Prokeimenon",
+          "items": []
+        },
+        {
+          "id": "the-epistle",
+          "title": "The Epistle",
+          "items": []
+        },
+        {
+          "id": "the-gospel",
+          "title": "The Gospel",
+          "items": []
+        },
+        {
+          "id": "augmented-litany",
+          "title": "The Augmented Litany",
+          "items": []
+        },
+        {
+          "id": "litany-before-the-lords-prayer",
+          "title": "The Litany Before the Lord’s Prayer",
+          "items": []
+        },
+        {
+          "id": "the-lords-prayer",
+          "title": "The Lord’s Prayer",
+          "items": []
+        },
+        {
+          "id": "dance-of-isaiah",
+          "title": "Dance of Isaiah",
+          "items": []
+        },
+        {
+          "id": "the-dismissal",
+          "title": "The Dismissal",
+          "items": []
+        },
+        {
+          "id": "many-years",
+          "title": "Many Years!",
+          "items": []
+        }
+      ]
+    }
+  ]
+}
