@@ -96,10 +96,306 @@
               "id": "betrothal-great-litany-6",
               "role": "priest",
               "type": "line",
-              "en": "",
+              "en": "For this holy house and for those that enter it with faith, reverence, and the fear of God, let us pray to the Lord.",
               "cu": "",
               "sr": ""
-            }
+            },
+            {
+              "id": "betrothal-great-litany-7",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-8",
+              "role": "priest",
+              "type": "line",
+              "en": "For our Patriarch _______, for His Grace our Bishop _______; for the honorable priesthood, the diaconate in Christ, for all the clergy and the people, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-9",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-10",
+              "role": "priest",
+              "type": "line",
+              "en": "For the president and all civil authorities of this country, and for those serving in its armed forces, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-11",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-12",
+              "role": "priest",
+              "type": "line",
+              "en": "For the servant of God _______, and for the handmaiden of God _______ who now plight each other their troth, and for their salvation, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-13",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-14",
+              "role": "priest",
+              "type": "line",
+              "en": "That they may be granted children for the continuation of the race, and for all their petitions which are unto salvation, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-15",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-16",
+              "role": "priest",
+              "type": "line",
+              "en": "That He will send down upon them perfect and peaceful love, and assistance, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-17",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-18",
+              "role": "priest",
+              "type": "line",
+              "en": "That He will preserve them in oneness of mind, and in steadfast faith, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-19",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-20",
+              "role": "priest",
+              "type": "line",
+              "en": "That He will preserve them in a blameless way of life, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-21",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-22",
+              "role": "priest",
+              "type": "line",
+              "en": "That the Lord our God will grant them an honorable marriage and a bed undefiled, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-23",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-24",
+              "role": "priest",
+              "type": "line",
+              "en": "For our deliverance from all affliction, wrath, danger, and distress, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-25",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-26",
+              "role": "priest",
+              "type": "line",
+              "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy Grace.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-27",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-28",
+              "role": "priest",
+              "type": "line",
+              "en": "+ Commemorating our most holy, most pure, most blessed and glorious Lady Theotokos and ever-virgin Mary, with all the saints, let us commend each other and our whole life unto Christ our God.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-29",
+              "role": "choir",
+              "type": "line",
+              "en": "To Thee, O Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-30",
+              "role": "priest",
+              "type": "line",
+              "en": "+ For unto Thee are due all glory, honor, and worship; to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-31",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-32",
+              "role": "priest",
+              "type": "line",
+              "en": "O eternal God, Who has espoused the Church as a pure virgin from among the gentiles: Bless this betrothal, and unite and maintain these Thy servants in peace and oneness of mind. ",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-33",
+              "role": "priest",
+              "type": "line",
+              "en": "+ For unto Thee are due all glory, honor and worship: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-34",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-35",
+              "role": "rubric",
+              "type": "rubric",
+              "en": "The priest then takes the rings, which are on the altar as they have been blessed, and blesses the bridal pair with them. He then says the following petitions OR he may give the rings to the Kum (sponsor) who will say the following petitions...",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-36",
+              "role": "priest",
+              "type": "line",
+              "en": "+ The servant of God _______, is betrothed to the handmaiden of God _______, in the name of the Father, and the Son, and the Holy Spirit.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-37",
+              "role": "priest",
+              "type": "line",
+              "en": "+ The handmaiden of God _______, is betrothed to the servant of God _______, in the name of the Father, and the Son, and the Holy Spirit.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-38",
+              "role": "rubric",
+              "type": "rubric",
+              "en": "These petitions could be repeated up to three times each. As they are being recited the rings of the pair are being switched between their right hands, with the rings ending up on the correct right hands with the last petition.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-39",
+              "role": "priest",
+              "type": "line",
+              "en": "Let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-40",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-41",
+              "role": "priest",
+              "type": "line",
+              "en": "O Lord our God, who didst accompany the servant of the patriarch Abraham into Mesopotamia when he was sent to bring back a wife for his lord Isaac; and Who by means of the drawing of water, didst reveal to him that he should betroth Rebecca: Do Thou, the same Lord, bless also the betrothal of these Thy servants _______ and _______, and confirm the promise that they made. Establish them in the holy union which is from Thee. For, in the beginning, Thou didst make them male and female, and by Thee the woman is joined unto the man as a helper and for the procreation on the human race. Therefore O Lord our God, Who hast sent forth Thy truth upon Thine inheritance, and Thy covenant unto Thy servants of our fathers, Thine elect from generation to generation: Look upon Thy servant and Thy handmaiden and establish and make firm their betrothal in faith and in oneness of mind, in truth and in love. For Thou, O Lord, hast declared that a pledge should be given and confirmed in all things. By a ring, power was given to Joseph in Egypt; by a ring was Daniel glorified in the land of Babylon; by a ring was the uprightness of Tamar revealed; by a ring our Heavenly Father showed His bounty upon His Son; for He said, Bring the fatted calf and kill it, and let us eat and make merry. By Thine Own right hand O Lord, Thou didst arm Moses in the Red Sea; by Thy true word the heavens were established, and the foundations of the Earth were made firm; and the right hands of Thy servants shall also be blessed by Thy mighty word and by Thine upraised arm. Therefore, O Master, bless now this putting-on of rings with Thy heavenly blessing, and let Thine angels go before them all the days of their lives.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-42",
+              "role": "priest",
+              "type": "line",
+              "en": "+ For Thou art He who blesses and sanctifies all things, and unto Thee are due all glory, honor, and worship: to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-32",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
           ]
         }
       ]
