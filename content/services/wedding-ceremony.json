@@ -1013,9 +1013,15 @@
               "en": "Amen.",
               "cu": "",
               "sr": ""
-            },
+            }
+          ]
+        },
+        {
+          "id": "the-crowning",
+          "title": "The Crowning",
+          "items": [
             {
-              "id": "crowning-great-litany-42",
+              "id": "the-crowning-0",
               "role": "note",
               "type": "line",
               "en": "Now begins the actual crowning, where the bridegroom and bride have crowns placed upon their heads. This is to recall those which are the martyrs of Christ, who are crowned in heaven.",
@@ -1023,7 +1029,7 @@
               "sr": ""
             },
             {
-              "id": "crowning-great-litany-43",
+              "id": "the-crowning-1",
               "role": "rubric",
               "type": "line",
               "en": "The priest takes the crowns, and crowns first the bridegroom, saying:",
@@ -1031,7 +1037,7 @@
               "sr": ""
             },
             {
-              "id": "crowning-great-litany-44",
+              "id": "the-crowning-2",
               "role": "priest",
               "type": "line",
               "en": "+ The servant of God, _____, is crowned unto the handmaiden of God, _____, in the name of the Father, and of the Son, and of the Holy Spirit.",
@@ -1039,7 +1045,7 @@
               "sr": ""
             },
             {
-              "id": "crowning-great-litany-45",
+              "id": "the-crowning-3",
               "role": "choir",
               "type": "line",
               "en": "Amen.",
@@ -1047,7 +1053,7 @@
               "sr": ""
             },
             {
-              "id": "crowning-great-litany-46",
+              "id": "the-crowning-4",
               "role": "rubric",
               "type": "line",
               "en": "So also he crowns the bride, saying:",
@@ -1055,7 +1061,7 @@
               "sr": ""
             },
             {
-              "id": "crowning-great-litany-47",
+              "id": "the-crowning-5",
               "role": "priest",
               "type": "line",
               "en": "+ The handmaiden of God, _____, is crowned unto the servant of God, _____, in the name of the Father, and of the Son, and of the Holy Spirit.",
@@ -1063,7 +1069,7 @@
               "sr": ""
             },
             {
-              "id": "crowning-great-litany-48",
+              "id": "the-crowning-6",
               "role": "choir",
               "type": "line",
               "en": "Amen.",
@@ -1071,7 +1077,7 @@
               "sr": ""
             },
             {
-              "id": "crowning-great-litany-49",
+              "id": "the-crowning-7",
               "role": "rubric",
               "type": "line",
               "en": "Then he blesses them three times, saying each time:",
@@ -1079,7 +1085,7 @@
               "sr": ""
             },
             {
-              "id": "crowning-great-litany-50",
+              "id": "the-crowning-8",
               "role": "priest",
               "type": "line",
               "en": "O Lord our God, crown them with glory and honor.",
@@ -1087,11 +1093,6 @@
               "sr": ""
             }
           ]
-        },
-        {
-          "id": "the-crowning",
-          "title": "The Crowning",
-          "items": []
         },
         {
           "id": "the-prokeimenon",
