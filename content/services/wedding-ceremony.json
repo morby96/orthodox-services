@@ -407,7 +407,272 @@
         {
           "id": "crowning-opening-blessing",
           "title": "Opening Blessing",
-          "items": []
+          "items": [
+            {
+              "id": "crowning-opening-blessing-0",
+              "role": "rubric",
+              "type": "line",
+              "en": "The bridal couple, preceded by the priest(s), process to the center of the church, followed by the kumavi and stari svat.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-1",
+              "role": "priest",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-2",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-3",
+              "role": "priest",
+              "type": "line",
+              "en": "Blessed are they that fear in the Lord, who walk in His ways!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-4",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-5",
+              "role": "priest",
+              "type": "line",
+              "en": "You shall eat of the fruit of the labor of your hands; you shall be happy, and it shall be well with you.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-6",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-7",
+              "role": "priest",
+              "type": "line",
+              "en": "Your wife will be like a fruitful within your house;",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-8",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-9",
+              "role": "priest",
+              "type": "line",
+              "en": "Your children will be like olive shoots around your table.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-10",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-11",
+              "role": "priest",
+              "type": "line",
+              "en": "Lo, thus shall the man be blessed who fears the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-12",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-13",
+              "role": "priest",
+              "type": "line",
+              "en": "The Lord bless you from Zion!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-14",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; Glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-15",
+              "role": "priest",
+              "type": "line",
+              "en": "May you see the prosperity of Jerusalem all the days of your life!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-16",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-17",
+              "role": "priest",
+              "type": "line",
+              "en": "May you see your children's children!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-18",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-19",
+              "role": "priest",
+              "type": "line",
+              "en": "Peace be upon Israel!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-20",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, our God; glory to Thee!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-21",
+              "role": "note",
+              "type": "line",
+              "en": "An exhortation may follow. Then, according to Slavonic editions of the marriage service, the priest shall inquire of the bridegroom--",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-22",
+              "role": "priest",
+              "type": "line",
+              "en": "Do you, _____, have a good, free and unconstrained will, and a firm intention to take as your wife this woman, _____, whom you see here before you?",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-23",
+              "role": "rubric",
+              "type": "line",
+              "en": "The bridegroom responds, 'I have, reverend Father'.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-24",
+              "role": "priest",
+              "type": "line",
+              "en": "Have you promised yourself to any other bride?",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-25",
+              "role": "rubric",
+              "type": "line",
+              "en": "The bridegroom responds, 'I have not promised myself to another bride, reverend Father'.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-26",
+              "role": "note",
+              "type": "line",
+              "en": "The priest will now repeat these questions to the bride.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-27",
+              "role": "priest",
+              "type": "line",
+              "en": "Do you, _____, have a good, free and unconstrained will, and a firm intention to take as your husband this man, _____, whom you see here before you?",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-28",
+              "role": "rubric",
+              "type": "line",
+              "en": "The bride responds, 'I have, reverend Father'.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-29",
+              "role": "priest",
+              "type": "line",
+              "en": "Have you promised yourself to any other man?",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-30",
+              "role": "rubric",
+              "type": "line",
+              "en": "The bride responds, 'I have not promised myself to another man, reverend Father'.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-31",
+              "role": "priest",
+              "type": "line",
+              "en": "+ Blessed is the Kingdom of the Father, and of the Son, and of the Holy Spirit; now and ever and unto ages of ages.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-opening-blessing-32",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            }
+          ]
         },
         {
           "id": "crowning-great-litany",
