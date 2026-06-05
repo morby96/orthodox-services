@@ -677,7 +677,416 @@
         {
           "id": "crowning-great-litany",
           "title": "The Great Litany",
-          "items": []
+          "items": [
+            {
+              "id": "crowning-great-litany-0",
+              "role": "priest",
+              "type": "line",
+              "en": "In peace let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-1",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-2",
+              "role": "priest",
+              "type": "line",
+              "en": "For the peace from above and the salvation of our souls, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-3",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-4",
+              "role": "priest",
+              "type": "line",
+              "en": "For the peace of the whole world, for the welfare of the holy churches of God, and for the union of all, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-5",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-6",
+              "role": "priest",
+              "type": "line",
+              "en": "For this holy house and for those that enter it with faith, reverence, and the fear of God, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-7",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-8",
+              "role": "priest",
+              "type": "line",
+              "en": "For His Beatitude, our Metropolitan _______; for His grace our Bishop _______; for the honorable priesthood, the diaconate in Christ, for all the clergy and the people, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-9",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-10",
+              "role": "priest",
+              "type": "line",
+              "en": "For the servants of God _____ and _____, who are now being united to each other in the community of marriage, and for their salvation, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-11",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-12",
+              "role": "priest",
+              "type": "line",
+              "en": "That He will bless this marriage, as He blessed the marriage in Cana of Galilee, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-13",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-14",
+              "role": "priest",
+              "type": "line",
+              "en": "That He will grant to them chastity, and of the fruit of the womb is expedient for them, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-15",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-16",
+              "role": "priest",
+              "type": "line",
+              "en": "That He will make them glad with the sight of sons and daughters, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-17",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-18",
+              "role": "priest",
+              "type": "line",
+              "en": "That He will grant unto them the enjoyment of the blessing of children, and a blameless life, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-19",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-20",
+              "role": "priest",
+              "type": "line",
+              "en": "That He will grant to them and to all of us our petitions which are unto salvation, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-21",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-22",
+              "role": "priest",
+              "type": "line",
+              "en": "That He will deliver them and us from all affliction, wrath, danger, and necessity, let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-23",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-24",
+              "role": "priest",
+              "type": "line",
+              "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy Grace.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-25",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-26",
+              "role": "priest",
+              "type": "line",
+              "en": "+ Commemorating our most holy, most pure, most blessed and glorious lady, Theotokos, and every-virgin Mary with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-27",
+              "role": "choir",
+              "type": "line",
+              "en": "To Thee, O Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-28",
+              "role": "priest",
+              "type": "line",
+              "en": "+ For unto Thee are due glory, honor, and worship; to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-29",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id":" crowning-great-litany-30",
+              "role": "priest",
+              "type": "line",
+              "en": "Let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id":" crowning-great-litany-31",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-32",
+              "role": "priest",
+              "type": "line",
+              "en": "O God most pure, fashioner of every creature, Who didst transform the rib of our forefather Adam into a wife, because of Thy love towards mankind, and didst bless them, and said to them: Be fruitful and multiply, and fill the earth and subdue it; Who didst make of the two one flesh: Therefore a man leaves his father and his mother and cleaves to his wife, and the two shall become one flesh, and what God has joined together, let no man put asunder. Thou didst bless Thy servant Abraham, and opening the womb of Sarah didst make him to be the father of many nations. Thou didst give Isaac to Rebecca, and didst bless her in child-bearing. Thou didst join Jacob unto Rachel, and from them didst bring forth the twelve patriarchs. Thou didst unite Joseph and Aseneth, giving to them Ephraim and Manasseh as the fruit of their procreation. Thou didst accept Zachariah and Elizabeth, and didst make their offspring to be the Forerunner. From the root of Jesse according to the flesh, Thou didst bud forth the ever-virgin one, and wast incarnate of her; and wast born of her for the redemption of the human race. Through Thine unutterable gift and manifold goodness, Thou didst come to Cana of Galilee, and didst bless the marriage there, to make manifest that it is Thy will that there should be lawful marriage and procreation. Do Thou, the same all-holy Master, accept the prayers of us Thy servants. As Thou wast present there, be Thou also present here, with Thine invisible protection. Bless this marriage, and grant to these Thy servants, ______ and ______, a peaceful life, length of days, chastity, mutual love in the bond of peace, long-lived offspring, gratitude from their children, a crown of glory that does not fade away. Graciously grant that they may see their children’s children. Preserve their bed unassailed, and give them of the dew of heaven from on high, and of the fatness of the earth. Fill their houses with wheat, wine, and oil, and with every good thing, so that they may give in turn to those in need; and grant also to those here present with them all those petitions which are for their salvation. + For Thou art the God of mercies, and bounties, and love towards mankind, and unto Thee we ascribe glory: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages." 
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id":" crowning-great-litany-33",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id":" crowning-great-litany-34",
+              "role": "priest",
+              "type": "line",
+              "en": "Let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id":" crowning-great-litany-35",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id":" crowning-great-litany-36",
+              "role": "priest",
+              "type": "line",
+              "en": "Blessed art Thou, O Lord our God, priest of mystical and undefiled marriage, and the ordainer of the law of the marriage of the body, the preserver of immortality, and the provider of the good things of life; the same master, Who in the beginning didst make man and establish him as a king over creation, and didst say: 'It is not good that man should be alone on upon the earth; let us make a helper fit for him.' Taking one of his ribs Thou didst fashion woman; and when Adam saw her, he said: 'This is at last bone of my bones and flesh of my flesh; she shall be called Woman, because she was taken out of man.' For this reason a man shall leave his father and mother, and shall be joined to his wife, and the two shall become one flesh; what therefore God has joined together, let no man put asunder. Do Thou now also, O Master, our Lord and our God, send down Thy heavenly grace upon these Thy servants, ______ and ______; grant that this Thy handmaid may be subject to her husband in all things, and that this Thy servant may be the head of his wife, so that they may live according to Thy will. Bless them, O Lord our God, as Thou didst bless Abraham and Sarah. Bless them, O Lord our God, as Thou didst bless Isaac and Rebecca. Bless them, O Lord our God, as Thou didst bless Jacob and all the patriarchs. Bless them, O Lord our God, as Thou didst bless Joseph and Aseneth. Bless them, O Lord our God, as Thou didst bless Moses and Zipporah. Bless them, O Lord our God, as Thou didst bless Joachim and Anna. Bless them, O Lord our God, as Thou didst bless Zachariah and Elizabeth. Preserve them, O Lord our God, as Thou didst preserve Noah in the ark. Preserve them, O Lord our God, as Thou didst preserve Jonah in the belly of the whale. Preserve them, O Lord our God, as Thou didst preserve the three holy children from the fire, sending down upon them dew from heaven; and let that gladness come upon them which the blessed Helen had when she found the precious Cross. Remember them, O Lord our God, as Thou didst remember Enoch, Shem, Elijah. Remember them, O Lord our God, as Thou didst remember Thy forty holy martyrs, sending down upon them crowns from heaven. Remember them, O Lord our God, and the parents who have nurtured them, for the prayers of parents make firm the foundations of houses. Remember, O Lord our God, Thy servants, the groomsman and the bridesmaid of the bridal pair, who have come together in this joy. Remember, O Lord our God, Thy servant ______, and Thy handmaid ______, and bless them. Grant them of the fruit of their bodies, fair children, concord of soul and body. Exalt them like the cedars of Lebanon, like a luxuriant vine. Give them offspring in number like unto full ears of grain; so that, having enough of all things, they may abound in every work that is good and acceptable unto Thee. Let them see their children’s children, like olive shoots around their table; so that, finding favor in Thy sight, they may shine like the stars of heaven, in Thee, our God. + For unto Thee are due all glory, honor and worship: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages."
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-37",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-38",
+              "role": "priest",
+              "type": "line",
+              "en": "Let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-39",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-40",
+              "role": "priest",
+              "type": "line",
+              "en": "O holy God, Who didst form man from the dust, and didst fashion woman from his rib, and didst join her unto him as a helper, for it seemed good to Thy majesty that man should not be alone upon earth: Do Thou, the same Lord, stretch out now also Thy hand from Thy holy dwelling-place, and unite this Thy servant, ______, and this Thy handmaid, ______; for by Thee is the husband joined unto the wife. Unite them in one mind; wed them into one flesh, granting to them of the fruit of the body and the procreation of fair children. + For Thine is the majesty, and Thine are the Kingdom and the power and the glory: of the Father, and of the Son, and of the Holy Spirit, now and ever and unto ages of ages.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-41",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-42",
+              "role": "note",
+              "type": "line",
+              "en": "Now begins the actual crowning, where the bridegroom and bride have crowns placed upon their heads. This is to recall those which are the martyrs of Christ, who are crowned in heaven.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-43",
+              "role": "rubric",
+              "type": "line",
+              "en": "The priest takes the crowns, and crowns first the bridegroom, saying:",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-44",
+              "role": "priest",
+              "type": "line",
+              "en": "+ The servant of God, _____, is crowned unto the handmaiden of God, _____, in the name of the Father, and of the Son, and of the Holy Spirit.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-45",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-46",
+              "role": "rubric",
+              "type": "line",
+              "en": "So also he crowns the bride, saying:",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-47",
+              "role": "priest",
+              "type": "line",
+              "en": "+ The handmaiden of God, _____, is crowned unto the servant of God, _____, in the name of the Father, and of the Son, and of the Holy Spirit.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-48",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-49",
+              "role": "rubric",
+              "type": "line",
+              "en": "Then he blesses them three times, saying each time:",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "crowning-great-litany-50",
+              "role": "priest",
+              "type": "line",
+              "en": "O Lord our God, crown them with glory and honor.",
+              "cu": "",
+              "sr": ""
+            }
+          ]
         },
         {
           "id": "the-crowning",
