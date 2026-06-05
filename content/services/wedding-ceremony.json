@@ -919,7 +919,7 @@
               "sr": ""
             },
             {
-              "id":" crowning-great-litany-30",
+              "id": "crowning-great-litany-30",
               "role": "priest",
               "type": "line",
               "en": "Let us pray to the Lord.",
@@ -927,7 +927,7 @@
               "sr": ""
             },
             {
-              "id":" crowning-great-litany-31",
+              "id": "crowning-great-litany-31",
               "role": "choir",
               "type": "line",
               "en": "Lord, have mercy.",
