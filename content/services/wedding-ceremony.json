@@ -1097,12 +1097,159 @@
         {
           "id": "the-prokeimenon",
           "title": "The Prokeimenon",
-          "items": []
+          "items": [
+            {
+              "id": "the-prokeimenon-0",
+              "role": "priest",
+              "type": "line",
+              "en": "Let us attend!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-1",
+              "role": "priest",
+              "type": "line",
+              "en": "Peace be unto all.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-2",
+              "role": "reader",
+              "type": "line",
+              "en": "And with thy spirit.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-3",
+              "role": "priest",
+              "type": "line",
+              "en": "Wisdom!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-4",
+              "role": "reader",
+              "type": "line",
+              "en": "The Prokeimenon in the eighth tone: Thou hast set upon their heads crowns of precious stones; they asked life of Thee, and Thou gavest it them.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-5",
+              "role": "choir",
+              "type": "line",
+              "en": "Thou hast set upon their heads crowns of precious stones; they asked life of Thee, and Thou gavest it them.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-6",
+              "role": "rubric",
+              "type": "line",
+              "en": "If possible, the reader will recite a few lines with the choir responding with the Prokeimenon; if this is not possible, skip to the Epistle section.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-7",
+              "role": "reader",
+              "type": "line",
+              "en": "Yea, Thou wilt make them most blessed forever; Thou wilt make them glad with the joy of Thy presence.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-8",
+              "role": "choir",
+              "type": "line",
+              "en": "Thou hast set upon their heads crowns of precious stones; they asked life of Thee, and Thou gavest it them.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-9",
+              "role": "reader",
+              "type": "line",
+              "en": "Thou hast set upon their heads crowns of precious stones...",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-prokeimenon-10",
+              "role": "choir",
+              "type": "line",
+              "en": "...they asked life of Thee, and Thou gavest it them.",
+              "cu": "",
+              "sr": ""
+            }
+          ]
         },
         {
           "id": "the-epistle",
           "title": "The Epistle",
-          "items": []
+          "items": [
+            {
+              "id": "the-epistle-0",
+              "role": "priest",
+              "type": "line",
+              "en": "Wisdom!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-epistle-1",
+              "role": "reader",
+              "type": "line",
+              "en": "The reading from the Epistle of the holy Apostle Paul to the Ephesians.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-epistle-2",
+              "role": "priest",
+              "type": "line",
+              "en": "Let us attend.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-epistle-3",
+              "role": "reader",
+              "type": "line",
+              "en": "(Eph. 5:20-33) Brethren, give thanks always for everything in the name of our Lord Jesus Christ to God the Father. Be subject to one another out of reverence for Christ. Wives, be subject to your husbands, as to the Lord. For the husband is the head of the wife as Christ is head of the church, His body, and is Himself its Savior. As the church is subject to Christ, so let wives also be subject in everything to their husbands. Husbands, love your wives, as Christ loved the church and gave Himself up for her, that He might sanctify her, having cleansed her by the washing of water with the word, that the church might be presented before Him in splendor, without spot or wrinkle or any such thing, that she might be holy and without blemish. Even so husbands should love their wives as their own bodies. He who loves his wife loves himself. For no man ever hated his own flesh, but nourishes and cherishes it, as Christ does the church, because we are members of His body. “For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one.” This is a great mystery, and I take it to mean Christ and the church; however let each one of you love his own wife as himself, and let the wife see that she respects her husband",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-epistle-4",
+              "role": "priest",
+              "type": "line",
+              "en": "Peace be unto you, reader.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-epistle-5",
+              "role": "reader",
+              "type": "line",
+              "en": "And with thy Spirit! Alleluia! Alleluia! Alleluia! Thou, O Lord, shalt protect us and preserve us from this generation forever! (Ps. 12)",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-epistle-6",
+              "role": "choir",
+              "type": "line",
+              "en": "Alleluia! (3x)",
+              "cu": "",
+              "sr": ""
+            },
+
+          ]
         },
         {
           "id": "the-gospel",
