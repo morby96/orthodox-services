@@ -1253,7 +1253,72 @@
         {
           "id": "the-gospel",
           "title": "The Gospel",
-          "items": []
+          "items": [
+            {
+              "id": "the-gospel-0",
+              "role": "priest",
+              "type": "line",
+              "en": "Wisdome! Let us attend and listen to the Holy Gospel!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-gospel-1",
+              "role": "priest",
+              "type": "line",
+              "en": "Peace be unto all.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-gospel-2",
+              "role": "choir",
+              "type": "line",
+              "en": "And with thy spirit.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-gospel-3",
+              "role": "priest",
+              "type": "line",
+              "en": "The reading from the Holy Gospel according to St. John",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-gospel-4",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, O Lord, glory to Thee.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-gospel-5",
+              "role": "priest",
+              "type": "line",
+              "en": "Let us attend!",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-gospel-6",
+              "role": "priest",
+              "type": "line",
+              "en": "(John 2:1-12) In those days there was a marriage at Cana in Galilee, and the mother of Jesus was there; Jesus also was invited to the marriage, with His disciples. When the wine failed, the mother of Jesus said to Him, “They have no wine.” And Jesus said to her, “O woman, what have you to do with Me? My hour has not yet come.” His mother said to the servants, “Do whatever He tells you.” Now six stone jars were standing there, for the Jewish rites of purification, each holding twenty or thirty gallons. Jesus said to them, “Fill the jars with water.” And they filled them up to the brim. He said to them, “Now draw some out, and take it to the steward of the feast.” So they took it. When the steward of the feast tasted the water now become wine, and did not know where it came from (though the servants who had drawn the water knew), the steward of the feast called the bridegroom and said to him, “Every man serves the good wine first; and when men have drunk freely, then the poor wine; but you have kept the good wine until now.” This, the first of His signs, Jesus did at Cana in Galilee, and manifested His glory; and His disciples believed in Him.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "the-gospel-7",
+              "role": "choir",
+              "type": "line",
+              "en": "Glory to Thee, O Lord, glory to Thee.",
+              "cu": "",
+              "sr": ""
+            }
+          ]
         },
         {
           "id": "augmented-litany",
