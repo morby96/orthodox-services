@@ -1306,7 +1306,7 @@
               "id": "the-gospel-6",
               "role": "priest",
               "type": "line",
-              "en": "(John 2:1-12) In those days there was a marriage at Cana in Galilee, and the mother of Jesus was there; Jesus also was invited to the marriage, with His disciples. When the wine failed, the mother of Jesus said to Him, 'They have no wine.” And Jesus said to her, “O woman, what have you to do with Me? My hour has not yet come.” His mother said to the servants, “Do whatever He tells you.” Now six stone jars were standing there, for the Jewish rites of purification, each holding twenty or thirty gallons. Jesus said to them, “Fill the jars with water.” And they filled them up to the brim. He said to them, “Now draw some out, and take it to the steward of the feast.” So they took it. When the steward of the feast tasted the water now become wine, and did not know where it came from (though the servants who had drawn the water knew), the steward of the feast called the bridegroom and said to him, “Every man serves the good wine first; and when men have drunk freely, then the poor wine; but you have kept the good wine until now.” This, the first of His signs, Jesus did at Cana in Galilee, and manifested His glory; and His disciples believed in Him.",
+              "en": "(John 2:1-12) In those days there was a marriage at Cana in Galilee, and the mother of Jesus was there; Jesus also was invited to the marriage, with His disciples. When the wine failed, the mother of Jesus said to Him, “They have no wine.” And Jesus said to her, “O woman, what have you to do with Me? My hour has not yet come.” His mother said to the servants, “Do whatever He tells you.” Now six stone jars were standing there, for the Jewish rites of purification, each holding twenty or thirty gallons. Jesus said to them, “Fill the jars with water.” And they filled them up to the brim. He said to them, “Now draw some out, and take it to the steward of the feast.” So they took it. When the steward of the feast tasted the water now become wine, and did not know where it came from (though the servants who had drawn the water knew), the steward of the feast called the bridegroom and said to him, “Every man serves the good wine first; and when men have drunk freely, then the poor wine; but you have kept the good wine until now.” This, the first of His signs, Jesus did at Cana in Galilee, and manifested His glory; and His disciples believed in Him.",
               "cu": "",
               "sr": ""
             },
@@ -1323,7 +1323,120 @@
         {
           "id": "augmented-litany",
           "title": "The Augmented Litany",
-          "items": []
+          "items": [
+            {
+              "id": "augmented-litany-0",
+              "role": "priest",
+              "type": "line",
+              "en": "Let us say with all our soul and with all our mind, let us say.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-1",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-2",
+              "role": "priest",
+              "type": "line",
+              "en": "O Lord almighty, the God of our fathers, we pray thee, hearken and have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-3",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-4",
+              "role": "priest",
+              "type": "line",
+              "en": "Have mercy on us, O God, according to Thy great goodness, we pray Thee, hearken and have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-5",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy. (3x)",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-6",
+              "role": "priest",
+              "type": "line",
+              "en": "Again we pray for mercy, life, peace, health, salvation, and visitation for the servant of God _____ and _____, and for the parden and remission of their sins.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-7",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy. (3x)",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-8",
+              "role": "+ For Thou art a merciful God, and loves mankind, and unto Thee we ascribe glory; to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages.",
+              "type": "line",
+              "en": "",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-9",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-10",
+              "role": "priest",
+              "type": "line",
+              "en": "Let us pray to the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-11",
+              "role": "choir",
+              "type": "line",
+              "en": "Lord, have mercy.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-12",
+              "role": "priest",
+              "type": "line",
+              "en": "O Lord our God, Who in Thy saving dispensation didst vouchsafe by Thy presence in Cana of Galilee to declare marriage honorable: Do Thou, the same Lord, now also maintain in peace and concord Thy servants, ______ and ______, whom Thou hast pleased to join together. Cause their marriage to be honorable. Preserve their bed blameless. Mercifully grant that they may live together in purity; and enable them to reach a ripe old age, walking in Thy commandments with a pure heart. For Thou art our God, the God of mercy and salvation, and unto Thee we ascribe glory: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "augmented-litany-13",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            }
+          ]
         },
         {
           "id": "litany-before-the-lords-prayer",
