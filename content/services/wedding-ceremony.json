@@ -17,12 +17,28 @@
             "id": "opening-blessing-0",
               "role": "note",
               "type": "line",
+              "en": "A line that starts with a '+' indicates when people normally cross themselves.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+            "id": "opening-blessing-1",
+              "role": "note",
+              "type": "line",
+              "en": "Any line that it shown to be recited by a Deacon, is recited by a Priest if a Deacon is not present.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+            "id": "opening-blessing-2",
+              "role": "rubric",
+              "type": "line",
               "en": "The Wedding Party processes into the church in the usual way. When the bride enters and is handed to the bridegroom, the couple is lead to before the Royal Doors where they stand facing the Altar.",
               "cu": "",
               "sr": ""
             },
             {
-              "id": "opening-blessing-1",
+              "id": "opening-blessing-3",
               "role": "priest",
               "type": "line",
               "en": "+ Blessed is our God always, now and ever and unto ages of ages.",
@@ -30,7 +46,7 @@
               "sr": ""
             },
             {
-              "id": "opening-blessing-2",
+              "id": "opening-blessing-4",
               "role": "choir",
               "type": "line",
               "en": "Amen.",
@@ -43,10 +59,9 @@
           "id": "betrothal-great-litany",
           "title": "The Great Litany",
           "items": [
-            
             {
               "id": "betrothal-great-litany-0",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "In peace let us pray to the Lord.",
               "cu": "",
@@ -62,7 +77,7 @@
             },
             {
               "id": "betrothal-great-litany-2",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For the peace from above and the salvation of our souls, let us pray to the Lord.",
               "cu": "",
@@ -78,7 +93,7 @@
             },
             {
               "id": "betrothal-great-litany-4",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For the peace of the whole world, for the welfare of the holy churches of God, and for the union of all, let us pray to the Lord.",
               "cu": "",
@@ -94,7 +109,7 @@
             },
             {
               "id": "betrothal-great-litany-6",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For this holy house and for those that enter it with faith, reverence, and the fear of God, let us pray to the Lord.",
               "cu": "",
@@ -110,7 +125,7 @@
             },
             {
               "id": "betrothal-great-litany-8",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For our Patriarch _______, for His Grace our Bishop _______; for the honorable priesthood, the diaconate in Christ, for all the clergy and the people, let us pray to the Lord.",
               "cu": "",
@@ -126,7 +141,7 @@
             },
             {
               "id": "betrothal-great-litany-10",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For the president and all civil authorities of this country, and for those serving in its armed forces, let us pray to the Lord.",
               "cu": "",
@@ -142,7 +157,7 @@
             },
             {
               "id": "betrothal-great-litany-12",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For the servant of God _______, and for the handmaiden of God _______ who now plight each other their troth, and for their salvation, let us pray to the Lord.",
               "cu": "",
@@ -158,7 +173,7 @@
             },
             {
               "id": "betrothal-great-litany-14",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That they may be granted children for the continuation of the race, and for all their petitions which are unto salvation, let us pray to the Lord.",
               "cu": "",
@@ -174,7 +189,7 @@
             },
             {
               "id": "betrothal-great-litany-16",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That He will send down upon them perfect and peaceful love, and assistance, let us pray to the Lord.",
               "cu": "",
@@ -190,7 +205,7 @@
             },
             {
               "id": "betrothal-great-litany-18",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That He will preserve them in oneness of mind, and in steadfast faith, let us pray to the Lord.",
               "cu": "",
@@ -206,7 +221,7 @@
             },
             {
               "id": "betrothal-great-litany-20",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That He will preserve them in a blameless way of life, let us pray to the Lord.",
               "cu": "",
@@ -222,7 +237,7 @@
             },
             {
               "id": "betrothal-great-litany-22",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That the Lord our God will grant them an honorable marriage and a bed undefiled, let us pray to the Lord.",
               "cu": "",
@@ -238,7 +253,7 @@
             },
             {
               "id": "betrothal-great-litany-24",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For our deliverance from all affliction, wrath, danger, and distress, let us pray to the Lord.",
               "cu": "",
@@ -254,7 +269,7 @@
             },
             {
               "id": "betrothal-great-litany-26",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy Grace.",
               "cu": "",
@@ -325,6 +340,62 @@
               "sr": ""
             },
             {
+              "id": "betrothal-great-litany-44",
+              "role": "priest",
+              "type": "line",
+              "en": "Peace be unto all.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-45",
+              "role": "choir",
+              "type": "line",
+              "en": "And with thy spirit.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-46",
+              "role": "deacon",
+              "type": "line",
+              "en": "Bow your heads unto the Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-47",
+              "role": "choir",
+              "type": "line",
+              "en": "To Thee, O Lord.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-48",
+              "role": "priest",
+              "type": "line",
+              "en": "O Lord our God, Who hast espoused the Church as a pure virgin from among the gentiles: Bless this betrothal, and unite and maintain these Thy servants in peace and oneness of mind.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-49",
+              "role": "priest",
+              "type": "line",
+              "en": "+ For unto Thee are due all glory, honor, and worship: to the Father, and to the Son, and to the Holy Spirit, now and ever and unto ages of ages.",
+              "cu" : "",
+              "sr": ""
+            },
+            {
+              "id": "betrothal-great-litany-50",
+              "role": "choir",
+              "type": "line",
+              "en": "Amen.",
+              "cu": "",
+              "sr": ""
+            },
+            {
               "id": "betrothal-great-litany-35",
               "role": "rubric",
               "type": "rubric",
@@ -352,13 +423,13 @@
               "id": "betrothal-great-litany-38",
               "role": "rubric",
               "type": "rubric",
-              "en": "These petitions could be repeated up to three times each. As they are being recited the rings of the pair are being switched between their right hands, with the rings ending up on the correct right hands with the last petition.",
+              "en": "These petitions could be repeated up to three times each. As they are being recited the rings of the pair are being switched between their right hands, with the rings ending up on the correct right hands with the last petition. In the Serbian tradition this is done by the Kum (sponsor).",
               "cu": "",
               "sr": ""
             },
             {
               "id": "betrothal-great-litany-39",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us pray to the Lord.",
               "cu": "",
@@ -412,7 +483,7 @@
               "id": "crowning-opening-blessing-0",
               "role": "rubric",
               "type": "line",
-              "en": "The bridal couple, preceded by the priest(s), process to the center of the church, followed by the kumavi and stari svat.",
+              "en": "The bridal couple, preceded by the priest(s), process to the center of the church, followed by the kum(avi) and stari svat.",
               "cu": "",
               "sr": ""
             },
@@ -420,7 +491,7 @@
               "id": "crowning-opening-blessing-1",
               "role": "priest",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -428,7 +499,7 @@
               "id": "crowning-opening-blessing-2",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -444,7 +515,7 @@
               "id": "crowning-opening-blessing-4",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -460,7 +531,7 @@
               "id": "crowning-opening-blessing-6",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -476,7 +547,7 @@
               "id": "crowning-opening-blessing-8",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -492,7 +563,7 @@
               "id": "crowning-opening-blessing-10",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -508,7 +579,7 @@
               "id": "crowning-opening-blessing-12",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -524,7 +595,7 @@
               "id": "crowning-opening-blessing-14",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; Glory to Thee!",
+              "en": "+ Glory to Thee, our God; Glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -540,7 +611,7 @@
               "id": "crowning-opening-blessing-16",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -556,7 +627,7 @@
               "id": "crowning-opening-blessing-18",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -572,7 +643,7 @@
               "id": "crowning-opening-blessing-20",
               "role": "choir",
               "type": "line",
-              "en": "Glory to Thee, our God; glory to Thee!",
+              "en": "+ Glory to Thee, our God; glory to Thee!",
               "cu": "",
               "sr": ""
             },
@@ -680,7 +751,7 @@
           "items": [
             {
               "id": "crowning-great-litany-0",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "In peace let us pray to the Lord.",
               "cu": "",
@@ -696,7 +767,7 @@
             },
             {
               "id": "crowning-great-litany-2",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For the peace from above and the salvation of our souls, let us pray to the Lord.",
               "cu": "",
@@ -712,7 +783,7 @@
             },
             {
               "id": "crowning-great-litany-4",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For the peace of the whole world, for the welfare of the holy churches of God, and for the union of all, let us pray to the Lord.",
               "cu": "",
@@ -728,7 +799,7 @@
             },
             {
               "id": "crowning-great-litany-6",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For this holy house and for those that enter it with faith, reverence, and the fear of God, let us pray to the Lord.",
               "cu": "",
@@ -744,7 +815,7 @@
             },
             {
               "id": "crowning-great-litany-8",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For His Beatitude, our Metropolitan _______; for His grace our Bishop _______; for the honorable priesthood, the diaconate in Christ, for all the clergy and the people, let us pray to the Lord.",
               "cu": "",
@@ -760,7 +831,7 @@
             },
             {
               "id": "crowning-great-litany-10",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "For the servants of God _____ and _____, who are now being united to each other in the community of marriage, and for their salvation, let us pray to the Lord.",
               "cu": "",
@@ -776,7 +847,7 @@
             },
             {
               "id": "crowning-great-litany-12",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That He will bless this marriage, as He blessed the marriage in Cana of Galilee, let us pray to the Lord.",
               "cu": "",
@@ -792,7 +863,7 @@
             },
             {
               "id": "crowning-great-litany-14",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That He will grant to them chastity, and of the fruit of the womb is expedient for them, let us pray to the Lord.",
               "cu": "",
@@ -808,7 +879,7 @@
             },
             {
               "id": "crowning-great-litany-16",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That He will make them glad with the sight of sons and daughters, let us pray to the Lord.",
               "cu": "",
@@ -824,7 +895,7 @@
             },
             {
               "id": "crowning-great-litany-18",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That He will grant unto them the enjoyment of the blessing of children, and a blameless life, let us pray to the Lord.",
               "cu": "",
@@ -840,7 +911,7 @@
             },
             {
               "id": "crowning-great-litany-20",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That He will grant to them and to all of us our petitions which are unto salvation, let us pray to the Lord.",
               "cu": "",
@@ -856,7 +927,7 @@
             },
             {
               "id": "crowning-great-litany-22",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "That He will deliver them and us from all affliction, wrath, danger, and necessity, let us pray to the Lord.",
               "cu": "",
@@ -872,7 +943,7 @@
             },
             {
               "id": "crowning-great-litany-24",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy Grace.",
               "cu": "",
@@ -888,7 +959,7 @@
             },
             {
               "id": "crowning-great-litany-26",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "+ Commemorating our most holy, most pure, most blessed and glorious lady, Theotokos, and every-virgin Mary with all the saints, let us commend ourselves and each other, and all our life unto Christ our God.",
               "cu": "",
@@ -920,7 +991,7 @@
             },
             {
               "id": "crowning-great-litany-30",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us pray to the Lord.",
               "cu": "",
@@ -952,7 +1023,7 @@
             },
             {
               "id": "crowning-great-litany-34",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us pray to the Lord.",
               "cu": "",
@@ -984,7 +1055,7 @@
             },
             {
               "id": "crowning-great-litany-38",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us pray to the Lord.",
               "cu": "",
@@ -1100,7 +1171,7 @@
           "items": [
             {
               "id": "the-prokeimenon-0",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us attend!",
               "cu": "",
@@ -1124,7 +1195,7 @@
             },
             {
               "id": "the-prokeimenon-3",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Wisdom!",
               "cu": "",
@@ -1194,7 +1265,7 @@
           "items": [
             {
               "id": "the-epistle-0",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Wisdom!",
               "cu": "",
@@ -1210,7 +1281,7 @@
             },
             {
               "id": "the-epistle-2",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us attend.",
               "cu": "",
@@ -1256,9 +1327,9 @@
           "items": [
             {
               "id": "the-gospel-0",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
-              "en": "Wisdome! Let us attend and listen to the Holy Gospel!",
+              "en": "Wisdom! Let us attend and listen to the Holy Gospel!",
               "cu": "",
               "sr": ""
             },
@@ -1280,7 +1351,7 @@
             },
             {
               "id": "the-gospel-3",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "The reading from the Holy Gospel according to St. John",
               "cu": "",
@@ -1304,7 +1375,7 @@
             },
             {
               "id": "the-gospel-6",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "(John 2:1-12) In those days there was a marriage at Cana in Galilee, and the mother of Jesus was there; Jesus also was invited to the marriage, with His disciples. When the wine failed, the mother of Jesus said to Him, “They have no wine.” And Jesus said to her, “O woman, what have you to do with Me? My hour has not yet come.” His mother said to the servants, “Do whatever He tells you.” Now six stone jars were standing there, for the Jewish rites of purification, each holding twenty or thirty gallons. Jesus said to them, “Fill the jars with water.” And they filled them up to the brim. He said to them, “Now draw some out, and take it to the steward of the feast.” So they took it. When the steward of the feast tasted the water now become wine, and did not know where it came from (though the servants who had drawn the water knew), the steward of the feast called the bridegroom and said to him, “Every man serves the good wine first; and when men have drunk freely, then the poor wine; but you have kept the good wine until now.” This, the first of His signs, Jesus did at Cana in Galilee, and manifested His glory; and His disciples believed in Him.",
               "cu": "",
@@ -1326,7 +1397,7 @@
           "items": [
             {
               "id": "augmented-litany-0",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us say with all our soul and with all our mind, let us say.",
               "cu": "",
@@ -1342,7 +1413,7 @@
             },
             {
               "id": "augmented-litany-2",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "O Lord almighty, the God of our fathers, we pray thee, hearken and have mercy.",
               "cu": "",
@@ -1358,7 +1429,7 @@
             },
             {
               "id": "augmented-litany-4",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Have mercy on us, O God, according to Thy great goodness, we pray Thee, hearken and have mercy.",
               "cu": "",
@@ -1374,7 +1445,7 @@
             },
             {
               "id": "augmented-litany-6",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Again we pray for mercy, life, peace, health, salvation, and visitation for the servant of God _____ and _____, and for the parden and remission of their sins.",
               "cu": "",
@@ -1406,7 +1477,7 @@
             },
             {
               "id": "augmented-litany-10",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us pray to the Lord.",
               "cu": "",
@@ -1444,7 +1515,7 @@
           "items": [
             {
               "id": "litany-before-lord-prayer-0",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Help us, save us, have mercy on us, and keep us, O God, by Thy Grace.",
               "cu": "",
@@ -1460,7 +1531,7 @@
             },
             {
               "id": "litany-before-lord-prayer-2",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "that the whole day may be perfect, holy, peaceful, and sinless, let us ask of the Lord.",
               "cu": "",
@@ -1476,7 +1547,7 @@
             },
             {
               "id": "litany-before-lord-prayer-4",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "An angel of peace, a faithful guide, a guardian of our souls and bodies, let us ask of the Lord.",
               "cu": "",
@@ -1492,7 +1563,7 @@
             },
             {
               "id": "litany-before-lord-prayer-6",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Pardon and remission of our sins and transgressions, let us ask of the Lord.",
               "cu": "",
@@ -1508,7 +1579,7 @@
             },
             {
               "id": "litany-before-lord-prayer-8",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "All things that are good and profitable for our souls, and peace for the world, let us ask of the Lord.",
               "cu": "",
@@ -1524,9 +1595,9 @@
             },
             {
               "id": "litany-before-lord-prayer-10",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
-              "en": "Taht we may complete the remaining time of our life in peace and repentance, let us ask of the Lord.",
+              "en": "That we may complete the remaining time of our life in peace and repentance, let us ask of the Lord.",
               "cu": "",
               "sr": ""
             },
@@ -1540,7 +1611,7 @@
             },
             {
               "id": "litany-before-lord-prayer-12",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "A Christian ending to our life; painless, blameless, and peaceful; and a good defense before the dread judgement seat of Christ, let us ask of the Lord.",
               "cu": "",
@@ -1556,7 +1627,7 @@
             },
             {
               "id": "litany-before-lord-prayer-14",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Having asked for the unity of faith, and communion of the Holy Spirit, let us commend ourselves and each other, and all our life unto Christ our God.",
               "cu": "",
@@ -1648,7 +1719,7 @@
             },
             {
               "id": "dance-of-isaiah-2",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Bow your heads unto the Lord.",
               "cu": "",
@@ -1672,7 +1743,7 @@
             },
             {
               "id": "dance-of-isaiah-5",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us pray to the Lord.",
               "cu": "",
@@ -1690,7 +1761,15 @@
               "id": "dance-of-isaiah-7",
               "role": "priest",
               "type": "line",
-              "en": "O God, Who hast created all things by Thy might, and hast made form the world, and adornest the crown of all that Thou hast made: Bless now, with Thy spiritual blessing, this common cup, which Thou dost give to those who are now united for a communion of marriage. + For blessed is Thy name, and glorified is Thy Kingdom, of the Father, and of the Son, and of the Holy Spirit, now and ever and unto ages of ages.",
+              "en": "O God, Who hast created all things by Thy might, and hast made form the world, and adornest the crown of all that Thou hast made: Bless now, with Thy spiritual blessing, this common cup, which Thou dost give to those who are now united for a communion of marriage.",
+              "cu": "",
+              "sr": ""
+            },
+            {
+              "id": "dance-of-isaiah-25",
+              "role": "priest",
+              "type": "line",
+              "en": "+ For blessed is Thy name, and glorified is Thy Kingdom, of the Father, and of the Son, and of the Holy Spirit, now and ever and unto ages of ages.",
               "cu": "",
               "sr": ""
             },
@@ -1752,7 +1831,7 @@
             },
             {
               "id": "dance-of-isaiah-15",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Let us pray to the Lord.",
               "cu": "",
@@ -1800,7 +1879,7 @@
             },
             {
               "id": "dance-of-isaiah-21",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Bow your heads unto the Lord.",
               "cu": "",
@@ -1818,7 +1897,7 @@
               "id": "dance-of-isaiah-23",
               "role": "priest",
               "type": "line",
-              "en": "May the Father, and the Son, and the Holy Spirit, the all-holy, consubstantial and life-creating Trinity, one Godhead, and one Kingdom, bless you; and grant you length of days, fair children, prosperity in life and faith; and fill you with all earthly good things, and make you worthy to enjoy the good things of the promise: through the prayers of the holy Theotokos and of all the Saints.",
+              "en": "+ May the Father, and the Son, and the Holy Spirit, the all-holy, consubstantial and life-creating Trinity, one Godhead, and one Kingdom, bless you; and grant you length of days, fair children, prosperity in life and faith; and fill you with all earthly good things, and make you worthy to enjoy the good things of the promise: through the prayers of the holy Theotokos and of all the Saints.",
               "cu": "",
               "sr": ""
             },
@@ -1838,7 +1917,7 @@
           "items": [
             {
               "id": "the-dismissal-0",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Wisdom!",
               "cu": "",
@@ -1894,7 +1973,7 @@
             },
             {
               "id": "the-dismissal-7",
-              "role": "priest",
+              "role": "deacon",
               "type": "line",
               "en": "Grant, O Lord, peace, health, and salvation and visitation to servants of God _____ and _____, and preserve them for many years!",
               "cu": "",
@@ -1919,3 +1998,4 @@
       ]
     }
   ]
+}
