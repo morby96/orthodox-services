@@ -16,6 +16,7 @@
     "id": "wedding-ceremony",
     "title": "Eastern Orthodox Weddding Service",
     "category": "Service",
-    "languages": ["en", "cu", "sr"]
+    "languages": ["en", "cu", "sr"],
+    "image": "assets/images/wedding-at-cana-icon.jpg"
   }
 ]
